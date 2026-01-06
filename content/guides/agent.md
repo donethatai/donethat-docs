@@ -3,7 +3,7 @@ title: "Agent"
 category: "features"
 lastUpdated: "2025-01-20"
 tags: ["agent", "ai", "automation"]
-summary: "Learn how to use the AI agent in DoneThat"
+summary: "The memories stored here help our AI better understand your work and how you prefer to work with the coach."
 ---
 
 # Agent

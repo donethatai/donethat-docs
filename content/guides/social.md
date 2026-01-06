@@ -3,7 +3,7 @@ title: "Social"
 category: "features"
 lastUpdated: "2025-01-20"
 tags: ["social", "sharing", "collaboration"]
-summary: "Learn about social features and sharing in DoneThat"
+summary: "Manage your followers, following, and see what others are working on."
 ---
 
 # Social

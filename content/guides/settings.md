@@ -3,7 +3,7 @@ title: "Settings"
 category: "features"
 lastUpdated: "2025-01-20"
 tags: ["settings", "configuration", "preferences"]
-summary: "Learn how to configure settings and preferences in DoneThat"
+summary: "Manage your account, profile, and preferences. For settings related to permissions, app exclusions and LLMs, please go to the \"Permissions\" top left of your Desktop app."
 ---
 
 # Settings

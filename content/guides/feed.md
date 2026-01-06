@@ -3,7 +3,7 @@ title: "Summaries"
 category: "features"
 lastUpdated: "2025-01-20"
 tags: ["feed", "overview"]
-summary: "Learn how to view and manage summaries in DoneThat"
+summary: "Your activity and updates from people you follow will appear here."
 ---
 
 # Summaries
