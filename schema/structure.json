@@ -6,9 +6,7 @@
       "files": [
         "agent",
         "calendar",
-        "feed",
         "invitations",
-        "memory",
         "notifications",
         "organizations",
         "profile",
@@ -16,6 +14,7 @@
         "settings",
         "social",
         "stats",
+        "summaries",
         "teams"
       ]
     }

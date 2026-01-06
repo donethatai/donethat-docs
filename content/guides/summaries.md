@@ -2,7 +2,7 @@
 title: "Summaries"
 category: "features"
 lastUpdated: "2025-01-20"
-tags: ["feed", "overview"]
+tags: ["feed", "summaries", "overview"]
 summary: "Your activity and high-level stats"
 ---
 
