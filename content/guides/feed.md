@@ -3,10 +3,7 @@ title: "Summaries"
 category: "features"
 lastUpdated: "2025-01-20"
 tags: ["feed", "overview"]
-summary: "Your activity and updates from people you follow will appear here."
+summary: "Your activity and high-level stats"
 ---
 
-# Summaries
-
-<!-- Content placeholder -->
-
+Your activity and updates from people you follow will appear here.

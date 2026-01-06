@@ -3,10 +3,7 @@ title: "Social"
 category: "features"
 lastUpdated: "2025-01-20"
 tags: ["social", "sharing", "collaboration"]
-summary: "Manage your followers, following, and see what others are working on."
+summary: "Manage your social network"
 ---
 
-# Social
-
-<!-- Content placeholder -->
-
+Manage your followers, following, and see what others are working on.
