@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "id": "features",
+      "label": "Features",
+      "files": [
+        "agent",
+        "calendar",
+        "feed",
+        "organizations",
+        "projects",
+        "settings",
+        "social",
+        "stats",
+        "teams"
+      ]
+    }
+  ]
+}
