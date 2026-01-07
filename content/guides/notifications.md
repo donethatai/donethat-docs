@@ -1,9 +1,12 @@
 ---
-title: "Notifications"
-category: "features"
-lastUpdated: "2025-01-20"
-tags: ["notifications", "alerts", "activity"]
-summary: "View all your notifications"
+title: Notifications
+category: features
+lastUpdated: '2026-01-07'
+tags:
+  - notifications
+  - alerts
+  - activity
+summary: View all your notifications
 ---
 
-Stay updated with your latest team activities and project progress.
+You can get notified for people wanting to follow you, reactions to your summaries, and new comments. We will re-work the notifications page soon.

@@ -6,6 +6,7 @@
       "files": [
         "agent",
         "calendar",
+        "goals",
         "invitations",
         "notifications",
         "organizations",

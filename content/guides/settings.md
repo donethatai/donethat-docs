@@ -1,9 +1,15 @@
 ---
-title: "Settings"
-category: "features"
-lastUpdated: "2025-01-20"
-tags: ["settings", "configuration", "preferences"]
-summary: "Manage your account settings"
+title: Settings
+category: features
+lastUpdated: '2026-01-07'
+tags:
+  - settings
+  - configuration
+  - preferences
+  - recording
+summary: Manage your account settings
 ---
 
-Manage your account, profile, and preferences. For settings related to permissions, app exclusions and LLMs, please go to the "Permissions" top left of your Desktop app.
+Your core account settings and subscription. Settings specific to parts of the platform are on their respective pages in the "More" dropdown.
+
+Settings specific to the recording such as app exclusions, bring your own LLM, or audio settings are on your Desktop app in the "Permissions" top left of the app.

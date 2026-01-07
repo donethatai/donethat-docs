@@ -1,9 +1,14 @@
 ---
-title: "Summaries"
-category: "features"
-lastUpdated: "2025-01-20"
-tags: ["feed", "summaries", "overview"]
-summary: "Your activity and high-level stats"
+title: Summaries
+category: features
+lastUpdated: '2026-01-07'
+tags:
+  - feed
+  - summaries
+  - overview
+summary: Your daily activity.
 ---
 
-Your activity and updates from people you follow will appear here.
+At the end of every workday a summary is generated either by clicking "Finish Day" at the top of your app or automatically around midnight. If you use the "Finish Day" option, you can review summaries before they get finalized, otherwise you can always edit them by clicking the edit icon or clicking on individual bullet points to change their title and visibility or to delete them.
+
+You can also see the real-time activity here. For more details on this, visit the [calendar](/calendar) tab and click on the day view.
