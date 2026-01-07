@@ -4,7 +4,7 @@
   "private": true,
   "description": "Source-of-truth documentation repo for DoneThat (atomic markdown, AI-ready).",
   "scripts": {
-    "deploy-docs": "node scripts/deploy-docs.cjs"
+    "deploy": "node scripts/deploy-docs.cjs"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3"

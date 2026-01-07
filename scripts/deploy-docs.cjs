@@ -38,7 +38,7 @@ function toLabelFromCategory(id) {
     .join(" ");
 }
 
-function regenerateStructure() {
+function regenerateStructure(today, changedDocs) {
   log("Regenerating schema/structure.json from content/…");
 
   const files = getMarkdownFiles(CONTENT_DIR);
@@ -52,6 +52,17 @@ function regenerateStructure() {
     if (!category) {
       log(`Skipping ${path.relative(ROOT, file)} (no 'category' in frontmatter)`);
       continue;
+    }
+
+    // Update lastUpdated for changed docs
+    const relFromRoot = path
+      .relative(ROOT, file)
+      .replace(/\\/g, "/"); // normalize for Windows, just in case
+    if (changedDocs.has(relFromRoot)) {
+      parsed.data.lastUpdated = today;
+      const updated = matter.stringify(parsed.content, parsed.data);
+      fs.writeFileSync(file, updated, "utf8");
+      log(`Updated lastUpdated in ${relFromRoot} -> ${today}`);
     }
 
     const slug = path.basename(file, ".md");
@@ -79,17 +90,38 @@ function regenerateStructure() {
   log(`Wrote ${path.relative(ROOT, SCHEMA_FILE)}`);
 }
 
-function updateMetadata() {
+function updateMetadata(today) {
   if (!fs.existsSync(METADATA_FILE)) {
     log("No metadata.json found, skipping metadata update.");
     return;
   }
   const raw = fs.readFileSync(METADATA_FILE, "utf8");
   const data = JSON.parse(raw);
-  const today = new Date().toISOString().slice(0, 10);
   data.lastUpdated = today;
   fs.writeFileSync(METADATA_FILE, JSON.stringify(data, null, 2) + "\n", "utf8");
   log(`Updated metadata.json lastUpdated -> ${today}`);
+}
+
+function getChangedDocPaths() {
+  try {
+    const output = execSync("git status --porcelain", {
+      cwd: ROOT,
+      stdio: ["ignore", "pipe", "ignore"],
+    }).toString();
+
+    const changed = new Set();
+    for (const line of output.split("\n")) {
+      if (!line.trim()) continue;
+      const filePath = line.slice(3).trim();
+      if (filePath.startsWith("content/") && filePath.endsWith(".md")) {
+        changed.add(filePath);
+      }
+    }
+    return changed;
+  } catch {
+    log("git status failed, not updating per-file lastUpdated.");
+    return new Set();
+  }
 }
 
 function runGit() {
@@ -120,8 +152,11 @@ function runGit() {
 }
 
 function main() {
-  regenerateStructure();
-  updateMetadata();
+  const today = new Date().toISOString().slice(0, 10);
+  const changedDocs = getChangedDocPaths();
+
+  regenerateStructure(today, changedDocs);
+  updateMetadata(today);
   runGit();
 }
 
