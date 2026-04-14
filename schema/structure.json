@@ -1,6 +1,36 @@
 {
   "categories": [
     {
+      "id": "faq",
+      "label": "FAQ",
+      "files": [
+        "can-i-book-a-consulting-conversation-even-if-i-am-not-ready-for-a-team-rollout",
+        "can-i-control-when-donethat-captures-my-work",
+        "can-i-talk-to-christoph-directly-about-consulting-or-a-rollout",
+        "can-i-use-donethat-for-personal-productivity-not-just-teams",
+        "can-i-use-donethat-simultaneously-on-two-machines",
+        "how-can-i-build-trust-in-a-remote-team",
+        "how-can-i-facilitate-more-connections-at-work",
+        "how-can-i-prevent-burnout-at-work",
+        "how-can-i-stay-accountable-to-my-team",
+        "how-can-i-stay-focused-with-adhd",
+        "how-can-i-work-remotely",
+        "how-do-i-integrate-donethat-with-slack",
+        "how-does-donethat-help-with-accountability",
+        "how-does-donethat-keep-me-accountable-if-i-work-alone",
+        "how-does-donethat-protect-my-privacy",
+        "how-does-the-free-trial-work",
+        "how-is-donethat-different-from-a-timer-based-tracker",
+        "how-secure-is-my-data-with-donethat",
+        "how-should-i-think-about-mcp-with-donethat",
+        "what-does-don-actually-coach-me-on",
+        "what-if-we-want-to-use-donethat-but-need-privacy-or-dpo-clearance-first",
+        "what-is-donethat",
+        "what-kind-of-consulting-does-christoph-do",
+        "why-does-christoph-mention-giving-what-we-can-and-the-ea-forum-here"
+      ]
+    },
+    {
       "id": "features",
       "label": "Features",
       "files": [
