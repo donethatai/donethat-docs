@@ -7,7 +7,9 @@ Build logic and structure for the DoneThat documentation repository.
 - **`content/`** - Source of truth (atomic markdown files)
   - `content/guides/` - Feature documentation
   - `content/faq/` - Q&A files
-- **`schema/structure.json`** - Auto-generated registry mapping categories to files
+  - `content/use-cases/` - Outcome-first use case documentation
+- **`schema/terminology.json`** - Domain and stage registry for use cases
+- **`schema/structure.json`** - Auto-generated registry for category nav plus use-case filters
 - **`metadata.json`** - Global app metadata
 
 ## File Format
@@ -16,12 +18,13 @@ Every Markdown file in `content/` has YAML frontmatter:
 
 ```yaml
 ---
-title: "Feature Name"
-category: "features"
+title: "Page Title"
+category: "use-cases"
 lastUpdated: "2025-01-20"
 tags: ["tag1", "tag2"]
 summary: "Brief description"
-platforms: ["mac", "windows"]  # Optional, only if platform-specific
+domain: "it"  # Use-cases only
+stage: "select"  # Use-cases only
 ---
 ```
 
@@ -33,6 +36,9 @@ The `schema/structure.json` file is **auto-generated** by `scripts/deploy-docs.c
 - Extracts `category` from frontmatter
 - Maps `category` → navigation groups
 - Uses file basename (without `.md`) as slug in `files` array
+- Copies `domains` from `schema/terminology.json`
+- Builds a `useCases` index from use-case frontmatter
+- Validates every use-case `domain` and `stage` against `schema/terminology.json`
 - Sorts categories and files alphabetically
 
 **Do not manually edit `structure.json`** - it's regenerated on deploy.
@@ -49,4 +55,3 @@ Run `npm run deploy-docs` to:
 - Use `gray-matter` (or equivalent) to parse frontmatter + body
 - Frontmatter is YAML between `---` delimiters
 - Body is markdown after the closing `---`
-

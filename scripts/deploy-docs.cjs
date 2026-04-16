@@ -8,6 +8,7 @@ const matter = require("gray-matter");
 const ROOT = path.resolve(__dirname, "..");
 const CONTENT_DIR = path.join(ROOT, "content");
 const SCHEMA_FILE = path.join(ROOT, "schema", "structure.json");
+const TERMINOLOGY_FILE = path.join(ROOT, "schema", "terminology.json");
 const METADATA_FILE = path.join(ROOT, "metadata.json");
 
 function log(msg) {
@@ -38,11 +39,71 @@ function toLabelFromCategory(id) {
     .join(" ");
 }
 
+function loadTerminology() {
+  if (!fs.existsSync(TERMINOLOGY_FILE)) {
+    throw new Error(`Missing ${path.relative(ROOT, TERMINOLOGY_FILE)}`);
+  }
+
+  const raw = fs.readFileSync(TERMINOLOGY_FILE, "utf8");
+  const parsed = JSON.parse(raw);
+
+  if (!Array.isArray(parsed.domains)) {
+    throw new Error("schema/terminology.json must contain a 'domains' array");
+  }
+
+  const domains = parsed.domains.map((domain) => {
+    if (!domain.id || !domain.group || !domain.label || !Array.isArray(domain.stages)) {
+      throw new Error(`Invalid terminology entry: ${JSON.stringify(domain)}`);
+    }
+
+    return {
+      id: domain.id,
+      group: domain.group,
+      label: domain.label,
+      stages: domain.stages,
+    };
+  });
+
+  return {
+    domains,
+    domainMap: new Map(domains.map((domain) => [domain.id, domain])),
+  };
+}
+
+function validateUseCase(relFromRoot, parsed, domainMap) {
+  const { title, summary, domain, stage } = parsed.data;
+
+  if (!title) {
+    throw new Error(`${relFromRoot} is missing required 'title'`);
+  }
+  if (!summary) {
+    throw new Error(`${relFromRoot} is missing required 'summary'`);
+  }
+  if (!domain) {
+    throw new Error(`${relFromRoot} is missing required 'domain'`);
+  }
+  if (!stage) {
+    throw new Error(`${relFromRoot} is missing required 'stage'`);
+  }
+
+  const terminologyDomain = domainMap.get(domain);
+  if (!terminologyDomain) {
+    throw new Error(`${relFromRoot} has unknown domain '${domain}'`);
+  }
+  if (!terminologyDomain.stages.includes(stage)) {
+    throw new Error(
+      `${relFromRoot} has invalid stage '${stage}' for domain '${domain}'`
+    );
+  }
+}
+
 function regenerateStructure(today, changedDocs) {
   log("Regenerating schema/structure.json from content/…");
 
   const files = getMarkdownFiles(CONTENT_DIR);
   const categories = new Map();
+  const useCases = [];
+  const { domains, domainMap } = loadTerminology();
 
   for (const file of files) {
     const raw = fs.readFileSync(file, "utf8");
@@ -77,12 +138,27 @@ function regenerateStructure(today, changedDocs) {
     if (!cat.files.includes(slug)) {
       cat.files.push(slug);
     }
+
+    if (category === "use-cases") {
+      validateUseCase(relFromRoot, parsed, domainMap);
+      useCases.push({
+        slug,
+        title: parsed.data.title,
+        summary: parsed.data.summary,
+        domain: parsed.data.domain,
+        stage: parsed.data.stage,
+        tags: Array.isArray(parsed.data.tags) ? parsed.data.tags : [],
+        lastUpdated: parsed.data.lastUpdated || null,
+      });
+    }
   }
 
   const result = {
     categories: Array.from(categories.values())
       .map((c) => ({ ...c, files: c.files.sort() }))
       .sort((a, b) => a.id.localeCompare(b.id)),
+    domains,
+    useCases: useCases.sort((a, b) => a.slug.localeCompare(b.slug)),
   };
 
   fs.mkdirSync(path.dirname(SCHEMA_FILE), { recursive: true });
@@ -112,7 +188,11 @@ function getChangedDocPaths() {
     const changed = new Set();
     for (const line of output.split("\n")) {
       if (!line.trim()) continue;
-      const filePath = line.slice(3).trim();
+      const filePath = line
+        .slice(3)
+        .trim()
+        .split(" -> ")
+        .pop();
       if (filePath.startsWith("content/") && filePath.endsWith(".md")) {
         changed.add(filePath);
       }
@@ -125,6 +205,11 @@ function getChangedDocPaths() {
 }
 
 function runGit() {
+  if (process.env.SKIP_GIT === "1") {
+    log("Skipping git operations.");
+    return;
+  }
+
   const pathsToAdd = ["content", "schema", "metadata.json"];
   const existing = pathsToAdd.filter((p) => fs.existsSync(path.join(ROOT, p)));
   if (existing.length === 0) {
@@ -161,5 +246,4 @@ function main() {
 }
 
 main();
-
 

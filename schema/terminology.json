@@ -1,0 +1,142 @@
+{
+  "domains": [
+    {
+      "id": "hr",
+      "group": "shared",
+      "label": "HR",
+      "stages": ["plan", "source", "select", "hire", "onboard", "develop", "reward", "exit"]
+    },
+    {
+      "id": "finance",
+      "group": "shared",
+      "label": "Finance",
+      "stages": ["plan", "budget", "invoice", "collect", "pay", "close", "report", "audit"]
+    },
+    {
+      "id": "sales",
+      "group": "shared",
+      "label": "Sales",
+      "stages": ["prospect", "qualify", "discover", "propose", "negotiate", "close", "handoff", "renew"]
+    },
+    {
+      "id": "marketing",
+      "group": "shared",
+      "label": "Marketing",
+      "stages": ["research", "plan", "create", "launch", "measure", "report"]
+    },
+    {
+      "id": "support",
+      "group": "shared",
+      "label": "Support",
+      "stages": ["intake", "triage", "assign", "investigate", "resolve", "confirm", "close"]
+    },
+    {
+      "id": "operations",
+      "group": "shared",
+      "label": "Operations",
+      "stages": ["intake", "prioritize", "schedule", "execute", "verify", "deliver", "confirm", "close"]
+    },
+    {
+      "id": "it",
+      "group": "shared",
+      "label": "IT",
+      "stages": ["plan", "select", "deploy", "provision", "support", "upgrade", "replace", "retire"]
+    },
+    {
+      "id": "legal",
+      "group": "shared",
+      "label": "Legal",
+      "stages": ["request", "assess", "draft", "negotiate", "approve", "sign", "store", "dispute"]
+    },
+    {
+      "id": "procurement",
+      "group": "shared",
+      "label": "Procurement",
+      "stages": ["request", "approve", "source", "evaluate", "select", "order", "receive", "review"]
+    },
+    {
+      "id": "insurance",
+      "group": "specific",
+      "label": "Insurance",
+      "stages": ["quote", "underwrite", "bind", "issue", "bill", "service", "renew", "claim"]
+    },
+    {
+      "id": "banking",
+      "group": "specific",
+      "label": "Banking",
+      "stages": ["acquire", "onboard", "open", "fund", "transact", "service", "review", "close"]
+    },
+    {
+      "id": "healthcare",
+      "group": "specific",
+      "label": "Healthcare",
+      "stages": ["access", "intake", "assess", "diagnose", "treat", "discharge", "bill", "followup"]
+    },
+    {
+      "id": "manufacturing",
+      "group": "specific",
+      "label": "Manufacturing",
+      "stages": ["plan", "source", "make", "inspect", "pack", "ship", "service", "return"]
+    },
+    {
+      "id": "retail",
+      "group": "specific",
+      "label": "Retail",
+      "stages": ["plan", "buy", "price", "stock", "sell", "fulfill", "return", "clear"]
+    },
+    {
+      "id": "logistics",
+      "group": "specific",
+      "label": "Logistics",
+      "stages": ["book", "plan", "pick", "load", "move", "deliver", "confirm", "close"]
+    },
+    {
+      "id": "construction",
+      "group": "specific",
+      "label": "Construction",
+      "stages": ["bid", "award", "plan", "mobilize", "build", "inspect", "handover", "close"]
+    },
+    {
+      "id": "property",
+      "group": "specific",
+      "label": "Property",
+      "stages": ["acquire", "lease", "occupy", "maintain", "bill", "renew", "vacate", "dispose"]
+    },
+    {
+      "id": "consulting",
+      "group": "specific",
+      "label": "Consulting",
+      "stages": ["sell", "scope", "staff", "kickoff", "analyze", "recommend", "deliver", "close"]
+    },
+    {
+      "id": "software",
+      "group": "specific",
+      "label": "Software",
+      "stages": ["discover", "design", "build", "test", "release", "adopt", "support", "retire"]
+    },
+    {
+      "id": "nonprofit",
+      "group": "specific",
+      "label": "Nonprofit",
+      "stages": ["plan", "fund", "outreach", "deliver", "measure", "report", "steward", "renew"]
+    },
+    {
+      "id": "education",
+      "group": "specific",
+      "label": "Education",
+      "stages": ["recruit", "admit", "enroll", "teach", "assess", "credential", "graduate", "advance"]
+    },
+    {
+      "id": "government",
+      "group": "specific",
+      "label": "Government",
+      "stages": ["plan", "fund", "authorize", "deliver", "inspect", "enforce", "report", "close"]
+    },
+    {
+      "id": "hospitality",
+      "group": "specific",
+      "label": "Hospitality",
+      "stages": ["book", "confirm", "prepare", "arrive", "stay", "depart", "review", "return"]
+    }
+  ]
+}

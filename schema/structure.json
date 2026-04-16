@@ -48,6 +48,438 @@
         "summaries",
         "teams"
       ]
+    },
+    {
+      "id": "use-cases",
+      "label": "Use Cases",
+      "files": [
+        "ai-for-software-engineers",
+        "best-ai-for-work",
+        "dictation-ais",
+        "website-vibe-coding",
+        "workflow-automation-when-to-automate"
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "id": "hr",
+      "group": "shared",
+      "label": "HR",
+      "stages": [
+        "plan",
+        "source",
+        "select",
+        "hire",
+        "onboard",
+        "develop",
+        "reward",
+        "exit"
+      ]
+    },
+    {
+      "id": "finance",
+      "group": "shared",
+      "label": "Finance",
+      "stages": [
+        "plan",
+        "budget",
+        "invoice",
+        "collect",
+        "pay",
+        "close",
+        "report",
+        "audit"
+      ]
+    },
+    {
+      "id": "sales",
+      "group": "shared",
+      "label": "Sales",
+      "stages": [
+        "prospect",
+        "qualify",
+        "discover",
+        "propose",
+        "negotiate",
+        "close",
+        "handoff",
+        "renew"
+      ]
+    },
+    {
+      "id": "marketing",
+      "group": "shared",
+      "label": "Marketing",
+      "stages": [
+        "research",
+        "plan",
+        "create",
+        "launch",
+        "measure",
+        "report"
+      ]
+    },
+    {
+      "id": "support",
+      "group": "shared",
+      "label": "Support",
+      "stages": [
+        "intake",
+        "triage",
+        "assign",
+        "investigate",
+        "resolve",
+        "confirm",
+        "close"
+      ]
+    },
+    {
+      "id": "operations",
+      "group": "shared",
+      "label": "Operations",
+      "stages": [
+        "intake",
+        "prioritize",
+        "schedule",
+        "execute",
+        "verify",
+        "deliver",
+        "confirm",
+        "close"
+      ]
+    },
+    {
+      "id": "it",
+      "group": "shared",
+      "label": "IT",
+      "stages": [
+        "plan",
+        "select",
+        "deploy",
+        "provision",
+        "support",
+        "upgrade",
+        "replace",
+        "retire"
+      ]
+    },
+    {
+      "id": "legal",
+      "group": "shared",
+      "label": "Legal",
+      "stages": [
+        "request",
+        "assess",
+        "draft",
+        "negotiate",
+        "approve",
+        "sign",
+        "store",
+        "dispute"
+      ]
+    },
+    {
+      "id": "procurement",
+      "group": "shared",
+      "label": "Procurement",
+      "stages": [
+        "request",
+        "approve",
+        "source",
+        "evaluate",
+        "select",
+        "order",
+        "receive",
+        "review"
+      ]
+    },
+    {
+      "id": "insurance",
+      "group": "specific",
+      "label": "Insurance",
+      "stages": [
+        "quote",
+        "underwrite",
+        "bind",
+        "issue",
+        "bill",
+        "service",
+        "renew",
+        "claim"
+      ]
+    },
+    {
+      "id": "banking",
+      "group": "specific",
+      "label": "Banking",
+      "stages": [
+        "acquire",
+        "onboard",
+        "open",
+        "fund",
+        "transact",
+        "service",
+        "review",
+        "close"
+      ]
+    },
+    {
+      "id": "healthcare",
+      "group": "specific",
+      "label": "Healthcare",
+      "stages": [
+        "access",
+        "intake",
+        "assess",
+        "diagnose",
+        "treat",
+        "discharge",
+        "bill",
+        "followup"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "group": "specific",
+      "label": "Manufacturing",
+      "stages": [
+        "plan",
+        "source",
+        "make",
+        "inspect",
+        "pack",
+        "ship",
+        "service",
+        "return"
+      ]
+    },
+    {
+      "id": "retail",
+      "group": "specific",
+      "label": "Retail",
+      "stages": [
+        "plan",
+        "buy",
+        "price",
+        "stock",
+        "sell",
+        "fulfill",
+        "return",
+        "clear"
+      ]
+    },
+    {
+      "id": "logistics",
+      "group": "specific",
+      "label": "Logistics",
+      "stages": [
+        "book",
+        "plan",
+        "pick",
+        "load",
+        "move",
+        "deliver",
+        "confirm",
+        "close"
+      ]
+    },
+    {
+      "id": "construction",
+      "group": "specific",
+      "label": "Construction",
+      "stages": [
+        "bid",
+        "award",
+        "plan",
+        "mobilize",
+        "build",
+        "inspect",
+        "handover",
+        "close"
+      ]
+    },
+    {
+      "id": "property",
+      "group": "specific",
+      "label": "Property",
+      "stages": [
+        "acquire",
+        "lease",
+        "occupy",
+        "maintain",
+        "bill",
+        "renew",
+        "vacate",
+        "dispose"
+      ]
+    },
+    {
+      "id": "consulting",
+      "group": "specific",
+      "label": "Consulting",
+      "stages": [
+        "sell",
+        "scope",
+        "staff",
+        "kickoff",
+        "analyze",
+        "recommend",
+        "deliver",
+        "close"
+      ]
+    },
+    {
+      "id": "software",
+      "group": "specific",
+      "label": "Software",
+      "stages": [
+        "discover",
+        "design",
+        "build",
+        "test",
+        "release",
+        "adopt",
+        "support",
+        "retire"
+      ]
+    },
+    {
+      "id": "nonprofit",
+      "group": "specific",
+      "label": "Nonprofit",
+      "stages": [
+        "plan",
+        "fund",
+        "outreach",
+        "deliver",
+        "measure",
+        "report",
+        "steward",
+        "renew"
+      ]
+    },
+    {
+      "id": "education",
+      "group": "specific",
+      "label": "Education",
+      "stages": [
+        "recruit",
+        "admit",
+        "enroll",
+        "teach",
+        "assess",
+        "credential",
+        "graduate",
+        "advance"
+      ]
+    },
+    {
+      "id": "government",
+      "group": "specific",
+      "label": "Government",
+      "stages": [
+        "plan",
+        "fund",
+        "authorize",
+        "deliver",
+        "inspect",
+        "enforce",
+        "report",
+        "close"
+      ]
+    },
+    {
+      "id": "hospitality",
+      "group": "specific",
+      "label": "Hospitality",
+      "stages": [
+        "book",
+        "confirm",
+        "prepare",
+        "arrive",
+        "stay",
+        "depart",
+        "review",
+        "return"
+      ]
+    }
+  ],
+  "useCases": [
+    {
+      "slug": "ai-for-software-engineers",
+      "title": "Choose a default AI assistant for software engineering",
+      "summary": "Choose one default AI workflow for engineering based on whether the team works in the editor, in the terminal, or through delegated agent tasks.",
+      "domain": "it",
+      "stage": "select",
+      "tags": [
+        "ai",
+        "software-engineering",
+        "coding",
+        "workflow",
+        "engineering"
+      ],
+      "lastUpdated": "2026-04-16"
+    },
+    {
+      "slug": "best-ai-for-work",
+      "title": "Choose a default AI assistant for team knowledge work",
+      "summary": "Pick one default AI assistant for everyday team work based on where work already happens, how people write, and what the rollout will actually support.",
+      "domain": "it",
+      "stage": "select",
+      "tags": [
+        "ai",
+        "writing",
+        "analysis",
+        "decision-making",
+        "knowledge-work"
+      ],
+      "lastUpdated": "2026-04-16"
+    },
+    {
+      "slug": "dictation-ais",
+      "title": "Draft messages and notes faster with dictation",
+      "summary": "Use dictation when spoken drafting is faster than typing and the capture, cleanup, and sending flow fits how people actually write.",
+      "domain": "it",
+      "stage": "select",
+      "tags": [
+        "ai",
+        "writing",
+        "communication",
+        "accessibility",
+        "dictation"
+      ],
+      "lastUpdated": "2026-04-16"
+    },
+    {
+      "slug": "website-vibe-coding",
+      "title": "Ship a marketing page fast without design drift",
+      "summary": "Ship landing pages quickly by constraining AI inside a real design system, a clear page goal, and a review loop that prevents site drift.",
+      "domain": "marketing",
+      "stage": "create",
+      "tags": [
+        "shipping",
+        "marketing",
+        "website",
+        "design",
+        "ai"
+      ],
+      "lastUpdated": "2026-04-16"
+    },
+    {
+      "slug": "workflow-automation-when-to-automate",
+      "title": "Decide which workflow should be automated",
+      "summary": "Choose automation targets that are repetitive, stable, visible, and owned instead of automating messy work that becomes maintenance overhead.",
+      "domain": "operations",
+      "stage": "prioritize",
+      "tags": [
+        "automation",
+        "workflow",
+        "ai",
+        "systems",
+        "operations"
+      ],
+      "lastUpdated": "2026-04-16"
     }
   ]
 }

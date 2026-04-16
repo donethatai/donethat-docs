@@ -24,7 +24,9 @@ This will:
 ## Structure
 
 - `content/` - Markdown files with YAML frontmatter
-- `schema/structure.json` - Auto-generated category registry
+- `content/use-cases/` - Outcome-first use case content
+- `schema/terminology.json` - Domain and stage registry
+- `schema/structure.json` - Auto-generated category nav and use-case filter index
 - `metadata.json` - Global app metadata
 - `scripts/deploy-docs.cjs` - Deploy script
 
