@@ -5,7 +5,9 @@ lastUpdated: "2026-04-16"
 tags: ["shipping", "marketing", "website", "design", "ai"]
 summary: "Ship landing pages quickly by constraining AI inside a real design system, a clear page goal, and a review loop that prevents site drift."
 domain: "marketing"
+domainOrder: 3
 stage: "create"
+stageOrder: 1
 ---
 
 ## When to use
@@ -195,5 +197,5 @@ If there is no stopping rule, AI will simply make it easier to keep tweaking for
 
 ## Related
 
-- [Best AI for work (2026): Claude vs Gemini vs Copilot](../tools/best-ai-for-work.md)
-- [Workflow automation: decide what to automate (and what not to)](./workflow-automation-when-to-automate.md)
+- [Choose a default AI assistant for team knowledge work](./best-ai-for-work.md)
+- [Decide which workflow should be automated](./workflow-automation-when-to-automate.md)

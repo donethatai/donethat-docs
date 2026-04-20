@@ -5,7 +5,10 @@ lastUpdated: "2026-04-16"
 tags: ["ai", "software-engineering", "coding", "workflow", "engineering"]
 summary: "Choose one default AI workflow for engineering based on whether the team works in the editor, in the terminal, or through delegated agent tasks."
 domain: "it"
+domainOrder: 1
 stage: "select"
+stageOrder: 1
+pinned: 1
 ---
 
 ## When to use
@@ -154,4 +157,4 @@ AI can still help there, but usually in planning, investigation, or test generat
 
 ## Related
 
-- [Workflow automation: decide what to automate (and what not to)](../practices/workflow-automation-when-to-automate.md)
+- [Decide which workflow should be automated](./workflow-automation-when-to-automate.md)

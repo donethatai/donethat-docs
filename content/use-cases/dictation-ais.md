@@ -5,7 +5,9 @@ lastUpdated: "2026-04-16"
 tags: ["ai", "writing", "communication", "accessibility", "dictation"]
 summary: "Use dictation when spoken drafting is faster than typing and the capture, cleanup, and sending flow fits how people actually write."
 domain: "it"
+domainOrder: 1
 stage: "select"
+stageOrder: 1
 ---
 
 ## When to use
@@ -164,5 +166,5 @@ Dictation is best when speed of first expression matters more than first-pass po
 
 ## Related
 
-- [Best AI for work (2026): Claude vs Gemini vs Copilot](./best-ai-for-work.md)
-- [Workflow automation: decide what to automate (and what not to)](../practices/workflow-automation-when-to-automate.md)
+- [Choose a default AI assistant for team knowledge work](./best-ai-for-work.md)
+- [Decide which workflow should be automated](./workflow-automation-when-to-automate.md)

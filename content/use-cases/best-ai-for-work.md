@@ -5,7 +5,10 @@ lastUpdated: "2026-04-16"
 tags: ["ai", "writing", "analysis", "decision-making", "knowledge-work"]
 summary: "Pick one default AI assistant for everyday team work based on where work already happens, how people write, and what the rollout will actually support."
 domain: "it"
+domainOrder: 1
 stage: "select"
+stageOrder: 1
+pinned: 2
 ---
 
 ## When to use
@@ -147,4 +150,4 @@ It can accelerate good operating habits. It usually amplifies bad ones too.
 
 ## Related
 
-- If you are choosing for an engineering team, see [AI for software engineers: Codex vs Cursor vs Claude Code](./ai-for-software-engineers.md).
+- If you are choosing for an engineering team, see [Choose a default AI assistant for software engineering](./ai-for-software-engineers.md).

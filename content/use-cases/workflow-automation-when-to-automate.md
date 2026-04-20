@@ -5,7 +5,9 @@ lastUpdated: "2026-04-16"
 tags: ["automation", "workflow", "ai", "systems", "operations"]
 summary: "Choose automation targets that are repetitive, stable, visible, and owned instead of automating messy work that becomes maintenance overhead."
 domain: "operations"
+domainOrder: 2
 stage: "prioritize"
+stageOrder: 1
 ---
 
 ## When to use
@@ -186,5 +188,5 @@ Good operators delete unnecessary work before they automate it.
 
 ## Related
 
-- [AI for software engineers: Codex vs Cursor vs Claude Code](../tools/ai-for-software-engineers.md)
-- [Website vibe coding: ship a clean marketing page fast (without a mess)](./website-vibe-coding.md)
+- [Choose a default AI assistant for software engineering](./ai-for-software-engineers.md)
+- [Ship a marketing page fast without design drift](./website-vibe-coding.md)
