@@ -14,17 +14,17 @@ effort: 2
 function: "it"
 ---
 
-## What it is
+## What it is, how it works
 
 - A team default for writing, synthesis, planning, and follow-up.
 - A rollout decision across quality, integration, admin, and habit.
 - Usually suite-native or standalone assistant.
 
-## When to use
+## When not to use it
 
-- Use when people need one supported default.
-- Use when procurement and onboarding matter.
-- Do not use to paper over bad meetings, unclear writing ownership, or weak decision hygiene.
+- Do not use to paper over bad meetings.
+- Do not use when writing ownership is unclear.
+- Do use when people need one supported default.
 
 ## How to get started
 
@@ -33,7 +33,7 @@ function: "it"
 - Decide the data policy before broad rollout.
 - Pick one default and one exception path.
 
-## Best practices
+## Best practices / further reading
 
 - Match the assistant to where work already lives.
 - Treat integration as part of quality.

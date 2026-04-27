@@ -14,17 +14,17 @@ effort: 3
 function: "it"
 ---
 
-## What it is
+## What it is, how it works
 
 - A default coding assistant choice for the team.
 - Editor-first, terminal-first, or delegated agent workflow.
 - Not a model beauty contest.
 
-## When to use
+## When not to use it
 
-- Use when engineers already have code review, tests, and clear task boundaries.
-- Use when tool sprawl is slowing adoption.
 - Do not use for broad autonomous changes in weak repos.
+- Do not use when tests and review discipline are missing.
+- Do use when engineers already have clear task boundaries.
 
 ## How to get started
 
@@ -33,7 +33,7 @@ function: "it"
 - Cap first-wave diffs.
 - Measure review pain, not typing speed.
 
-## Best practices
+## Best practices / further reading
 
 - Match the tool to where engineers work.
 - Keep permissions and scope explicit.

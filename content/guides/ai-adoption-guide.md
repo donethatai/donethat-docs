@@ -3,7 +3,7 @@ title: "AI Adoption Guide"
 category: "guides"
 lastUpdated: "2026-04-27"
 tags: ["ai", "adoption", "strategy", "enablement"]
-summary: "A short executive guide for choosing AI bets, preparing teams, and turning experiments into measurable business outcomes."
+summary: "Choose AI bets, prepare teams, and measure outcomes."
 ---
 
 ## Framework
@@ -13,15 +13,53 @@ summary: "A short executive guide for choosing AI bets, preparing teams, and tur
 - Evaluate: measure value, risk, ownership, and learning.
 - Execute: scale what survives contact with real work.
 
-Similar to OODA and Build Measure Learn: move fast, learn deliberately, and keep decisions reversible.
+## Framework Analogy
 
-## Context
+- Like OODA: observe, orient, decide, act.
+- Like Build Measure Learn: ship small, measure honestly, adjust fast.
+- Keep decisions reversible until the signal is real.
 
-- Expect uneven gains. AI works best in bounded workflows with reviewable output.
-- Think in scenarios. Start from the work, not from the tool demo.
-- Prefer optimality over optimization. Preserve slack while the system learns.
-- Make reversible decisions. Use small bets, buffers, and named owners.
-- Avoid theater. Tech debt, token costs, and me-too pilots kill trust.
+## Deep Dive
+
+### Realistic expectations from AI
+
+- Gains are uneven.
+- Reviewable work improves first.
+- Context beats generic prompts.
+- Adoption is operational, not magical.
+
+### Scenarios for AI development
+
+- Start from future work patterns.
+- Ask what changes if output cost drops.
+- Ask what stays human because risk is high.
+- Plan for tool churn.
+
+### Dealing with uncertainty
+
+- Prefer optimality over optimization.
+- Make reversible decisions.
+- Run small bets.
+- Keep buffers and slack.
+
+### Common pitfalls
+
+- Tech debt from rushed pilots.
+- Token and tool costs hidden in enthusiasm.
+- Showing off instead of business outcomes.
+- Me-too adoption without owners.
+
+## Stage Focus
+
+- Focus now: Enable, Experiment, Evaluate.
+- Grey out Execute until evidence exists.
+- The framework is a loop, not a launch plan.
+
+## Reverse Flow
+
+- Evaluate: first know what we are optimizing for.
+- Experiment: then choose what to try.
+- Enable: then fund what the team needs.
 
 ## Evaluate
 
@@ -32,50 +70,76 @@ Similar to OODA and Build Measure Learn: move fast, learn deliberately, and keep
 ## Experiment
 
 - Pick use cases by value and effort.
+- Filter by function and industry.
 - Start where mistakes are reversible.
-- Prefer workflows with visible outputs and clear owners.
-- Keep the first wave small enough to review.
+- Prefer visible outputs and clear owners.
+
+## Process
+
+- Select a process.
+- Mark selected use cases per step.
+- Add more use cases where the process has gaps.
+- Keep ownership visible.
 
 ## Enable
 
 ### Data
 
-- Make useful data accessible.
-- Clean the minimum needed.
-- Know which systems matter.
+- Make useful data accessible to approved AI tools.
+- Clean only the data needed for first experiments.
+- Map source systems, owners, and permissions.
+- Decide what stays out of scope.
 
 ### FinOps
 
-- Give teams budget safety.
-- Track token and tool cost.
-- Stop surprise bills early.
+- Give employees budget safety to experiment.
+- Track token, seat, and workflow costs.
+- Set spend alerts before rollout.
+- Review cost per useful output.
 
 ### Security
 
-- Set guardrails before rollout.
-- Decide who approves risky use.
-- Keep sensitive work explicit.
+- Define guardrails before broad access.
+- Decide who approves risky use cases.
+- Make escalation paths obvious.
+- Separate safe drafts from sensitive actions.
 
 ### Responsibilities
 
-- Assign owners.
-- Define review points.
-- Make escalation obvious.
+- Assign an owner per use case.
+- Name reviewers and decision rights.
+- Define who stops a failing pilot.
+- Keep ownership close to the workflow.
 
 ### Time
 
-- Fund experimentation time.
-- Decide what work stops.
-- Keep slack for learning.
+- Fund experimentation time explicitly.
+- Decide what work gets paused or reduced.
+- Keep slack for review and learning.
+- Protect teams from hidden extra work.
 
 ### Expertise
 
-- Source help deliberately.
-- Share prompts and patterns.
-- Build an internal practice.
+- Source expertise deliberately.
+- Use consultants where speed matters.
+- Offer courses for repeatable basics.
+- Share best practices in one internal channel.
 
 ### Change Management
 
-- Use champions.
-- Show business outcomes.
-- Keep training close to work.
+- Recruit champions close to the work.
+- Train on real workflows, not demos.
+- Show business outcomes early.
+- Repeat what works across teams.
+
+## Enablement Summary
+
+- Confirm todos.
+- Confirm owners.
+- Add missing enablement gaps.
+- Review before moving to Execute.
+
+## CTA
+
+- Website: Send results by email.
+- Slides: Next results by email.

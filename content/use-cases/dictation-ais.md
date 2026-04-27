@@ -13,17 +13,17 @@ effort: 1
 function: "it"
 ---
 
-## What it is
+## What it is, how it works
 
 - A speak, rewrite, send workflow.
 - Useful for rough drafts, notes, updates, and follow-ups.
 - More about capture friction than raw transcription quality.
 
-## When to use
+## When not to use it
 
-- Use for high-volume communication.
-- Use when first expression matters more than first-pass polish.
-- Do not use for code, dense tables, legal wording, or public spaces.
+- Do not use for code, dense tables, or legal wording.
+- Do not use in public spaces or sensitive conversations.
+- Do use when first expression matters more than first-pass polish.
 
 ## How to get started
 
@@ -32,7 +32,7 @@ function: "it"
 - Fix mic and environment first.
 - Compare time to sendable draft against typing.
 
-## Best practices
+## Best practices / further reading
 
 - Dictate in short bursts.
 - Pause before names, numbers, and critical details.

@@ -13,17 +13,17 @@ effort: 2
 function: "marketing"
 ---
 
-## What it is
+## What it is, how it works
 
 - A constrained AI workflow for shipping website pages.
 - AI creates options inside an existing design system.
 - Humans own page goal, hierarchy, CTA, and stopping rule.
 
-## When to use
+## When not to use it
 
-- Use when the component system already exists.
-- Use when speed matters but brand consistency still matters.
-- Do not use for new design systems, core navigation, or legal-heavy pages.
+- Do not use for new design systems.
+- Do not use for core navigation or legal-heavy pages.
+- Do use when the component system already exists.
 
 ## How to get started
 
@@ -32,7 +32,7 @@ function: "marketing"
 - Implement with existing building blocks.
 - Review scannability, CTA clarity, accessibility, mobile, and SEO.
 
-## Best practices
+## Best practices / further reading
 
 - Lock constraints before prompting.
 - Avoid one-off components.

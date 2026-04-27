@@ -13,17 +13,17 @@ effort: 3
 function: "operations"
 ---
 
-## What it is
+## What it is, how it works
 
 - A decision test for automation candidates.
 - Covers classic automation, repo automation, AI-assisted workflows, and deletion.
 - Focuses on value, failure visibility, and ownership.
 
-## When to use
+## When not to use it
 
-- Use before building scripts, workflows, or agent steps.
-- Use when a process repeats often enough to matter.
 - Do not use when nobody agrees how the manual process works.
+- Do not use when failure has no visible owner.
+- Do use before building scripts, workflows, or agent steps.
 
 ## How to get started
 
@@ -32,7 +32,7 @@ function: "operations"
 - Automate the smallest stable slice.
 - Add monitoring before expanding scope.
 
-## Best practices
+## Best practices / further reading
 
 - Do not automate broken work.
 - Use deterministic rules where rules are enough.
