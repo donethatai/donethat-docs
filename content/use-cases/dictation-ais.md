@@ -1,14 +1,21 @@
 ---
-title: "Draft messages and notes faster with dictation"
-category: "use-cases"
-lastUpdated: "2026-04-27"
-tags: ["ai", "writing", "communication", "accessibility", "dictation"]
-summary: "Use dictation when spoken drafting is faster than typing and the capture, cleanup, and sending flow fits real work."
-domain: "general"
+title: Draft messages and notes faster with dictation
+category: use-cases
+lastUpdated: '2026-04-28'
+tags:
+  - ai
+  - writing
+  - communication
+  - accessibility
+  - dictation
+summary: >-
+  Use dictation when spoken drafting is faster than typing and the capture,
+  cleanup, and sending flow fits real work.
+domain: general
 domainOrder: 0
-stage: "select"
+stage: select
 stageOrder: 2
-value: 3
+value: 2
 effort: 1
 ---
 

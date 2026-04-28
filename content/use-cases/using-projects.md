@@ -1,0 +1,47 @@
+---
+title: Use Projects to keep AI work organized by context
+category: use-cases
+lastUpdated: '2026-04-28'
+tags:
+  - ai
+  - projects
+  - context
+  - collaboration
+  - planning
+summary: >-
+  Use Projects when a team needs persistent context, files, decisions, and
+  instructions around a specific workstream instead of restarting every AI chat
+  from zero.
+domain: general
+domainOrder: 0
+stage: enable
+stageOrder: 3
+value: 3
+effort: 1
+---
+
+## What it is, how it works
+
+- A persistent workspace for a product, campaign, client, initiative, or operating process.
+- Keeps instructions, reference files, decisions, and recent context together.
+- Reduces repeated setup and makes handoffs easier.
+
+## When not to use it
+
+- Do not use for quick one-off questions.
+- Do not use as a dumping ground for every file.
+- Do use when the same context will matter across multiple sessions or people.
+
+## How to get started
+
+- Create one project for one workstream.
+- Add only the files and instructions that materially change output quality.
+- Capture decisions and constraints in a short project note.
+- Review the project monthly and remove stale context.
+
+## Best practices / further reading
+
+- Keep project boundaries clear.
+- Prefer current source files over copied stale excerpts.
+- Name the project after the outcome, not the tool.
+- Related: [Use MCP to connect AI assistants to real work context](./using-mcp.md)

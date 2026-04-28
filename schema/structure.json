@@ -50,18 +50,35 @@
       ]
     },
     {
+      "id": "guides",
+      "label": "Guides",
+      "files": [
+        "ai-adoption-guide"
+      ]
+    },
+    {
       "id": "use-cases",
       "label": "Use Cases",
       "files": [
         "ai-for-software-engineers",
         "best-ai-for-work",
         "dictation-ais",
+        "revealjs-vibe-coding-slides",
+        "using-mcp",
+        "using-projects",
+        "using-skills",
         "website-vibe-coding",
         "workflow-automation-when-to-automate"
       ]
     }
   ],
   "domains": [
+    {
+      "id": "general",
+      "group": "shared",
+      "label": "General",
+      "stages": []
+    },
     {
       "id": "hr",
       "group": "shared",
@@ -409,9 +426,9 @@
     {
       "slug": "ai-for-software-engineers",
       "title": "Choose a default AI assistant for software engineering",
-      "summary": "Choose one default AI workflow for engineering based on whether the team works in the editor, in the terminal, or through delegated agent tasks.",
-      "domain": "it",
-      "stage": "select",
+      "summary": "Choose one default AI workflow for engineering based on where the team already works and how much review discipline it has.",
+      "domain": "software",
+      "stage": "build",
       "tags": [
         "ai",
         "software-engineering",
@@ -419,13 +436,13 @@
         "workflow",
         "engineering"
       ],
-      "lastUpdated": "2026-04-16"
+      "lastUpdated": "2026-04-28"
     },
     {
       "slug": "best-ai-for-work",
       "title": "Choose a default AI assistant for team knowledge work",
-      "summary": "Pick one default AI assistant for everyday team work based on where work already happens, how people write, and what the rollout will actually support.",
-      "domain": "it",
+      "summary": "Pick one default AI assistant for everyday team work based on where work already happens and what rollout support exists.",
+      "domain": "general",
       "stage": "select",
       "tags": [
         "ai",
@@ -434,13 +451,13 @@
         "decision-making",
         "knowledge-work"
       ],
-      "lastUpdated": "2026-04-16"
+      "lastUpdated": "2026-04-27"
     },
     {
       "slug": "dictation-ais",
       "title": "Draft messages and notes faster with dictation",
-      "summary": "Use dictation when spoken drafting is faster than typing and the capture, cleanup, and sending flow fits how people actually write.",
-      "domain": "it",
+      "summary": "Use dictation when spoken drafting is faster than typing and the capture, cleanup, and sending flow fits real work.",
+      "domain": "general",
       "stage": "select",
       "tags": [
         "ai",
@@ -449,37 +466,99 @@
         "accessibility",
         "dictation"
       ],
-      "lastUpdated": "2026-04-16"
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "revealjs-vibe-coding-slides",
+      "title": "Vibe-code workshop slides with Reveal.js",
+      "summary": "Use AI and Reveal.js to build workshop slides quickly when the story, interaction model, and review loop are more important than a polished static deck.",
+      "domain": "general",
+      "stage": "create",
+      "tags": [
+        "ai",
+        "vibe-coding",
+        "slides",
+        "revealjs",
+        "workshops"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "using-mcp",
+      "title": "Use MCP to connect AI assistants to real work context",
+      "summary": "Use MCP when an AI assistant needs controlled access to tools, docs, repositories, or work history instead of relying on pasted context.",
+      "domain": "general",
+      "stage": "enable",
+      "tags": [
+        "ai",
+        "mcp",
+        "context",
+        "integrations",
+        "tools"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "using-projects",
+      "title": "Use Projects to keep AI work organized by context",
+      "summary": "Use Projects when a team needs persistent context, files, decisions, and instructions around a specific workstream instead of restarting every AI chat from zero.",
+      "domain": "general",
+      "stage": "enable",
+      "tags": [
+        "ai",
+        "projects",
+        "context",
+        "collaboration",
+        "planning"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "using-skills",
+      "title": "Use skills to standardize repeatable AI work",
+      "summary": "Use skills when a team repeats the same AI workflow often enough that prompts, references, and operating rules should live in a reusable playbook.",
+      "domain": "general",
+      "stage": "enable",
+      "tags": [
+        "ai",
+        "skills",
+        "codex",
+        "standardization",
+        "workflow"
+      ],
+      "lastUpdated": "2026-04-28"
     },
     {
       "slug": "website-vibe-coding",
-      "title": "Ship a marketing page fast without design drift",
-      "summary": "Ship landing pages quickly by constraining AI inside a real design system, a clear page goal, and a review loop that prevents site drift.",
-      "domain": "marketing",
-      "stage": "create",
+      "title": "Vibe-code marketing websites without becoming a software engineer",
+      "summary": "Use AI to ship marketing pages as a non-software engineer by constraining the work to a clear brief, existing design system, and review loop.",
+      "domain": "general",
+      "stage": "select",
       "tags": [
-        "shipping",
+        "vibe-coding",
         "marketing",
         "website",
         "design",
-        "ai"
+        "ai",
+        "non-engineers"
       ],
-      "lastUpdated": "2026-04-16"
+      "lastUpdated": "2026-04-28"
     },
     {
       "slug": "workflow-automation-when-to-automate",
-      "title": "Decide which workflow should be automated",
-      "summary": "Choose automation targets that are repetitive, stable, visible, and owned instead of automating messy work that becomes maintenance overhead.",
-      "domain": "operations",
-      "stage": "prioritize",
+      "title": "Automate workflows by starting with one specific flow",
+      "summary": "Automate workflows by choosing one specific, stable flow with clear triggers, outputs, exceptions, and ownership.",
+      "domain": "general",
+      "stage": "select",
       "tags": [
         "automation",
         "workflow",
         "ai",
         "systems",
-        "operations"
+        "operations",
+        "flows"
       ],
-      "lastUpdated": "2026-04-16"
+      "lastUpdated": "2026-04-28"
     }
   ]
 }

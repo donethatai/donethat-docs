@@ -90,7 +90,7 @@ function validateUseCase(relFromRoot, parsed, domainMap) {
   if (!terminologyDomain) {
     throw new Error(`${relFromRoot} has unknown domain '${domain}'`);
   }
-  if (!terminologyDomain.stages.includes(stage)) {
+  if (terminologyDomain.stages.length > 0 && !terminologyDomain.stages.includes(stage)) {
     throw new Error(
       `${relFromRoot} has invalid stage '${stage}' for domain '${domain}'`
     );
@@ -246,4 +246,3 @@ function main() {
 }
 
 main();
-

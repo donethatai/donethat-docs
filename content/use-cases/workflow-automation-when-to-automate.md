@@ -1,32 +1,40 @@
 ---
-title: "Decide which workflow should be automated"
-category: "use-cases"
-lastUpdated: "2026-04-27"
-tags: ["automation", "workflow", "ai", "systems", "operations"]
-summary: "Choose automation targets that are repetitive, stable, visible, and owned instead of automating messy work."
-domain: "operations"
-domainOrder: 2
-stage: "prioritize"
+title: Automate workflows by starting with one specific flow
+category: use-cases
+lastUpdated: '2026-04-28'
+tags:
+  - automation
+  - workflow
+  - ai
+  - systems
+  - operations
+  - flows
+summary: >-
+  Automate workflows by choosing one specific, stable flow with clear triggers,
+  outputs, exceptions, and ownership.
+domain: general
+domainOrder: 0
+stage: select
 stageOrder: 1
 value: 5
-effort: 3
-function: "operations"
+effort: 4
 ---
 
 ## What it is, how it works
 
-- A decision test for automation candidates.
-- Covers classic automation, repo automation, AI-assisted workflows, and deletion.
-- Focuses on value, failure visibility, and ownership.
+- A way to choose automation work by naming the exact flow, not the department.
+- Covers classic automation, AI-assisted workflows, handoffs, approvals, and deletion.
+- Focuses on trigger, inputs, outputs, exceptions, failure visibility, and ownership.
 
 ## When not to use it
 
 - Do not use when nobody agrees how the manual process works.
 - Do not use when failure has no visible owner.
-- Do use before building scripts, workflows, or agent steps.
+- Do use before buying a workflow tool, building scripts, or adding agent steps.
 
 ## How to get started
 
+- Pick one specific flow, such as "new lead to qualified meeting" or "invoice received to approved."
 - Capture trigger, inputs, steps, outputs, exceptions, and failure impact.
 - Score volume, variance, reversibility, visibility, and ownership.
 - Automate the smallest stable slice.
@@ -37,4 +45,4 @@ function: "operations"
 - Do not automate broken work.
 - Use deterministic rules where rules are enough.
 - Assign a real owner after launch.
-- Related: [Ship a marketing page fast without design drift](./website-vibe-coding.md)
+- Related: [Vibe-code marketing websites without becoming a software engineer](./website-vibe-coding.md)
