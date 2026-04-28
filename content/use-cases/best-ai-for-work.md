@@ -4,14 +4,13 @@ category: "use-cases"
 lastUpdated: "2026-04-27"
 tags: ["ai", "writing", "analysis", "decision-making", "knowledge-work"]
 summary: "Pick one default AI assistant for everyday team work based on where work already happens and what rollout support exists."
-domain: "it"
-domainOrder: 1
+domain: "general"
+domainOrder: 0
 stage: "select"
 stageOrder: 1
 pinned: 2
 value: 4
 effort: 2
-function: "it"
 ---
 
 ## What it is, how it works

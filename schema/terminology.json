@@ -1,6 +1,12 @@
 {
   "domains": [
     {
+      "id": "general",
+      "group": "shared",
+      "label": "General",
+      "stages": ["discover", "select", "adopt", "scale"]
+    },
+    {
       "id": "hr",
       "group": "shared",
       "label": "HR",

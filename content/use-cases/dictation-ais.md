@@ -4,13 +4,12 @@ category: "use-cases"
 lastUpdated: "2026-04-27"
 tags: ["ai", "writing", "communication", "accessibility", "dictation"]
 summary: "Use dictation when spoken drafting is faster than typing and the capture, cleanup, and sending flow fits real work."
-domain: "it"
-domainOrder: 1
+domain: "general"
+domainOrder: 0
 stage: "select"
-stageOrder: 1
+stageOrder: 2
 value: 3
 effort: 1
-function: "it"
 ---
 
 ## What it is, how it works

@@ -4,13 +4,12 @@ category: "use-cases"
 lastUpdated: "2026-04-27"
 tags: ["shipping", "marketing", "website", "design", "ai"]
 summary: "Ship landing pages quickly by constraining AI inside a real design system, clear page goal, and review loop."
-domain: "marketing"
-domainOrder: 3
-stage: "create"
-stageOrder: 1
+domain: "general"
+domainOrder: 0
+stage: "select"
+stageOrder: 3
 value: 4
 effort: 2
-function: "marketing"
 ---
 
 ## What it is, how it works
