@@ -50,6 +50,9 @@ function loadTerminology() {
   if (!Array.isArray(parsed.domains)) {
     throw new Error("schema/terminology.json must contain a 'domains' array");
   }
+  if (!Array.isArray(parsed.outcomes)) {
+    throw new Error("schema/terminology.json must contain an 'outcomes' array");
+  }
 
   const domains = parsed.domains.map((domain) => {
     if (!domain.id || !domain.group || !domain.label || !Array.isArray(domain.stages)) {
@@ -63,27 +66,61 @@ function loadTerminology() {
       stages: domain.stages,
     };
   });
+  const outcomes = parsed.outcomes.map((outcome) => {
+    if (!outcome.id || !outcome.label) {
+      throw new Error(`Invalid outcome entry: ${JSON.stringify(outcome)}`);
+    }
+
+    return {
+      id: outcome.id,
+      label: outcome.label,
+    };
+  });
 
   return {
     domains,
+    outcomes,
     domainMap: new Map(domains.map((domain) => [domain.id, domain])),
+    outcomeMap: new Map(outcomes.map((outcome) => [outcome.id, outcome])),
   };
 }
 
-function validateUseCase(relFromRoot, parsed, domainMap) {
-  const { title, summary, domain, stage } = parsed.data;
+function getDescriptionFromContent(content) {
+  const paragraph = content
+    .split(/\n\s*\n/g)
+    .map((block) => block.trim())
+    .find((block) => block && !block.startsWith("#"));
+
+  if (!paragraph) return "";
+
+  return paragraph
+    .replace(/\s+/g, " ")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .trim();
+}
+
+function validateUseCase(relFromRoot, parsed, domainMap, outcomeMap) {
+  const { title, summary, domain, stage, outcome } = parsed.data;
 
   if (!title) {
     throw new Error(`${relFromRoot} is missing required 'title'`);
   }
-  if (!summary) {
-    throw new Error(`${relFromRoot} is missing required 'summary'`);
+  if (summary) {
+    throw new Error(`${relFromRoot} should use the first body paragraph instead of frontmatter 'summary'`);
   }
   if (!domain) {
     throw new Error(`${relFromRoot} is missing required 'domain'`);
   }
   if (!stage) {
     throw new Error(`${relFromRoot} is missing required 'stage'`);
+  }
+  if (!Array.isArray(outcome) || outcome.length === 0) {
+    throw new Error(`${relFromRoot} is missing required non-empty 'outcome' array`);
+  }
+  for (const value of outcome) {
+    if (!outcomeMap.has(value)) {
+      throw new Error(`${relFromRoot} has invalid outcome '${value}'`);
+    }
   }
 
   const terminologyDomain = domainMap.get(domain);
@@ -95,6 +132,13 @@ function validateUseCase(relFromRoot, parsed, domainMap) {
       `${relFromRoot} has invalid stage '${stage}' for domain '${domain}'`
     );
   }
+
+  const description = getDescriptionFromContent(parsed.content);
+  if (!description) {
+    throw new Error(`${relFromRoot} is missing a first body paragraph description`);
+  }
+
+  return description;
 }
 
 function regenerateStructure(today, changedDocs) {
@@ -103,7 +147,7 @@ function regenerateStructure(today, changedDocs) {
   const files = getMarkdownFiles(CONTENT_DIR);
   const categories = new Map();
   const useCases = [];
-  const { domains, domainMap } = loadTerminology();
+  const { domains, outcomes, domainMap, outcomeMap } = loadTerminology();
 
   for (const file of files) {
     const raw = fs.readFileSync(file, "utf8");
@@ -140,13 +184,15 @@ function regenerateStructure(today, changedDocs) {
     }
 
     if (category === "use-cases") {
-      validateUseCase(relFromRoot, parsed, domainMap);
+      const summary = validateUseCase(relFromRoot, parsed, domainMap, outcomeMap);
       useCases.push({
         slug,
+        path: relFromRoot,
         title: parsed.data.title,
-        summary: parsed.data.summary,
+        summary,
         domain: parsed.data.domain,
         stage: parsed.data.stage,
+        outcome: parsed.data.outcome,
         tags: Array.isArray(parsed.data.tags) ? parsed.data.tags : [],
         lastUpdated: parsed.data.lastUpdated || null,
       });
@@ -158,6 +204,7 @@ function regenerateStructure(today, changedDocs) {
       .map((c) => ({ ...c, files: c.files.sort() }))
       .sort((a, b) => a.id.localeCompare(b.id)),
     domains,
+    outcomes,
     useCases: useCases.sort((a, b) => a.slug.localeCompare(b.slug)),
   };
 
@@ -180,7 +227,7 @@ function updateMetadata(today) {
 
 function getChangedDocPaths() {
   try {
-    const output = execSync("git status --porcelain", {
+    const output = execSync("git status --porcelain --untracked-files=all", {
       cwd: ROOT,
       stdio: ["ignore", "pipe", "ignore"],
     }).toString();

@@ -8,17 +8,17 @@ tags:
   - context
   - collaboration
   - planning
-summary: >-
-  Use Projects when a team needs persistent context, files, decisions, and
-  instructions around a specific workstream instead of restarting every AI chat
-  from zero.
 domain: general
 domainOrder: 0
 stage: enable
 stageOrder: 3
 value: 3
 effort: 1
+outcome:
+  - quality
+  - speed
 ---
+AI Projects keep persistent instructions, files, decisions, and context around a workstream so teams do not restart every chat from zero.
 
 ## What it is, how it works
 

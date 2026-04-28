@@ -8,8 +8,6 @@ tags:
   - coding
   - workflow
   - engineering
-summary: >-
-  AIs to write your code for you. The most successful application of AI so far.
 domain: software
 domainOrder: 1
 stage: build
@@ -18,7 +16,11 @@ pinned: 1
 value: 5
 effort: 4
 industry: software
+outcome:
+  - speed
+  - quality
 ---
+Agentic engineering lets AI draft, refactor, and explain code for you, with the strongest results on boilerplate, repetitive implementation, and well-scoped changes that you can still review and maintain.
 
 ## What it is, how it works
 
@@ -42,4 +44,4 @@ industry: software
 
 - Watch token usage, pricing models are changing
 - Use an AGENTS.md file to give context on your repos
-- Related: [Vibe Coding](./website-vibe-coding.md)
+- Related: [Vibe Coding](../general/website-vibe-coding.md)

@@ -8,16 +8,17 @@ tags:
   - context
   - integrations
   - tools
-summary: >-
-  Use MCP when an AI assistant needs controlled access to tools, docs,
-  repositories, or work history instead of relying on pasted context.
 domain: general
 domainOrder: 0
 stage: enable
 stageOrder: 2
 value: 3
 effort: 2
+outcome:
+  - quality
+  - speed
 ---
+MCP gives AI assistants controlled access to tools, documents, repositories, and work history, turning repeated copy-paste context into scoped integrations.
 
 ## What it is, how it works
 

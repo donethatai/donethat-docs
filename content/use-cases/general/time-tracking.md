@@ -8,16 +8,17 @@ tags:
   - productivity
   - timesheets
   - analytics
-summary: >-
-  Use AI time tracking when you need a reliable picture of where work goes
-  without asking people to run timers all day.
 domain: general
 domainOrder: 0
 stage: select
 stageOrder: 4
 value: 4
 effort: 2
+outcome:
+  - quality
+  - cost
 ---
+AI time tracking reconstructs work from apps, websites, files, calendars, and summaries so people can understand where time goes without running manual timers all day.
 
 ## What it is, how it works
 

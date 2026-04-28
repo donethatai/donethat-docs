@@ -8,16 +8,17 @@ tags:
   - transcription
   - notes
   - collaboration
-summary: >-
-  Use meeting transcription when a written record, searchable recap, or action
-  list is worth the consent and cleanup overhead.
 domain: general
 domainOrder: 0
 stage: select
 stageOrder: 3
 value: 3
 effort: 1
+outcome:
+  - quality
+  - speed
 ---
+Meeting transcription turns conversations into transcripts, notes, summaries, and action lists when a searchable written record is worth the consent, policy, and cleanup overhead.
 
 ## What it is, how it works
 

@@ -60,12 +60,47 @@
       "id": "use-cases",
       "label": "Use Cases",
       "files": [
+        "adversarial-cull-check",
+        "adversarial-scope-auditor",
         "ai-for-software-engineers",
+        "audience-specific-re-narrator",
+        "bar-setter-from-comparable-corpus",
         "best-ai-for-work",
+        "calibration-aware-aggregator",
+        "claim-grounded-source-verifier",
+        "code-grounded-quant-red-teamer",
+        "counterfactual-scope-tracker",
+        "cross-org-scoping-intelligence",
+        "cross-report-consistency-checker",
         "data-enrichment",
+        "decision-outcome-linker",
+        "decomposed-triage-scorer",
         "dictation-ais",
+        "disagreement-as-signal-router",
+        "expert-elicitation-structurer",
+        "falsification-first-reviewer",
+        "heterogeneous-source-harvester",
+        "hypothesis-verifier-quantifier-triplet",
+        "idea-quality-predictor",
+        "implementation-feedback-loop",
+        "living-document-updater",
         "meeting-transcription",
+        "negative-result-archaeologist",
+        "open-question-packager",
+        "outcome-linked-prior-art-retriever",
+        "pastcasting-calibration-trainer",
+        "persona-panel-review",
+        "practitioner-intelligence-gatherer",
+        "pre-meeting-steelman-pair",
+        "pre-mortem-generator",
+        "pre-registered-decision-criteria-checker",
+        "probabilistic-decision-register",
+        "probabilistic-quant-drafter-with-explicit-priors",
+        "reference-class-pre-loader",
         "revealjs-vibe-coding-slides",
+        "sensitivity-driven-research-scoper",
+        "stakeholder-pre-elicitor",
+        "structured-disagreement-protocol",
         "time-tracking",
         "using-mcp",
         "using-projects",
@@ -366,6 +401,20 @@
       ]
     },
     {
+      "id": "research",
+      "group": "specific",
+      "label": "Research",
+      "stages": [
+        "scope",
+        "source",
+        "triage",
+        "shallow-assess",
+        "deep-assess",
+        "decide",
+        "hand-over"
+      ]
+    },
+    {
       "id": "nonprofit",
       "group": "specific",
       "label": "Nonprofit",
@@ -426,13 +475,68 @@
       ]
     }
   ],
+  "outcomes": [
+    {
+      "id": "cost",
+      "label": "Cost"
+    },
+    {
+      "id": "quality",
+      "label": "Quality"
+    },
+    {
+      "id": "speed",
+      "label": "Speed"
+    }
+  ],
   "useCases": [
     {
+      "slug": "adversarial-cull-check",
+      "path": "content/use-cases/research/adversarial-cull-check.md",
+      "title": "Adversarial cull-check",
+      "summary": "Adversarial cull-check independently re-scores a sample of dropped candidates with an advocate agent to surface ideas that may have been rejected for weak or incomplete reasons.",
+      "domain": "research",
+      "stage": "triage",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "triage",
+        "coverage"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "adversarial-scope-auditor",
+      "path": "content/use-cases/research/adversarial-scope-auditor.md",
+      "title": "Adversarial scope auditor",
+      "summary": "Adversarial scope auditor runs a bounded multi-agent debate across skeptic, advocate, and methodologist personas to interrogate proposed research scope for gameable boundaries, hidden assumptions, and missing dimensions.",
+      "domain": "research",
+      "stage": "scope",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "scope",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "ai-for-software-engineers",
+      "path": "content/use-cases/software/ai-for-software-engineers.md",
       "title": "Agentic Engineering",
-      "summary": "AIs to write your code for you. The most successful application of AI so far.",
+      "summary": "Agentic engineering lets AI draft, refactor, and explain code for you, with the strongest results on boilerplate, repetitive implementation, and well-scoped changes that you can still review and maintain.",
       "domain": "software",
       "stage": "build",
+      "outcome": [
+        "speed",
+        "quality"
+      ],
       "tags": [
         "ai",
         "software-engineering",
@@ -443,11 +547,53 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "audience-specific-re-narrator",
+      "path": "content/use-cases/research/audience-specific-re-narrator.md",
+      "title": "Audience-specific re-narrator",
+      "summary": "Audience-specific re-narrator produces separate technical, operational, and executive versions of a deep-dive so reviewers, implementers, and funders receive the version they can use.",
+      "domain": "research",
+      "stage": "hand-over",
+      "outcome": [
+        "speed",
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "hand-over",
+        "efficiency"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "bar-setter-from-comparable-corpus",
+      "path": "content/use-cases/research/bar-setter-from-comparable-corpus.md",
+      "title": "Bar-setter from comparable corpus",
+      "summary": "Bar-setter from comparable corpus pulls past decisions, grants, and recommendations from an archive with their resolved outcomes and surfaces the implied bar each decision used.",
+      "domain": "research",
+      "stage": "scope",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "scope",
+        "calibration"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "best-ai-for-work",
+      "path": "content/use-cases/general/best-ai-for-work.md",
       "title": "AI assistants",
-      "summary": "Start here if you never did anything. Get an AI assistant and start experimenting.",
+      "summary": "AI assistants are the starting point for most workplace AI adoption: use them to brainstorm, challenge ideas, analyze questions, draft text, and build judgment by comparing responses across tools.",
       "domain": "general",
       "stage": "select",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
       "tags": [
         "ai",
         "writing",
@@ -455,14 +601,128 @@
         "decision-making",
         "knowledge-work"
       ],
-      "lastUpdated": "2026-04-27"
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "calibration-aware-aggregator",
+      "path": "content/use-cases/research/calibration-aware-aggregator.md",
+      "title": "Calibration-aware aggregator",
+      "summary": "Calibration-aware aggregator weights each rater's score by their historical calibration on past rounds when outcomes are known.",
+      "domain": "research",
+      "stage": "triage",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "triage",
+        "calibration"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "claim-grounded-source-verifier",
+      "path": "content/use-cases/research/claim-grounded-source-verifier.md",
+      "title": "Claim-grounded source verifier",
+      "summary": "Claim-grounded source verifier links each claim in a draft assessment to the specific cited passage that supports it and flags citations that do not say what the draft claims.",
+      "domain": "research",
+      "stage": "shallow-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "shallow-assess",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "code-grounded-quant-red-teamer",
+      "path": "content/use-cases/research/code-grounded-quant-red-teamer.md",
+      "title": "Code-grounded quant red-teamer",
+      "summary": "Code-grounded quant red-teamer runs alternative parameterizations, Monte Carlo perturbations, and structural reformulations against the actual quantitative model instead of only critiquing it in prose.",
+      "domain": "research",
+      "stage": "deep-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "deep-assess",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "counterfactual-scope-tracker",
+      "path": "content/use-cases/research/counterfactual-scope-tracker.md",
+      "title": "Counterfactual scope tracker",
+      "summary": "Counterfactual scope tracker follows not only what the recipient does, but also what the report recommended against and how those alternatives evolved.",
+      "domain": "research",
+      "stage": "hand-over",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "hand-over",
+        "knowledge-retention"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "cross-org-scoping-intelligence",
+      "path": "content/use-cases/research/cross-org-scoping-intelligence.md",
+      "title": "Cross-org scoping intelligence",
+      "summary": "Cross-org scoping intelligence scans funder roadmaps, conference abstracts, and recent literature trends to identify what adjacent research organizations appear to be scoping toward.",
+      "domain": "research",
+      "stage": "scope",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "scope",
+        "coverage"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "cross-report-consistency-checker",
+      "path": "content/use-cases/research/cross-report-consistency-checker.md",
+      "title": "Cross-report consistency checker",
+      "summary": "Cross-report consistency checker compares deep dives running in parallel and flags inconsistent assumptions such as discount rates, value-of-life inputs, or comparator baselines.",
+      "domain": "research",
+      "stage": "deep-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "deep-assess",
+        "consistency"
+      ],
+      "lastUpdated": "2026-04-28"
     },
     {
       "slug": "data-enrichment",
+      "path": "content/use-cases/general/data-enrichment.md",
       "title": "Data enrichment",
-      "summary": "Use AI data enrichment when rows need classification, summaries, cleanup, or missing context and manual spreadsheet work is slowing you down.",
+      "summary": "AI data enrichment adds generated classifications, summaries, extracted fields, cleanup, or missing context to spreadsheet rows when manual review is slowing down the work.",
       "domain": "general",
       "stage": "select",
+      "outcome": [
+        "speed",
+        "quality"
+      ],
       "tags": [
         "ai",
         "spreadsheets",
@@ -473,11 +733,52 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "decision-outcome-linker",
+      "path": "content/use-cases/research/decision-outcome-linker.md",
+      "title": "Decision-outcome linker",
+      "summary": "Decision-outcome linker predicts 12- and 24-month outcomes for each recommendation at decision time and stores those predictions against the actual decision.",
+      "domain": "research",
+      "stage": "decide",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "decide",
+        "knowledge-retention"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "decomposed-triage-scorer",
+      "path": "content/use-cases/research/decomposed-triage-scorer.md",
+      "title": "Decomposed-triage scorer",
+      "summary": "Decomposed-triage scorer breaks each candidate into independent sub-questions such as importance, tractability, neglectedness, reversibility, and talent fit before recombining the score.",
+      "domain": "research",
+      "stage": "triage",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "triage",
+        "calibration"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "dictation-ais",
+      "path": "content/use-cases/general/dictation-ais.md",
       "title": "Dictation AIs",
-      "summary": "Use dictation when spoken drafting is faster than typing and the capture, cleanup, and sending flow fits real work.",
+      "summary": "Dictation AIs turn speech into working text when speaking is faster than typing, especially for drafting, communication, accessibility needs, or getting past a blank page.",
       "domain": "general",
       "stage": "select",
+      "outcome": [
+        "speed"
+      ],
       "tags": [
         "ai",
         "writing",
@@ -488,11 +789,163 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "disagreement-as-signal-router",
+      "path": "content/use-cases/research/disagreement-as-signal-router.md",
+      "title": "Disagreement-as-signal router",
+      "summary": "Disagreement-as-signal router sends high-variance candidates to more triage time instead of treating disagreement as noise to average away.",
+      "domain": "research",
+      "stage": "triage",
+      "outcome": [
+        "speed",
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "triage",
+        "efficiency"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "expert-elicitation-structurer",
+      "path": "content/use-cases/research/expert-elicitation-structurer.md",
+      "title": "Expert-elicitation structurer",
+      "summary": "Expert-elicitation structurer prepares probability elicitation questions for interviews and turns expert responses into structured priors that feed the quantitative model.",
+      "domain": "research",
+      "stage": "deep-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "deep-assess",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "falsification-first-reviewer",
+      "path": "content/use-cases/research/falsification-first-reviewer.md",
+      "title": "Falsification-first reviewer",
+      "summary": "Falsification-first reviewer asks what evidence would falsify the report's central claim and whether the report has engaged with that evidence.",
+      "domain": "research",
+      "stage": "deep-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "deep-assess",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "heterogeneous-source-harvester",
+      "path": "content/use-cases/research/heterogeneous-source-harvester.md",
+      "title": "Heterogeneous-source harvester",
+      "summary": "Heterogeneous-source harvester deliberately searches across academic papers, grey literature, practitioner blogs, government reports, and non-English sources to reduce narrow source bias.",
+      "domain": "research",
+      "stage": "source",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "source",
+        "coverage"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "hypothesis-verifier-quantifier-triplet",
+      "path": "content/use-cases/research/hypothesis-verifier-quantifier-triplet.md",
+      "title": "Hypothesis-Verifier-Quantifier triplet",
+      "summary": "Hypothesis-Verifier-Quantifier triplet separates shallow assessment into three agents: one generates concerns, one verifies them against sources, and one tests surviving concerns in the quantitative model.",
+      "domain": "research",
+      "stage": "shallow-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "shallow-assess",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "idea-quality-predictor",
+      "path": "content/use-cases/research/idea-quality-predictor.md",
+      "title": "Idea-quality predictor",
+      "summary": "Idea-quality predictor uses historical long-list to deep-dive outcomes to estimate which new candidates are unlikely to survive later review, freeing triage attention for uncertain tail cases.",
+      "domain": "research",
+      "stage": "source",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "source",
+        "calibration"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "implementation-feedback-loop",
+      "path": "content/use-cases/research/implementation-feedback-loop.md",
+      "title": "Implementation feedback loop",
+      "summary": "Implementation feedback loop runs structured check-ins with recipients to capture what was validated, what was wrong, and what the report should have said.",
+      "domain": "research",
+      "stage": "hand-over",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "hand-over",
+        "knowledge-retention"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "living-document-updater",
+      "path": "content/use-cases/research/living-document-updater.md",
+      "title": "Living-document updater",
+      "summary": "Living-document updater periodically checks key claims in a handover document against new evidence and flags when conclusions become unstable.",
+      "domain": "research",
+      "stage": "hand-over",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "hand-over",
+        "knowledge-retention"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "meeting-transcription",
+      "path": "content/use-cases/general/meeting-transcription.md",
       "title": "Meeting transcription",
-      "summary": "Use meeting transcription when a written record, searchable recap, or action list is worth the consent and cleanup overhead.",
+      "summary": "Meeting transcription turns conversations into transcripts, notes, summaries, and action lists when a searchable written record is worth the consent, policy, and cleanup overhead.",
       "domain": "general",
       "stage": "select",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
       "tags": [
         "ai",
         "meetings",
@@ -503,11 +956,234 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "negative-result-archaeologist",
+      "path": "content/use-cases/research/negative-result-archaeologist.md",
+      "title": "Negative-result archaeologist",
+      "summary": "Negative-result archaeologist searches for registered-but-unpublished trials, retracted papers, discontinued programs, and other evidence that published literature systematically hides.",
+      "domain": "research",
+      "stage": "source",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "source",
+        "coverage"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "open-question-packager",
+      "path": "content/use-cases/research/open-question-packager.md",
+      "title": "Open-question packager",
+      "summary": "Open-question packager extracts unresolved uncertainties from a report and turns each into an actionable research brief for the recipient.",
+      "domain": "research",
+      "stage": "hand-over",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "hand-over",
+        "knowledge-retention"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "outcome-linked-prior-art-retriever",
+      "path": "content/use-cases/research/outcome-linked-prior-art-retriever.md",
+      "title": "Outcome-linked prior-art retriever",
+      "summary": "Outcome-linked prior-art retriever finds prior internal work on similar candidates and shows what happened next: where each was dropped, why, and what has changed since.",
+      "domain": "research",
+      "stage": "source",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "source",
+        "knowledge-retention"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "pastcasting-calibration-trainer",
+      "path": "content/use-cases/research/pastcasting-calibration-trainer.md",
+      "title": "Pastcasting calibration trainer",
+      "summary": "Pastcasting calibration trainer turns archived cases into training exercises where researchers see only the evidence available at the time and forecast the eventual decision.",
+      "domain": "research",
+      "stage": "shallow-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "shallow-assess",
+        "calibration"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "persona-panel-review",
+      "path": "content/use-cases/research/persona-panel-review.md",
+      "title": "Persona panel review",
+      "summary": "Persona panel review has heterogeneous reviewer personas produce distinct critiques of a deep-dive report, such as skeptical methodologist, domain expert, implementation realist, base-rate thinker, and decision-maker.",
+      "domain": "research",
+      "stage": "deep-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "deep-assess",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "practitioner-intelligence-gatherer",
+      "path": "content/use-cases/research/practitioner-intelligence-gatherer.md",
+      "title": "Practitioner intelligence gatherer",
+      "summary": "Practitioner intelligence gatherer collects implementer reports, evaluations, and public program documentation that contain operational evidence but are rarely indexed academically.",
+      "domain": "research",
+      "stage": "source",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "source",
+        "coverage"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "pre-meeting-steelman-pair",
+      "path": "content/use-cases/research/pre-meeting-steelman-pair.md",
+      "title": "Pre-meeting steelman pair",
+      "summary": "Pre-meeting steelman pair generates the strongest case for and against each finalist from the report and adversarial review before the decision meeting.",
+      "domain": "research",
+      "stage": "decide",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "decide",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "pre-mortem-generator",
+      "path": "content/use-cases/research/pre-mortem-generator.md",
+      "title": "Pre-mortem generator",
+      "summary": "Pre-mortem generator asks what would have gone wrong if the research round produced a useless answer, forcing the team to identify round-design failures before they become expensive.",
+      "domain": "research",
+      "stage": "scope",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "scope",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "pre-registered-decision-criteria-checker",
+      "path": "content/use-cases/research/pre-registered-decision-criteria-checker.md",
+      "title": "Pre-registered decision criteria checker",
+      "summary": "Pre-registered decision criteria checker scores candidates against the round's agreed criteria before the meeting and flags when discussion drifts toward post-hoc standards.",
+      "domain": "research",
+      "stage": "decide",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "decide",
+        "consistency"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "probabilistic-decision-register",
+      "path": "content/use-cases/research/probabilistic-decision-register.md",
+      "title": "Probabilistic decision register",
+      "summary": "Probabilistic decision register records recommendations as probability distributions rather than binary recommend-or-drop outcomes.",
+      "domain": "research",
+      "stage": "decide",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "decide",
+        "calibration"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "probabilistic-quant-drafter-with-explicit-priors",
+      "path": "content/use-cases/research/probabilistic-quant-drafter-with-explicit-priors.md",
+      "title": "Probabilistic quant-drafter with explicit priors",
+      "summary": "Probabilistic quant-drafter with explicit priors builds a first-pass model with distributions for each input and runs Monte Carlo analysis from the start.",
+      "domain": "research",
+      "stage": "shallow-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "shallow-assess",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "reference-class-pre-loader",
+      "path": "content/use-cases/research/reference-class-pre-loader.md",
+      "title": "Reference-class pre-loader",
+      "summary": "Reference-class pre-loader surfaces the nearest historical analogues for each candidate, including internal and external examples with their actual outcomes.",
+      "domain": "research",
+      "stage": "triage",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "triage",
+        "calibration"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "revealjs-vibe-coding-slides",
+      "path": "content/use-cases/general/revealjs-vibe-coding-slides.md",
       "title": "Vibe-Coding Slides",
-      "summary": "Automatically create slides with different AI tools",
+      "summary": "Vibe-coding slides means using AI tools to create presentation decks quickly, especially when the format is changing and speed matters more than a heavily designed slide workflow.",
       "domain": "general",
       "stage": "create",
+      "outcome": [
+        "speed",
+        "cost"
+      ],
       "tags": [
         "ai",
         "vibe-coding",
@@ -518,11 +1194,71 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "sensitivity-driven-research-scoper",
+      "path": "content/use-cases/research/sensitivity-driven-research-scoper.md",
+      "title": "Sensitivity-driven research scoper",
+      "summary": "Sensitivity-driven research scoper analyzes a draft model and ranks the inputs where better evidence would most reduce decision uncertainty.",
+      "domain": "research",
+      "stage": "shallow-assess",
+      "outcome": [
+        "speed",
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "shallow-assess",
+        "efficiency"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "stakeholder-pre-elicitor",
+      "path": "content/use-cases/research/stakeholder-pre-elicitor.md",
+      "title": "Stakeholder pre-elicitor",
+      "summary": "Stakeholder pre-elicitor gathers structured input from funders, partners, and decision-makers before the round starts so the team does not discover late that it optimized for the wrong audience.",
+      "domain": "research",
+      "stage": "scope",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "scope",
+        "coverage"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "structured-disagreement-protocol",
+      "path": "content/use-cases/research/structured-disagreement-protocol.md",
+      "title": "Structured-disagreement protocol",
+      "summary": "Structured-disagreement protocol extracts the specific assumptions behind committee disagreement, what evidence would resolve them, and whether resolving them is worth the cost.",
+      "domain": "research",
+      "stage": "decide",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "decide",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "time-tracking",
+      "path": "content/use-cases/general/time-tracking.md",
       "title": "Time tracking",
-      "summary": "Use AI time tracking when you need a reliable picture of where work goes without asking people to run timers all day.",
+      "summary": "AI time tracking reconstructs work from apps, websites, files, calendars, and summaries so people can understand where time goes without running manual timers all day.",
       "domain": "general",
       "stage": "select",
+      "outcome": [
+        "quality",
+        "cost"
+      ],
       "tags": [
         "ai",
         "time-tracking",
@@ -534,10 +1270,15 @@
     },
     {
       "slug": "using-mcp",
+      "path": "content/use-cases/general/using-mcp.md",
       "title": "MCP",
-      "summary": "Use MCP when an AI assistant needs controlled access to tools, docs, repositories, or work history instead of relying on pasted context.",
+      "summary": "MCP gives AI assistants controlled access to tools, documents, repositories, and work history, turning repeated copy-paste context into scoped integrations.",
       "domain": "general",
       "stage": "enable",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
       "tags": [
         "ai",
         "mcp",
@@ -549,10 +1290,15 @@
     },
     {
       "slug": "using-projects",
+      "path": "content/use-cases/general/using-projects.md",
       "title": "AI Projects",
-      "summary": "Use Projects when a team needs persistent context, files, decisions, and instructions around a specific workstream instead of restarting every AI chat from zero.",
+      "summary": "AI Projects keep persistent instructions, files, decisions, and context around a workstream so teams do not restart every chat from zero.",
       "domain": "general",
       "stage": "enable",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
       "tags": [
         "ai",
         "projects",
@@ -564,10 +1310,15 @@
     },
     {
       "slug": "using-skills",
+      "path": "content/use-cases/general/using-skills.md",
       "title": "AI Skills",
-      "summary": "Use skills when a team repeats the same AI workflow often enough that prompts, references, and operating rules should live in a reusable playbook.",
+      "summary": "AI Skills package repeated workflows into reusable instructions, references, and operating rules when ad hoc prompting produces inconsistent results.",
       "domain": "general",
       "stage": "enable",
+      "outcome": [
+        "quality",
+        "speed"
+      ],
       "tags": [
         "ai",
         "skills",
@@ -579,10 +1330,15 @@
     },
     {
       "slug": "vibe-scripting",
+      "path": "content/use-cases/general/vibe-scripting.md",
       "title": "Vibe scripting",
-      "summary": "Use vibe scripting when a small script can remove repeated spreadsheet or workspace busywork faster than a full automation project.",
+      "summary": "Vibe scripting uses AI to draft small scripts for spreadsheet or workspace busywork when a lightweight script is faster than a full automation project.",
       "domain": "general",
       "stage": "select",
+      "outcome": [
+        "speed",
+        "cost"
+      ],
       "tags": [
         "ai",
         "automation",
@@ -594,10 +1350,15 @@
     },
     {
       "slug": "website-vibe-coding",
+      "path": "content/use-cases/general/website-vibe-coding.md",
       "title": "Vibe-coding websites",
-      "summary": "Use AI to ship marketing pages as a non-software engineer by constraining the work to a clear brief, existing design system, and review loop.",
+      "summary": "Vibe-coding websites uses AI to ship prototypes, simple web apps, and marketing pages from a clear brief, existing design constraints, and a review loop.",
       "domain": "general",
       "stage": "select",
+      "outcome": [
+        "speed",
+        "cost"
+      ],
       "tags": [
         "vibe-coding",
         "marketing",
@@ -610,10 +1371,16 @@
     },
     {
       "slug": "workflow-automation-when-to-automate",
+      "path": "content/use-cases/general/workflow-automation-when-to-automate.md",
       "title": "Workflow automation",
-      "summary": "The holy grail of AI: Mostly legend but people still search for it. Automate workflows either by coding the workflow with AI or by using AI as part of the workflow.",
+      "summary": "Workflow automation uses AI or AI-generated code to remove predictable, repetitive work when triggers, inputs, outputs, exceptions, and ownership are clear.",
       "domain": "general",
       "stage": "select",
+      "outcome": [
+        "speed",
+        "cost",
+        "quality"
+      ],
       "tags": [
         "automation",
         "workflow",

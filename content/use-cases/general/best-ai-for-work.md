@@ -1,17 +1,25 @@
 ---
-title: "AI assistants"
-category: "use-cases"
-lastUpdated: "2026-04-27"
-tags: ["ai", "writing", "analysis", "decision-making", "knowledge-work"]
-summary: "Start here if you never did anything. Get an AI assistant and start experimenting."
-domain: "general"
+title: AI assistants
+category: use-cases
+lastUpdated: '2026-04-28'
+tags:
+  - ai
+  - writing
+  - analysis
+  - decision-making
+  - knowledge-work
+domain: general
 domainOrder: 0
-stage: "select"
+stage: select
 stageOrder: 1
 pinned: 2
 value: 4
 effort: 2
+outcome:
+  - quality
+  - speed
 ---
+AI assistants are the starting point for most workplace AI adoption: use them to brainstorm, challenge ideas, analyze questions, draft text, and build judgment by comparing responses across tools.
 
 ## What it is, how it works
 

@@ -8,16 +8,17 @@ tags:
   - scripts
   - google-workspace
   - excel
-summary: >-
-  Use vibe scripting when a small script can remove repeated spreadsheet or
-  workspace busywork faster than a full automation project.
 domain: general
 domainOrder: 0
 stage: select
 stageOrder: 6
 value: 4
 effort: 3
+outcome:
+  - speed
+  - cost
 ---
+Vibe scripting uses AI to draft small scripts for spreadsheet or workspace busywork when a lightweight script is faster than a full automation project.
 
 ## What it is, how it works
 

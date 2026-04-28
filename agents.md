@@ -8,8 +8,8 @@ Build logic and structure for the DoneThat documentation repository.
   - `content/guides/` - Feature documentation
   - `content/knowledge-base/` - Knowledge-base articles and interactive guide source
   - `content/faq/` - Q&A files
-  - `content/use-cases/` - Outcome-first use case documentation
-- **`schema/terminology.json`** - Domain and stage registry for use cases
+  - `content/use-cases/<domain>/` - Outcome-first use case documentation grouped by domain
+- **`schema/terminology.json`** - Domain, stage, and outcome registry for use cases
 - **`schema/structure.json`** - Auto-generated registry for category nav plus use-case filters
 - **`metadata.json`** - Global app metadata
 
@@ -23,11 +23,14 @@ title: "Page Title"
 category: "use-cases"
 lastUpdated: "2025-01-20"
 tags: ["tag1", "tag2"]
-summary: "Brief description"
+summary: "Brief description"  # Non-use-cases only
 domain: "it"  # Use-cases only
 stage: "select"  # Use-cases only
+outcome: ["quality", "speed"]  # Use-cases only: cost, quality, speed
 ---
 ```
+
+For use-cases, do not put the description in frontmatter. The first body paragraph is the page description and is copied into `schema/structure.json` as the generated summary.
 
 ## Schema Generation
 
@@ -38,8 +41,9 @@ The `schema/structure.json` file is **auto-generated** by `scripts/deploy-docs.c
 - Maps `category` → navigation groups
 - Uses file basename (without `.md`) as slug in `files` array
 - Copies `domains` from `schema/terminology.json`
+- Copies `outcomes` from `schema/terminology.json`
 - Builds a `useCases` index from use-case frontmatter
-- Validates every use-case `domain` and `stage` against `schema/terminology.json`
+- Validates every use-case `domain`, `stage`, and `outcome` against `schema/terminology.json`
 - Sorts categories and files alphabetically
 
 **Do not manually edit `structure.json`** - it's regenerated on deploy.

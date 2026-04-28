@@ -8,16 +8,17 @@ tags:
   - data
   - google-sheets
   - operations
-summary: >-
-  Use AI data enrichment when rows need classification, summaries, cleanup, or
-  missing context and manual spreadsheet work is slowing you down.
 domain: general
 domainOrder: 0
 stage: select
 stageOrder: 5
 value: 3
 effort: 2
+outcome:
+  - speed
+  - quality
 ---
+AI data enrichment adds generated classifications, summaries, extracted fields, cleanup, or missing context to spreadsheet rows when manual review is slowing down the work.
 
 ## What it is, how it works
 

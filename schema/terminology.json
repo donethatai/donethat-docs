@@ -1,4 +1,18 @@
 {
+  "outcomes": [
+    {
+      "id": "cost",
+      "label": "Cost"
+    },
+    {
+      "id": "quality",
+      "label": "Quality"
+    },
+    {
+      "id": "speed",
+      "label": "Speed"
+    }
+  ],
   "domains": [
     {
       "id": "general",
@@ -119,6 +133,12 @@
       "group": "specific",
       "label": "Software",
       "stages": ["discover", "design", "build", "test", "release", "adopt", "support", "retire"]
+    },
+    {
+      "id": "research",
+      "group": "specific",
+      "label": "Research",
+      "stages": ["scope", "source", "triage", "shallow-assess", "deep-assess", "decide", "hand-over"]
     },
     {
       "id": "nonprofit",

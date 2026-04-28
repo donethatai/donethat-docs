@@ -9,16 +9,17 @@ tags:
   - design
   - ai
   - non-engineers
-summary: >-
-  Use AI to ship marketing pages as a non-software engineer by constraining the
-  work to a clear brief, existing design system, and review loop.
 domain: general
 domainOrder: 0
 stage: select
 stageOrder: 3
 value: 3
 effort: 5
+outcome:
+  - speed
+  - cost
 ---
+Vibe-coding websites uses AI to ship prototypes, simple web apps, and marketing pages from a clear brief, existing design constraints, and a review loop.
 
 ## What it is, how it works
 

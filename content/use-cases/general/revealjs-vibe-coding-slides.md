@@ -8,15 +8,17 @@ tags:
   - slides
   - revealjs
   - workshops
-summary: >-
-  Automatically create slides with different AI tools
 domain: general
 domainOrder: 0
 stage: create
 stageOrder: 1
 value: 2
 effort: 2
+outcome:
+  - speed
+  - cost
 ---
+Vibe-coding slides means using AI tools to create presentation decks quickly, especially when the format is changing and speed matters more than a heavily designed slide workflow.
 
 ## What it is, how it works
 

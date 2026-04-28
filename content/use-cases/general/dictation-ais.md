@@ -8,16 +8,16 @@ tags:
   - communication
   - accessibility
   - dictation
-summary: >-
-  Use dictation when spoken drafting is faster than typing and the capture,
-  cleanup, and sending flow fits real work.
 domain: general
 domainOrder: 0
 stage: select
 stageOrder: 2
 value: 2
 effort: 1
+outcome:
+  - speed
 ---
+Dictation AIs turn speech into working text when speaking is faster than typing, especially for drafting, communication, accessibility needs, or getting past a blank page.
 
 ## What it is, how it works
 

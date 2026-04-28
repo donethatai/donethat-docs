@@ -9,15 +9,18 @@ tags:
   - systems
   - operations
   - flows
-summary: >-
-  The holy grail of AI: Mostly legend but people still search for it. Automate workflows either by coding the workflow with AI or by using AI as part of the workflow.
 domain: general
 domainOrder: 0
 stage: select
 stageOrder: 1
 value: 4
 effort: 5
+outcome:
+  - speed
+  - cost
+  - quality
 ---
+Workflow automation uses AI or AI-generated code to remove predictable, repetitive work when triggers, inputs, outputs, exceptions, and ownership are clear.
 
 ## What it is, how it works
 

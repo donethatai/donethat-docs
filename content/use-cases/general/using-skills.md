@@ -8,16 +8,17 @@ tags:
   - codex
   - standardization
   - workflow
-summary: >-
-  Use skills when a team repeats the same AI workflow often enough that prompts,
-  references, and operating rules should live in a reusable playbook.
 domain: general
 domainOrder: 0
 stage: enable
 stageOrder: 1
 value: 3
 effort: 3
+outcome:
+  - quality
+  - speed
 ---
+AI Skills package repeated workflows into reusable instructions, references, and operating rules when ad hoc prompting produces inconsistent results.
 
 ## What it is, how it works
 

@@ -25,8 +25,8 @@ This will:
 
 - `content/` - Markdown files with YAML frontmatter
 - `content/knowledge-base/` - Knowledge-base articles and interactive guide source
-- `content/use-cases/` - Outcome-first use case content
-- `schema/terminology.json` - Domain and stage registry
+- `content/use-cases/<domain>/` - Outcome-first use case content grouped by domain
+- `schema/terminology.json` - Domain, stage, and outcome registry
 - `schema/structure.json` - Auto-generated category nav and use-case filter index
 - `metadata.json` - Global app metadata
 - `scripts/deploy-docs.cjs` - Deploy script
