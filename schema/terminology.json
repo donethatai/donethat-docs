@@ -4,7 +4,7 @@
       "id": "general",
       "group": "shared",
       "label": "General",
-      "stages": ["discover", "select", "adopt", "scale"]
+      "stages": []
     },
     {
       "id": "hr",
