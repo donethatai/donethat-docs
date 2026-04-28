@@ -1,5 +1,5 @@
 ---
-title: Use MCP to connect AI assistants to real work context
+title: MCP
 category: use-cases
 lastUpdated: '2026-04-28'
 tags:
@@ -15,8 +15,8 @@ domain: general
 domainOrder: 0
 stage: enable
 stageOrder: 2
-value: 5
-effort: 5
+value: 3
+effort: 2
 ---
 
 ## What it is, how it works

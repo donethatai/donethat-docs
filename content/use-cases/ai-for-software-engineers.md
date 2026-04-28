@@ -1,5 +1,5 @@
 ---
-title: Choose a default AI assistant for software engineering
+title: Agentic Engineering
 category: use-cases
 lastUpdated: '2026-04-28'
 tags:
@@ -9,8 +9,7 @@ tags:
   - workflow
   - engineering
 summary: >-
-  Choose one default AI workflow for engineering based on where the team already
-  works and how much review discipline it has.
+  AIs to write your code for you. The most successful application of AI so far.
 domain: software
 domainOrder: 1
 stage: build
@@ -23,26 +22,24 @@ industry: software
 
 ## What it is, how it works
 
-- A default coding assistant choice for the team.
-- Editor-first, terminal-first, or delegated agent workflow.
-- Not a model beauty contest.
+- The most successful use case of AI so far.
+- Let AI write code for you, often better than you could.
+- Works best for boilerplate things.
 
 ## When not to use it
 
-- Do not use for broad autonomous changes in weak repos.
-- Do not use when tests and review discipline are missing.
-- Do use when engineers already have clear task boundaries.
+- When you can't read code and don't understand what's happening.
+- When you aren't prepared to test and maintain all the extra code.
+- When there is an existing SaaS you could use instead.
 
 ## How to get started
 
-- Pick three safe task classes: docs, tests, small refactors.
-- Require definition of done in every prompt.
-- Cap first-wave diffs.
-- Measure review pain, not typing speed.
+- Build trust slowly, review all code to understand risks
+- Compare models, best performing is always changing
+- Right now, [Codex](https://openai.com/codex/) has the best model, [Cursor](https://cursor.com/) the best ID, and [Claude](https://claude.ai/) the best vibes. 
 
 ## Best practices / further reading
 
-- Match the tool to where engineers work.
-- Keep permissions and scope explicit.
-- Review AI output like any other production change.
-- Related: [Automate workflows by starting with one specific flow](./workflow-automation-when-to-automate.md)
+- Watch token usage, pricing models are changing
+- Use an AGENTS.md file to give context on your repos
+- Related: [Vibe Coding](./website-vibe-coding.md)

@@ -1,5 +1,5 @@
 ---
-title: Automate workflows by starting with one specific flow
+title: Workflow automation
 category: use-cases
 lastUpdated: '2026-04-28'
 tags:
@@ -10,39 +10,37 @@ tags:
   - operations
   - flows
 summary: >-
-  Automate workflows by choosing one specific, stable flow with clear triggers,
-  outputs, exceptions, and ownership.
+  The holy grail of AI: Mostly legend but people still search for it. Automate workflows either by coding the workflow with AI or by using AI as part of the workflow.
 domain: general
 domainOrder: 0
 stage: select
 stageOrder: 1
-value: 5
-effort: 4
+value: 4
+effort: 5
 ---
 
 ## What it is, how it works
 
-- A way to choose automation work by naming the exact flow, not the department.
-- Covers classic automation, AI-assisted workflows, handoffs, approvals, and deletion.
-- Focuses on trigger, inputs, outputs, exceptions, failure visibility, and ownership.
+- Identify a high-value workflow to automate, for example by following our [AI Adoption Guide](https://donethat.ai/consulting/ai-adoption-guide)
+- Make sure this is a predictable, repetitive workflow
+- Identify on trigger, inputs, outputs, exceptions, failure visibility, and ownership.
 
 ## When not to use it
 
 - Do not use when nobody agrees how the manual process works.
-- Do not use when failure has no visible owner.
-- Do use before buying a workflow tool, building scripts, or adding agent steps.
+- Do not use if there are existing tools that can already do it.
+- Do not use if the data source or destination has no API.
 
 ## How to get started
 
-- Pick one specific flow, such as "new lead to qualified meeting" or "invoice received to approved."
+
 - Capture trigger, inputs, steps, outputs, exceptions, and failure impact.
-- Score volume, variance, reversibility, visibility, and ownership.
-- Automate the smallest stable slice.
-- Add monitoring before expanding scope.
+- Use a tool like [Zapier](https://zapier.com/) or [n8n](https://n8n.io/) with existing connectors and AI nodes.
+- Start with internal workflows before tackling external ones.
 
 ## Best practices / further reading
 
 - Do not automate broken work.
 - Use deterministic rules where rules are enough.
 - Assign a real owner after launch.
-- Related: [Vibe-code marketing websites without becoming a software engineer](./website-vibe-coding.md)
+- Related: [Agentic Engineering](./ai-for-software-engineers.md)

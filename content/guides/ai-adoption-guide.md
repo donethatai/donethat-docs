@@ -22,21 +22,21 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 
 ### Enable
 
-- Secure budget, tools, and access before the first pilot.
-- Define what is in and out of scope for AI usage.
-- Assign ownership per use case from day one.
+- People: Enablement and change management.
+- Data: Accessibility for AIs, governance.
+- Risk: Security, spending budgets, etc.
 
 ### Experiment
 
 - Prioritize use cases by value and effort.
 - Keep pilots short and outputs reviewable.
-- Prefer mistakes that are cheap to reverse.
+- Clear owners and expectations
 
 ### Evaluate
 
 - Agree on success metrics before the pilot starts.
 - Review against the original target, not vibes.
-- Decide to scale, pivot, or stop based on evidence.
+- Share learnings openly and generously.
 
 ### Execute
 
@@ -44,40 +44,33 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 - Build repeatable processes, not one-off heroes.
 - Keep the loop running. Execute feeds back into enable.
 
-## Framework Analogy
-
-- Like OODA (Observe, Orient, Decide, Act), where tight feedback loops beat big plans.
-- Like Build Measure Learn, where you ship small, measure honestly, and adjust fast.
-- Like a scientific method, where you form hypotheses, run experiments, and draw conclusions.
-
 ## Context
 
 ### Status Quo
 
 - Productivity gains from AI are real but uneven. They are concentrated in specific tasks, not whole jobs.
-- Most organizations are in early pilots. Very few have scaled AI reliably across teams.
-- The hype-to-production gap is still large. Many announced initiatives quietly stall.
-- The teams pulling ahead share one trait. They run lots of small experiments, not one big program.
+- Everybody is trying things, few managed to institutionalize use and see large gains.
+- Call-center employment is still growing, software engineering market seems to be recovering
 
 ### Three Scenarios
 
-- AGI optimist, as predicted by Altman and Kurzweil. General intelligence arrives within 5 to 10 years. Most white-collar work changes fundamentally.
-- Capability plateau, as argued by Marcus and LeCun. Current architectures hit a ceiling within 2 to 3 years. AI stays useful but narrow.
-- Economics reverse, as critiqued by Zitron and Chomsky. Inference and tooling costs outpace capability gains. AI becomes less economical over time.
+- AGI optimist (Altman and Kurzweil). General intelligence arrives within 5 to 10 years. Most white-collar work changes fundamentally.
+- Capability plateau (Marcus and LeCun). Current architectures hit a ceiling within 2 to 3 years. AI stays useful but narrow.
+- Economics reverse (Zitron). Inference and tooling costs outpace capability gains. AI becomes less economical over time.
 
 ### Best practices for uncertainty
 
 - Prefer reversible decisions until the signal is clear.
 - Make small bets in parallel rather than one large commitment.
-- Avoid strategies that only pay off if one scenario plays out.
+- Create buffers to allow acting once things become clearer.
 - Build evaluation muscles. The team that measures learns fastest.
 
 ### Common pitfalls
 
-- Tech debt from rushed pilots nobody maintains.
-- Token and tool costs hidden inside general enthusiasm.
-- Showing off demos instead of measuring business outcomes.
+- Tech debt from rushed pilots nobody maintains and rushed AI-coded features
+- Token and tool costs as measure of productivity.
 - Me-too adoption without clear owners or success criteria.
+- Believing LinkedIn influencers who promote their own AI businesses.
 
 ## Stage Focus
 

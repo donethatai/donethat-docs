@@ -1,5 +1,5 @@
 ---
-title: Use skills to standardize repeatable AI work
+title: AI Skills
 category: use-cases
 lastUpdated: '2026-04-28'
 tags:
@@ -16,7 +16,7 @@ domainOrder: 0
 stage: enable
 stageOrder: 1
 value: 3
-effort: 2
+effort: 3
 ---
 
 ## What it is, how it works
@@ -34,8 +34,7 @@ effort: 2
 ## How to get started
 
 - Pick one recurring workflow, such as content review, release notes, support triage, or code review.
-- Write the trigger, inputs, constraints, and definition of done.
-- Add examples of good output and common mistakes.
+- Most AI assistants have skills to create skills. Just ask your assistant to create a skill for you.
 - Test with two or three real tasks before sharing it broadly.
 
 ## Best practices / further reading

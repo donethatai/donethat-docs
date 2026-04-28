@@ -1,5 +1,5 @@
 ---
-title: Draft messages and notes faster with dictation
+title: Dictation AIs
 category: use-cases
 lastUpdated: '2026-04-28'
 tags:
@@ -21,26 +21,21 @@ effort: 1
 
 ## What it is, how it works
 
-- A speak, rewrite, send workflow.
-- Useful for rough drafts, notes, updates, and follow-ups.
-- More about capture friction than raw transcription quality.
+- Speak instead of type
+- Use when you are bottlenecked by typing speed
+- Use when you have a "writing block" and speaking feels easier
 
 ## When not to use it
 
-- Do not use for code, dense tables, or legal wording.
-- Do not use in public spaces or sensitive conversations.
-- Do use when first expression matters more than first-pass polish.
+- Obviously doesn't work well in open offices or cafes
+- Careful with terms and training data agreements
+- Avoid increasing text for others to read ("voice memo effect")
 
 ## How to get started
 
-- Pick two use cases.
-- Standardize one cleanup prompt.
-- Fix mic and environment first.
-- Compare time to sendable draft against typing.
+- Get [Wispr Flow](https://wisprflow.ai/), seems to be the clear winner
+- Try voice mode of your [AI assistant](./best-ai-for-work.md)
 
 ## Best practices / further reading
 
-- Dictate in short bursts.
-- Pause before names, numbers, and critical details.
-- Treat cleanup as part of the workflow.
-- Related: [Choose a default AI assistant for team knowledge work](./best-ai-for-work.md)
+- Run a few tests if it actually saves you time

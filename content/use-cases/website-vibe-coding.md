@@ -1,5 +1,5 @@
 ---
-title: Vibe-code marketing websites without becoming a software engineer
+title: Vibe-coding websites
 category: use-cases
 lastUpdated: '2026-04-28'
 tags:
@@ -17,31 +17,28 @@ domainOrder: 0
 stage: select
 stageOrder: 3
 value: 3
-effort: 3
+effort: 5
 ---
 
 ## What it is, how it works
 
-- A constrained vibe-coding workflow for non-software engineers who need a marketing page.
-- AI turns a brief into page structure, copy, and implementation suggestions.
-- Humans own the audience, offer, hierarchy, CTA, and stopping rule.
+- Create websites and simple webapps by talking to a chatbot
+- Great for prototypes and proof of concepts
+- Can be used live in production
 
 ## When not to use it
 
-- Do not use for new design systems.
-- Do not use for core navigation, checkout, auth, or legal-heavy pages.
-- Do use when the site already has components, brand rules, and a clear page goal.
+- Even though this promises to work without technical background, don't do this if you have no technical background.
+- Don't vibe-code if you are not prepared to maintain, audit, and secure the whole thing.
+- Only do this if there is clear value in what you are building. Scrap it quicklyl if it didn't turn out true.
 
 ## How to get started
 
-- Write the brief first: audience, offer, proof, CTA, constraints.
-- Ask AI for two or three page outlines before asking for implementation.
-- Keep implementation inside existing components and design tokens.
-- Review scannability, CTA clarity, accessibility, mobile, SEO, and brand fit.
+- [Lovable](https://lovable.dev/) seems to be the best choice right now for an end-to-end solution
+- [Vercel](https://vercel.com/) plus [Claude Code](https://code.claude.com/docs/en/overview) is a popular choice for slightly more technical people
 
 ## Best practices / further reading
 
-- Lock constraints before prompting.
-- Avoid one-off components and clever styling.
-- Stop when the page meets the brief.
-- Related: [Automate workflows by starting with one specific flow](./workflow-automation-when-to-automate.md)
+- Prepare yourself for a fast start and diminishing returns due to increasing complexity
+- Structure the project based on software engineering best practices if you can
+- Related: [Automate workflows](./workflow-automation-when-to-automate.md)

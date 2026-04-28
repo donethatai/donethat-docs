@@ -1,5 +1,5 @@
 ---
-title: Vibe-code workshop slides with Reveal.js
+title: Vibe-Coding Slides
 category: use-cases
 lastUpdated: '2026-04-28'
 tags:
@@ -9,39 +9,31 @@ tags:
   - revealjs
   - workshops
 summary: >-
-  Use AI and Reveal.js to build workshop slides quickly when the story,
-  interaction model, and review loop are more important than a polished static
-  deck.
+  Automatically create slides with different AI tools
 domain: general
 domainOrder: 0
 stage: create
 stageOrder: 1
-value: 1
-effort: 4
+value: 2
+effort: 2
 ---
 
 ## What it is, how it works
 
-- A code-based slide workflow for workshops, demos, and interactive guides.
-- AI helps draft slide structure, components, speaker flow, and small interactions.
-- Reveal.js keeps the deck editable, versioned, and close to the website code.
+- Prompt AI assistants to create slides
+- This is a very dynamic field right now, things change fast
 
 ## When not to use it
 
-- Do not use when the audience expects a heavily designed PowerPoint file.
-- Do not use when nobody can review the generated code.
-- Do use when slides need to be interactive, versioned, or shipped with the website.
+- Question if you actually need slides. Maybe a memo is enough
+- Only use code-based tools if you know what you are doing
 
 ## How to get started
 
-- Start with the workshop arc and the participant actions.
-- Define reusable slide primitives before generating many slides.
-- Keep controls, forms, and state small enough to review.
-- Run lint and build before using the deck live.
+- Claude Pro has a PowerPoint integration
+- Microsoft CoPilot seems to work well now
+- Google Gemini doesn't work, only creates images
 
 ## Best practices / further reading
 
-- Treat slides as product UI when participants interact with them.
-- Keep content and slide mechanics separate where possible.
-- Add a fallback path for live delivery.
-- Related: [Vibe-code marketing websites without becoming a software engineer](./website-vibe-coding.md)
+- Vibe-code slides with reveal.js if you already vibe-code your website and want to keep things consistent. See [DoneThat](https://donethat.ai/slides/donethat) for an example.

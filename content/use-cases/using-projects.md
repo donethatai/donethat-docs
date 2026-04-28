@@ -1,5 +1,5 @@
 ---
-title: Use Projects to keep AI work organized by context
+title: AI Projects
 category: use-cases
 lastUpdated: '2026-04-28'
 tags:

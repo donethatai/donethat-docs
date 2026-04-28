@@ -1,9 +1,9 @@
 ---
-title: "Choose a default AI assistant for team knowledge work"
+title: "AI assistants"
 category: "use-cases"
 lastUpdated: "2026-04-27"
 tags: ["ai", "writing", "analysis", "decision-making", "knowledge-work"]
-summary: "Pick one default AI assistant for everyday team work based on where work already happens and what rollout support exists."
+summary: "Start here if you never did anything. Get an AI assistant and start experimenting."
 domain: "general"
 domainOrder: 0
 stage: "select"
@@ -15,26 +15,26 @@ effort: 2
 
 ## What it is, how it works
 
-- A team default for writing, synthesis, planning, and follow-up.
-- A rollout decision across quality, integration, admin, and habit.
-- Usually suite-native or standalone assistant.
+- AI chatbots that can answer any question and write any text
+- Best to brainstorm, challenge ideas, give feedback, create drafts
+- For harder questions, ask a few to get a range of opinions
 
 ## When not to use it
 
-- Do not use to paper over bad meetings.
-- Do not use when writing ownership is unclear.
-- Do use when people need one supported default.
+- Careful with confidential data. Review policies.
+- Don't trust anything they say. Double-check and build trust slowly.
+- Copy-paste their writing verbatim. It often "feels like AI"
 
 ## How to get started
 
-- Test five real weekly tasks in each tool.
-- Score quality, editing time, workflow fit, and likely adoption.
-- Decide the data policy before broad rollout.
-- Pick one default and one exception path.
+- If you are using Google Workspace, start with Gemini (included)
+- For better integrations, try Claude side by side
+- Use Microsoft's copilot for best integration with MS products
+- Keep experimenting, they all change fast
 
 ## Best practices / further reading
 
-- Match the assistant to where work already lives.
-- Treat integration as part of quality.
-- Revisit adoption after two weeks.
-- Related: [Choose a default AI assistant for software engineering](./ai-for-software-engineers.md)
+- Understand their [key limitations](https://github.com/chrhartm/ai-rage)
+- Set up [projects](./using-projects.md) to avoid repeating yourself
+- Give them access to your data via [MCP](./using-mcp.md)
+- If you catch yourself asking it to do the same thing twice, write [skills](./using-skills.md)
