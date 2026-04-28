@@ -24,6 +24,7 @@ This will:
 ## Structure
 
 - `content/` - Markdown files with YAML frontmatter
+- `content/knowledge-base/` - Knowledge-base articles and interactive guide source
 - `content/use-cases/` - Outcome-first use case content
 - `schema/terminology.json` - Domain and stage registry
 - `schema/structure.json` - Auto-generated category nav and use-case filter index

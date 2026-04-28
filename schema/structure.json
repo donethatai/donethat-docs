@@ -50,8 +50,8 @@
       ]
     },
     {
-      "id": "guides",
-      "label": "Guides",
+      "id": "knowledge-base",
+      "label": "Knowledge Base",
       "files": [
         "ai-adoption-guide"
       ]
@@ -62,11 +62,15 @@
       "files": [
         "ai-for-software-engineers",
         "best-ai-for-work",
+        "data-enrichment",
         "dictation-ais",
+        "meeting-transcription",
         "revealjs-vibe-coding-slides",
+        "time-tracking",
         "using-mcp",
         "using-projects",
         "using-skills",
+        "vibe-scripting",
         "website-vibe-coding",
         "workflow-automation-when-to-automate"
       ]
@@ -425,8 +429,8 @@
   "useCases": [
     {
       "slug": "ai-for-software-engineers",
-      "title": "Choose a default AI assistant for software engineering",
-      "summary": "Choose one default AI workflow for engineering based on where the team already works and how much review discipline it has.",
+      "title": "Agentic Engineering",
+      "summary": "AIs to write your code for you. The most successful application of AI so far.",
       "domain": "software",
       "stage": "build",
       "tags": [
@@ -440,8 +444,8 @@
     },
     {
       "slug": "best-ai-for-work",
-      "title": "Choose a default AI assistant for team knowledge work",
-      "summary": "Pick one default AI assistant for everyday team work based on where work already happens and what rollout support exists.",
+      "title": "AI assistants",
+      "summary": "Start here if you never did anything. Get an AI assistant and start experimenting.",
       "domain": "general",
       "stage": "select",
       "tags": [
@@ -454,8 +458,23 @@
       "lastUpdated": "2026-04-27"
     },
     {
+      "slug": "data-enrichment",
+      "title": "Data enrichment",
+      "summary": "Use AI data enrichment when rows need classification, summaries, cleanup, or missing context and manual spreadsheet work is slowing you down.",
+      "domain": "general",
+      "stage": "select",
+      "tags": [
+        "ai",
+        "spreadsheets",
+        "data",
+        "google-sheets",
+        "operations"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "dictation-ais",
-      "title": "Draft messages and notes faster with dictation",
+      "title": "Dictation AIs",
       "summary": "Use dictation when spoken drafting is faster than typing and the capture, cleanup, and sending flow fits real work.",
       "domain": "general",
       "stage": "select",
@@ -469,9 +488,24 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "meeting-transcription",
+      "title": "Meeting transcription",
+      "summary": "Use meeting transcription when a written record, searchable recap, or action list is worth the consent and cleanup overhead.",
+      "domain": "general",
+      "stage": "select",
+      "tags": [
+        "ai",
+        "meetings",
+        "transcription",
+        "notes",
+        "collaboration"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "revealjs-vibe-coding-slides",
-      "title": "Vibe-code workshop slides with Reveal.js",
-      "summary": "Use AI and Reveal.js to build workshop slides quickly when the story, interaction model, and review loop are more important than a polished static deck.",
+      "title": "Vibe-Coding Slides",
+      "summary": "Automatically create slides with different AI tools",
       "domain": "general",
       "stage": "create",
       "tags": [
@@ -484,8 +518,23 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "time-tracking",
+      "title": "Time tracking",
+      "summary": "Use AI time tracking when you need a reliable picture of where work goes without asking people to run timers all day.",
+      "domain": "general",
+      "stage": "select",
+      "tags": [
+        "ai",
+        "time-tracking",
+        "productivity",
+        "timesheets",
+        "analytics"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "using-mcp",
-      "title": "Use MCP to connect AI assistants to real work context",
+      "title": "MCP",
       "summary": "Use MCP when an AI assistant needs controlled access to tools, docs, repositories, or work history instead of relying on pasted context.",
       "domain": "general",
       "stage": "enable",
@@ -500,7 +549,7 @@
     },
     {
       "slug": "using-projects",
-      "title": "Use Projects to keep AI work organized by context",
+      "title": "AI Projects",
       "summary": "Use Projects when a team needs persistent context, files, decisions, and instructions around a specific workstream instead of restarting every AI chat from zero.",
       "domain": "general",
       "stage": "enable",
@@ -515,7 +564,7 @@
     },
     {
       "slug": "using-skills",
-      "title": "Use skills to standardize repeatable AI work",
+      "title": "AI Skills",
       "summary": "Use skills when a team repeats the same AI workflow often enough that prompts, references, and operating rules should live in a reusable playbook.",
       "domain": "general",
       "stage": "enable",
@@ -529,8 +578,23 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "vibe-scripting",
+      "title": "Vibe scripting",
+      "summary": "Use vibe scripting when a small script can remove repeated spreadsheet or workspace busywork faster than a full automation project.",
+      "domain": "general",
+      "stage": "select",
+      "tags": [
+        "ai",
+        "automation",
+        "scripts",
+        "google-workspace",
+        "excel"
+      ],
+      "lastUpdated": "2026-04-28"
+    },
+    {
       "slug": "website-vibe-coding",
-      "title": "Vibe-code marketing websites without becoming a software engineer",
+      "title": "Vibe-coding websites",
       "summary": "Use AI to ship marketing pages as a non-software engineer by constraining the work to a clear brief, existing design system, and review loop.",
       "domain": "general",
       "stage": "select",
@@ -546,8 +610,8 @@
     },
     {
       "slug": "workflow-automation-when-to-automate",
-      "title": "Automate workflows by starting with one specific flow",
-      "summary": "Automate workflows by choosing one specific, stable flow with clear triggers, outputs, exceptions, and ownership.",
+      "title": "Workflow automation",
+      "summary": "The holy grail of AI: Mostly legend but people still search for it. Automate workflows either by coding the workflow with AI or by using AI as part of the workflow.",
       "domain": "general",
       "stage": "select",
       "tags": [

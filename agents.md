@@ -6,6 +6,7 @@ Build logic and structure for the DoneThat documentation repository.
 
 - **`content/`** - Source of truth (atomic markdown files)
   - `content/guides/` - Feature documentation
+  - `content/knowledge-base/` - Knowledge-base articles and interactive guide source
   - `content/faq/` - Q&A files
   - `content/use-cases/` - Outcome-first use case documentation
 - **`schema/terminology.json`** - Domain and stage registry for use cases
