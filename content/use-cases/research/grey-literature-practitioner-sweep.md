@@ -1,19 +1,19 @@
 ---
-title: Adversarial cull-check
+title: Grey-literature + practitioner sweep
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
   - ai
   - research
-  - triage
+  - source
   - quality
 domain: research
 domainOrder: 2
-stage: triage
-stageOrder: 3
+stage: source
+stageOrder: 2
 outcome:
   - quality
 value: 2
 effort: 3
 ---
-Re-score sample of dropped candidates with an "advocate" LLM persona
+Targeted sweep of practitioner reports, registries, retractions

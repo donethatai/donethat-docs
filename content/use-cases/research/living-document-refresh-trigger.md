@@ -1,19 +1,19 @@
 ---
-title: Open-question packager
+title: Living-document refresh trigger
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
   - ai
   - research
   - hand-over
-  - quality
+  - cost
 domain: research
 domainOrder: 2
 stage: hand-over
 stageOrder: 7
 outcome:
-  - quality
-value: 2
-effort: 2
+  - cost
+value: 1
+effort: 4
 ---
-Extract unresolved uncertainties; package each as actionable research brief
+Periodically re-run key claims against new evidence; flag when conclusions go stale

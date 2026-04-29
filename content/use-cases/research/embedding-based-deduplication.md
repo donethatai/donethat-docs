@@ -1,19 +1,19 @@
 ---
-title: Adversarial cull-check
+title: Embedding-based deduplication
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
   - ai
   - research
   - triage
-  - quality
+  - cost
 domain: research
 domainOrder: 2
 stage: triage
 stageOrder: 3
 outcome:
-  - quality
-value: 2
-effort: 3
+  - cost
+value: 1
+effort: 5
 ---
-Re-score sample of dropped candidates with an "advocate" LLM persona
+Vector similarity to merge near-duplicates and aliases

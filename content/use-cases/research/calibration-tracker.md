@@ -1,5 +1,5 @@
 ---
-title: Probabilistic decision register
+title: Calibration tracker
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
@@ -13,7 +13,7 @@ stage: decide
 stageOrder: 6
 outcome:
   - quality
-value: 1
-effort: 2
+value: 5
+effort: 5
 ---
-Capture decisions as probability distributions, not binary
+Tracks each rater's scores against final outcomes over rounds; surfaces systematic over/underrating

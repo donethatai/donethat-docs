@@ -1,5 +1,5 @@
 ---
-title: Adversarial cull-check
+title: Decomposed-criteria scorer
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
@@ -13,7 +13,7 @@ stage: triage
 stageOrder: 3
 outcome:
   - quality
-value: 2
-effort: 3
+value: 5
+effort: 4
 ---
-Re-score sample of dropped candidates with an "advocate" LLM persona
+Score each candidate on each sub-criterion independently, then recombine

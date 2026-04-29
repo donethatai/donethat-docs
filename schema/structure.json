@@ -61,46 +61,46 @@
       "label": "Use Cases",
       "files": [
         "adversarial-cull-check",
-        "adversarial-scope-auditor",
         "ai-for-software-engineers",
-        "audience-specific-re-narrator",
-        "bar-setter-from-comparable-corpus",
+        "audience-tailored-briefs",
+        "auto-knockout-filter",
+        "bar-setter-from-prior-decisions",
         "best-ai-for-work",
-        "calibration-aware-aggregator",
+        "calibration-tracker",
         "claim-grounded-source-verifier",
-        "code-grounded-quant-red-teamer",
-        "counterfactual-scope-tracker",
-        "cross-org-scoping-intelligence",
-        "cross-report-consistency-checker",
+        "code-grounded-quant-red-team",
+        "comparison-matrix-auto-fill",
+        "continuous-source-monitor",
+        "criteria-stress-tester",
         "data-enrichment",
-        "decision-outcome-linker",
-        "decomposed-triage-scorer",
+        "decision-capture-disagreement-extraction",
+        "decomposed-criteria-scorer",
         "dictation-ais",
-        "disagreement-as-signal-router",
-        "expert-elicitation-structurer",
-        "falsification-first-reviewer",
-        "heterogeneous-source-harvester",
-        "hypothesis-verifier-quantifier-triplet",
-        "idea-quality-predictor",
+        "disagreement-flagger-pre-meeting-brief",
+        "domain-specific-discovery",
+        "embedding-based-deduplication",
+        "expert-finder",
+        "forecasting-tournament-on-outcomes",
+        "grey-literature-practitioner-sweep",
+        "hypothesis-tree-criteria-translator",
         "implementation-feedback-loop",
-        "living-document-updater",
+        "interview-prep-transcription-synthesis",
+        "living-document-refresh-trigger",
         "meeting-transcription",
-        "negative-result-archaeologist",
+        "methodology-compliance-completeness-check",
+        "multi-agent-adversarial-review",
+        "multi-engine-deep-research",
         "open-question-packager",
-        "outcome-linked-prior-art-retriever",
-        "pastcasting-calibration-trainer",
-        "persona-panel-review",
-        "practitioner-intelligence-gatherer",
+        "outcome-linked-prior-art-retrieval",
         "pre-meeting-steelman-pair",
         "pre-mortem-generator",
-        "pre-registered-decision-criteria-checker",
         "probabilistic-decision-register",
-        "probabilistic-quant-drafter-with-explicit-priors",
-        "reference-class-pre-loader",
         "revealjs-vibe-coding-slides",
+        "searchable-cross-round-repository",
         "sensitivity-driven-research-scoper",
-        "stakeholder-pre-elicitor",
-        "structured-disagreement-protocol",
+        "stakeholder-landscape-intelligence",
+        "structured-one-pager-auto-draft",
+        "theory-of-change-generator-validator",
         "time-tracking",
         "using-mcp",
         "using-projects",
@@ -494,7 +494,7 @@
       "slug": "adversarial-cull-check",
       "path": "content/use-cases/research/adversarial-cull-check.md",
       "title": "Adversarial cull-check",
-      "summary": "Adversarial cull-check independently re-scores a sample of dropped candidates with an advocate agent to surface ideas that may have been rejected for weak or incomplete reasons.",
+      "summary": "Re-score sample of dropped candidates with an \"advocate\" LLM persona",
       "domain": "research",
       "stage": "triage",
       "outcome": [
@@ -504,27 +504,9 @@
         "ai",
         "research",
         "triage",
-        "coverage"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "adversarial-scope-auditor",
-      "path": "content/use-cases/research/adversarial-scope-auditor.md",
-      "title": "Adversarial scope auditor",
-      "summary": "Adversarial scope auditor runs a bounded multi-agent debate across skeptic, advocate, and methodologist personas to interrogate proposed research scope for gameable boundaries, hidden assumptions, and missing dimensions.",
-      "domain": "research",
-      "stage": "scope",
-      "outcome": [
         "quality"
       ],
-      "tags": [
-        "ai",
-        "research",
-        "scope",
-        "quality"
-      ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "ai-for-software-engineers",
@@ -547,29 +529,46 @@
       "lastUpdated": "2026-04-28"
     },
     {
-      "slug": "audience-specific-re-narrator",
-      "path": "content/use-cases/research/audience-specific-re-narrator.md",
-      "title": "Audience-specific re-narrator",
-      "summary": "Audience-specific re-narrator produces separate technical, operational, and executive versions of a deep-dive so reviewers, implementers, and funders receive the version they can use.",
+      "slug": "audience-tailored-briefs",
+      "path": "content/use-cases/research/audience-tailored-briefs.md",
+      "title": "Audience-tailored briefs",
+      "summary": "One corpus into exec, technical, operational versions; caveats unhideable",
       "domain": "research",
       "stage": "hand-over",
       "outcome": [
-        "speed",
-        "cost"
+        "speed"
       ],
       "tags": [
         "ai",
         "research",
         "hand-over",
-        "efficiency"
+        "speed"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "bar-setter-from-comparable-corpus",
-      "path": "content/use-cases/research/bar-setter-from-comparable-corpus.md",
-      "title": "Bar-setter from comparable corpus",
-      "summary": "Bar-setter from comparable corpus pulls past decisions, grants, and recommendations from an archive with their resolved outcomes and surfaces the implied bar each decision used.",
+      "slug": "auto-knockout-filter",
+      "path": "content/use-cases/research/auto-knockout-filter.md",
+      "title": "Auto-knockout filter",
+      "summary": "Rules engine rejects candidates failing hard criteria before LLM scoring",
+      "domain": "research",
+      "stage": "triage",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "triage",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "bar-setter-from-prior-decisions",
+      "path": "content/use-cases/research/bar-setter-from-prior-decisions.md",
+      "title": "Bar-setter from prior decisions",
+      "summary": "Surface historical decisions and outcomes from internal archive; reveal implicit bar past calls applied",
       "domain": "research",
       "stage": "scope",
       "outcome": [
@@ -579,9 +578,9 @@
         "ai",
         "research",
         "scope",
-        "calibration"
+        "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "best-ai-for-work",
@@ -604,28 +603,28 @@
       "lastUpdated": "2026-04-28"
     },
     {
-      "slug": "calibration-aware-aggregator",
-      "path": "content/use-cases/research/calibration-aware-aggregator.md",
-      "title": "Calibration-aware aggregator",
-      "summary": "Calibration-aware aggregator weights each rater's score by their historical calibration on past rounds when outcomes are known.",
+      "slug": "calibration-tracker",
+      "path": "content/use-cases/research/calibration-tracker.md",
+      "title": "Calibration tracker",
+      "summary": "Tracks each rater's scores against final outcomes over rounds; surfaces systematic over/underrating",
       "domain": "research",
-      "stage": "triage",
+      "stage": "decide",
       "outcome": [
         "quality"
       ],
       "tags": [
         "ai",
         "research",
-        "triage",
-        "calibration"
+        "decide",
+        "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "claim-grounded-source-verifier",
       "path": "content/use-cases/research/claim-grounded-source-verifier.md",
       "title": "Claim-grounded source verifier",
-      "summary": "Claim-grounded source verifier links each claim in a draft assessment to the specific cited passage that supports it and flags citations that do not say what the draft claims.",
+      "summary": "For each claim, identify cited passage; flag where citation doesn't support claim",
       "domain": "research",
       "stage": "shallow-assess",
       "outcome": [
@@ -637,13 +636,13 @@
         "shallow-assess",
         "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "code-grounded-quant-red-teamer",
-      "path": "content/use-cases/research/code-grounded-quant-red-teamer.md",
-      "title": "Code-grounded quant red-teamer",
-      "summary": "Code-grounded quant red-teamer runs alternative parameterizations, Monte Carlo perturbations, and structural reformulations against the actual quantitative model instead of only critiquing it in prose.",
+      "slug": "code-grounded-quant-red-team",
+      "path": "content/use-cases/research/code-grounded-quant-red-team.md",
+      "title": "Code-grounded quant red-team",
+      "summary": "Runs alternative parameterisations against the actual model; reports where conclusions flip",
       "domain": "research",
       "stage": "deep-assess",
       "outcome": [
@@ -655,32 +654,49 @@
         "deep-assess",
         "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "counterfactual-scope-tracker",
-      "path": "content/use-cases/research/counterfactual-scope-tracker.md",
-      "title": "Counterfactual scope tracker",
-      "summary": "Counterfactual scope tracker follows not only what the recipient does, but also what the report recommended against and how those alternatives evolved.",
+      "slug": "comparison-matrix-auto-fill",
+      "path": "content/use-cases/research/comparison-matrix-auto-fill.md",
+      "title": "Comparison matrix auto-fill",
+      "summary": "Define columns once; LLM fills cells from each source",
       "domain": "research",
-      "stage": "hand-over",
+      "stage": "shallow-assess",
       "outcome": [
-        "quality",
         "speed"
       ],
       "tags": [
         "ai",
         "research",
-        "hand-over",
-        "knowledge-retention"
+        "shallow-assess",
+        "speed"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "cross-org-scoping-intelligence",
-      "path": "content/use-cases/research/cross-org-scoping-intelligence.md",
-      "title": "Cross-org scoping intelligence",
-      "summary": "Cross-org scoping intelligence scans funder roadmaps, conference abstracts, and recent literature trends to identify what adjacent research organizations appear to be scoping toward.",
+      "slug": "continuous-source-monitor",
+      "path": "content/use-cases/research/continuous-source-monitor.md",
+      "title": "Continuous source monitor",
+      "summary": "Watch defined sources and push new candidates into intake",
+      "domain": "research",
+      "stage": "source",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "source",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "criteria-stress-tester",
+      "path": "content/use-cases/research/criteria-stress-tester.md",
+      "title": "Criteria stress-tester",
+      "summary": "LLM critiques proposed criteria for gameability, overlap, missing dimensions",
       "domain": "research",
       "stage": "scope",
       "outcome": [
@@ -690,27 +706,9 @@
         "ai",
         "research",
         "scope",
-        "coverage"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "cross-report-consistency-checker",
-      "path": "content/use-cases/research/cross-report-consistency-checker.md",
-      "title": "Cross-report consistency checker",
-      "summary": "Cross-report consistency checker compares deep dives running in parallel and flags inconsistent assumptions such as discount rates, value-of-life inputs, or comparator baselines.",
-      "domain": "research",
-      "stage": "deep-assess",
-      "outcome": [
         "quality"
       ],
-      "tags": [
-        "ai",
-        "research",
-        "deep-assess",
-        "consistency"
-      ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "data-enrichment",
@@ -733,29 +731,28 @@
       "lastUpdated": "2026-04-28"
     },
     {
-      "slug": "decision-outcome-linker",
-      "path": "content/use-cases/research/decision-outcome-linker.md",
-      "title": "Decision-outcome linker",
-      "summary": "Decision-outcome linker predicts 12- and 24-month outcomes for each recommendation at decision time and stores those predictions against the actual decision.",
+      "slug": "decision-capture-disagreement-extraction",
+      "path": "content/use-cases/research/decision-capture-disagreement-extraction.md",
+      "title": "Decision capture + disagreement extraction",
+      "summary": "Record meeting; extract which assumption each side rests on, what evidence resolves it",
       "domain": "research",
       "stage": "decide",
       "outcome": [
-        "quality",
-        "speed"
+        "quality"
       ],
       "tags": [
         "ai",
         "research",
         "decide",
-        "knowledge-retention"
+        "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "decomposed-triage-scorer",
-      "path": "content/use-cases/research/decomposed-triage-scorer.md",
-      "title": "Decomposed-triage scorer",
-      "summary": "Decomposed-triage scorer breaks each candidate into independent sub-questions such as importance, tractability, neglectedness, reversibility, and talent fit before recombining the score.",
+      "slug": "decomposed-criteria-scorer",
+      "path": "content/use-cases/research/decomposed-criteria-scorer.md",
+      "title": "Decomposed-criteria scorer",
+      "summary": "Score each candidate on each sub-criterion independently, then recombine",
       "domain": "research",
       "stage": "triage",
       "outcome": [
@@ -765,9 +762,9 @@
         "ai",
         "research",
         "triage",
-        "calibration"
+        "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "dictation-ais",
@@ -789,29 +786,64 @@
       "lastUpdated": "2026-04-28"
     },
     {
-      "slug": "disagreement-as-signal-router",
-      "path": "content/use-cases/research/disagreement-as-signal-router.md",
-      "title": "Disagreement-as-signal router",
-      "summary": "Disagreement-as-signal router sends high-variance candidates to more triage time instead of treating disagreement as noise to average away.",
+      "slug": "disagreement-flagger-pre-meeting-brief",
+      "path": "content/use-cases/research/disagreement-flagger-pre-meeting-brief.md",
+      "title": "Disagreement flagger + pre-meeting brief",
+      "summary": "Surface high-variance candidates; brief on divergence and questions to resolve",
       "domain": "research",
       "stage": "triage",
       "outcome": [
-        "speed",
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "triage",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "domain-specific-discovery",
+      "path": "content/use-cases/research/domain-specific-discovery.md",
+      "title": "Domain-specific discovery",
+      "summary": "Semantic search over the right corpus (Elicit/Consensus, Exa, Research Rabbit)",
+      "domain": "research",
+      "stage": "source",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "source",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "embedding-based-deduplication",
+      "path": "content/use-cases/research/embedding-based-deduplication.md",
+      "title": "Embedding-based deduplication",
+      "summary": "Vector similarity to merge near-duplicates and aliases",
+      "domain": "research",
+      "stage": "triage",
+      "outcome": [
         "cost"
       ],
       "tags": [
         "ai",
         "research",
         "triage",
-        "efficiency"
+        "cost"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "expert-elicitation-structurer",
-      "path": "content/use-cases/research/expert-elicitation-structurer.md",
-      "title": "Expert-elicitation structurer",
-      "summary": "Expert-elicitation structurer prepares probability elicitation questions for interviews and turns expert responses into structured priors that feed the quantitative model.",
+      "slug": "expert-finder",
+      "path": "content/use-cases/research/expert-finder.md",
+      "title": "Expert finder",
+      "summary": "Surfaces named experts from publications, citations, conference talks, LinkedIn relevant to the deep-dive",
       "domain": "research",
       "stage": "deep-assess",
       "outcome": [
@@ -823,67 +855,31 @@
         "deep-assess",
         "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "falsification-first-reviewer",
-      "path": "content/use-cases/research/falsification-first-reviewer.md",
-      "title": "Falsification-first reviewer",
-      "summary": "Falsification-first reviewer asks what evidence would falsify the report's central claim and whether the report has engaged with that evidence.",
+      "slug": "forecasting-tournament-on-outcomes",
+      "path": "content/use-cases/research/forecasting-tournament-on-outcomes.md",
+      "title": "Forecasting tournament on outcomes",
+      "summary": "Registered forecasts on 12/24-month outcomes; scored when they resolve",
       "domain": "research",
-      "stage": "deep-assess",
+      "stage": "decide",
       "outcome": [
         "quality"
       ],
       "tags": [
         "ai",
         "research",
-        "deep-assess",
+        "decide",
         "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "heterogeneous-source-harvester",
-      "path": "content/use-cases/research/heterogeneous-source-harvester.md",
-      "title": "Heterogeneous-source harvester",
-      "summary": "Heterogeneous-source harvester deliberately searches across academic papers, grey literature, practitioner blogs, government reports, and non-English sources to reduce narrow source bias.",
-      "domain": "research",
-      "stage": "source",
-      "outcome": [
-        "quality"
-      ],
-      "tags": [
-        "ai",
-        "research",
-        "source",
-        "coverage"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "hypothesis-verifier-quantifier-triplet",
-      "path": "content/use-cases/research/hypothesis-verifier-quantifier-triplet.md",
-      "title": "Hypothesis-Verifier-Quantifier triplet",
-      "summary": "Hypothesis-Verifier-Quantifier triplet separates shallow assessment into three agents: one generates concerns, one verifies them against sources, and one tests surviving concerns in the quantitative model.",
-      "domain": "research",
-      "stage": "shallow-assess",
-      "outcome": [
-        "quality"
-      ],
-      "tags": [
-        "ai",
-        "research",
-        "shallow-assess",
-        "quality"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "idea-quality-predictor",
-      "path": "content/use-cases/research/idea-quality-predictor.md",
-      "title": "Idea-quality predictor",
-      "summary": "Idea-quality predictor uses historical long-list to deep-dive outcomes to estimate which new candidates are unlikely to survive later review, freeing triage attention for uncertain tail cases.",
+      "slug": "grey-literature-practitioner-sweep",
+      "path": "content/use-cases/research/grey-literature-practitioner-sweep.md",
+      "title": "Grey-literature + practitioner sweep",
+      "summary": "Targeted sweep of practitioner reports, registries, retractions",
       "domain": "research",
       "stage": "source",
       "outcome": [
@@ -893,47 +889,81 @@
         "ai",
         "research",
         "source",
-        "calibration"
+        "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "hypothesis-tree-criteria-translator",
+      "path": "content/use-cases/research/hypothesis-tree-criteria-translator.md",
+      "title": "Hypothesis tree + criteria translator",
+      "summary": "Convert one-paragraph brief into MECE hypothesis tree and quantifiable screening criteria",
+      "domain": "research",
+      "stage": "scope",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "scope",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "implementation-feedback-loop",
       "path": "content/use-cases/research/implementation-feedback-loop.md",
       "title": "Implementation feedback loop",
-      "summary": "Implementation feedback loop runs structured check-ins with recipients to capture what was validated, what was wrong, and what the report should have said.",
+      "summary": "Structured check-ins with recipient: what was validated, what was wrong, synthesised back into KB",
       "domain": "research",
       "stage": "hand-over",
       "outcome": [
-        "quality",
-        "speed"
+        "quality"
       ],
       "tags": [
         "ai",
         "research",
         "hand-over",
-        "knowledge-retention"
+        "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "living-document-updater",
-      "path": "content/use-cases/research/living-document-updater.md",
-      "title": "Living-document updater",
-      "summary": "Living-document updater periodically checks key claims in a handover document against new evidence and flags when conclusions become unstable.",
+      "slug": "interview-prep-transcription-synthesis",
+      "path": "content/use-cases/research/interview-prep-transcription-synthesis.md",
+      "title": "Interview prep + transcription + synthesis",
+      "summary": "Per expert: generate tailored question set from deep-dive draft. Post-interview: auto-transcribe, synthesise themes across many interviews, surface quotes per theme with source link",
       "domain": "research",
-      "stage": "hand-over",
+      "stage": "deep-assess",
       "outcome": [
-        "quality",
         "speed"
       ],
       "tags": [
         "ai",
         "research",
-        "hand-over",
-        "knowledge-retention"
+        "deep-assess",
+        "speed"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "living-document-refresh-trigger",
+      "path": "content/use-cases/research/living-document-refresh-trigger.md",
+      "title": "Living-document refresh trigger",
+      "summary": "Periodically re-run key claims against new evidence; flag when conclusions go stale",
+      "domain": "research",
+      "stage": "hand-over",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "hand-over",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "meeting-transcription",
@@ -956,84 +986,10 @@
       "lastUpdated": "2026-04-28"
     },
     {
-      "slug": "negative-result-archaeologist",
-      "path": "content/use-cases/research/negative-result-archaeologist.md",
-      "title": "Negative-result archaeologist",
-      "summary": "Negative-result archaeologist searches for registered-but-unpublished trials, retracted papers, discontinued programs, and other evidence that published literature systematically hides.",
-      "domain": "research",
-      "stage": "source",
-      "outcome": [
-        "quality"
-      ],
-      "tags": [
-        "ai",
-        "research",
-        "source",
-        "coverage"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "open-question-packager",
-      "path": "content/use-cases/research/open-question-packager.md",
-      "title": "Open-question packager",
-      "summary": "Open-question packager extracts unresolved uncertainties from a report and turns each into an actionable research brief for the recipient.",
-      "domain": "research",
-      "stage": "hand-over",
-      "outcome": [
-        "quality",
-        "speed"
-      ],
-      "tags": [
-        "ai",
-        "research",
-        "hand-over",
-        "knowledge-retention"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "outcome-linked-prior-art-retriever",
-      "path": "content/use-cases/research/outcome-linked-prior-art-retriever.md",
-      "title": "Outcome-linked prior-art retriever",
-      "summary": "Outcome-linked prior-art retriever finds prior internal work on similar candidates and shows what happened next: where each was dropped, why, and what has changed since.",
-      "domain": "research",
-      "stage": "source",
-      "outcome": [
-        "quality",
-        "speed"
-      ],
-      "tags": [
-        "ai",
-        "research",
-        "source",
-        "knowledge-retention"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "pastcasting-calibration-trainer",
-      "path": "content/use-cases/research/pastcasting-calibration-trainer.md",
-      "title": "Pastcasting calibration trainer",
-      "summary": "Pastcasting calibration trainer turns archived cases into training exercises where researchers see only the evidence available at the time and forecast the eventual decision.",
-      "domain": "research",
-      "stage": "shallow-assess",
-      "outcome": [
-        "quality"
-      ],
-      "tags": [
-        "ai",
-        "research",
-        "shallow-assess",
-        "calibration"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "persona-panel-review",
-      "path": "content/use-cases/research/persona-panel-review.md",
-      "title": "Persona panel review",
-      "summary": "Persona panel review has heterogeneous reviewer personas produce distinct critiques of a deep-dive report, such as skeptical methodologist, domain expert, implementation realist, base-rate thinker, and decision-maker.",
+      "slug": "methodology-compliance-completeness-check",
+      "path": "content/use-cases/research/methodology-compliance-completeness-check.md",
+      "title": "Methodology compliance + completeness check",
+      "summary": "LLM checks deep-dive against declared protocol (PRISMA, pre-reg, stated rubric); flags missing sections and unjustified deviations",
       "domain": "research",
       "stage": "deep-assess",
       "outcome": [
@@ -1045,13 +1001,31 @@
         "deep-assess",
         "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "practitioner-intelligence-gatherer",
-      "path": "content/use-cases/research/practitioner-intelligence-gatherer.md",
-      "title": "Practitioner intelligence gatherer",
-      "summary": "Practitioner intelligence gatherer collects implementer reports, evaluations, and public program documentation that contain operational evidence but are rarely indexed academically.",
+      "slug": "multi-agent-adversarial-review",
+      "path": "content/use-cases/research/multi-agent-adversarial-review.md",
+      "title": "Multi-agent adversarial review",
+      "summary": "Combines falsification prompts, heterogeneous personas (skeptical methodologist, domain expert, base-rate thinker), and Hypothesis-Verifier-Quantifier pipelines. Single architecture, multiple configurations depending on depth needed",
+      "domain": "research",
+      "stage": "deep-assess",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "deep-assess",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "multi-engine-deep-research",
+      "path": "content/use-cases/research/multi-engine-deep-research.md",
+      "title": "Multi-engine deep research",
+      "summary": "Same query through ChatGPT, Gemini, Claude Deep Research; merge results",
       "domain": "research",
       "stage": "source",
       "outcome": [
@@ -1061,15 +1035,51 @@
         "ai",
         "research",
         "source",
-        "coverage"
+        "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "open-question-packager",
+      "path": "content/use-cases/research/open-question-packager.md",
+      "title": "Open-question packager",
+      "summary": "Extract unresolved uncertainties; package each as actionable research brief",
+      "domain": "research",
+      "stage": "hand-over",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "hand-over",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "outcome-linked-prior-art-retrieval",
+      "path": "content/use-cases/research/outcome-linked-prior-art-retrieval.md",
+      "title": "Outcome-linked prior-art retrieval",
+      "summary": "Retrieve prior internal work, with the decision and what happened next",
+      "domain": "research",
+      "stage": "source",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "source",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "pre-meeting-steelman-pair",
       "path": "content/use-cases/research/pre-meeting-steelman-pair.md",
       "title": "Pre-meeting steelman pair",
-      "summary": "Pre-meeting steelman pair generates the strongest case for and against each finalist from the report and adversarial review before the decision meeting.",
+      "summary": "Per finalist: strongest case for and against, distributed before meeting",
       "domain": "research",
       "stage": "decide",
       "outcome": [
@@ -1081,13 +1091,13 @@
         "decide",
         "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "pre-mortem-generator",
       "path": "content/use-cases/research/pre-mortem-generator.md",
       "title": "Pre-mortem generator",
-      "summary": "Pre-mortem generator asks what would have gone wrong if the research round produced a useless answer, forcing the team to identify round-design failures before they become expensive.",
+      "summary": "\"Imagine this round produced a useless answer, what went wrong?\" Multi-persona prompt",
       "domain": "research",
       "stage": "scope",
       "outcome": [
@@ -1099,31 +1109,13 @@
         "scope",
         "quality"
       ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "pre-registered-decision-criteria-checker",
-      "path": "content/use-cases/research/pre-registered-decision-criteria-checker.md",
-      "title": "Pre-registered decision criteria checker",
-      "summary": "Pre-registered decision criteria checker scores candidates against the round's agreed criteria before the meeting and flags when discussion drifts toward post-hoc standards.",
-      "domain": "research",
-      "stage": "decide",
-      "outcome": [
-        "quality"
-      ],
-      "tags": [
-        "ai",
-        "research",
-        "decide",
-        "consistency"
-      ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "probabilistic-decision-register",
       "path": "content/use-cases/research/probabilistic-decision-register.md",
       "title": "Probabilistic decision register",
-      "summary": "Probabilistic decision register records recommendations as probability distributions rather than binary recommend-or-drop outcomes.",
+      "summary": "Capture decisions as probability distributions, not binary",
       "domain": "research",
       "stage": "decide",
       "outcome": [
@@ -1133,45 +1125,9 @@
         "ai",
         "research",
         "decide",
-        "calibration"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "probabilistic-quant-drafter-with-explicit-priors",
-      "path": "content/use-cases/research/probabilistic-quant-drafter-with-explicit-priors.md",
-      "title": "Probabilistic quant-drafter with explicit priors",
-      "summary": "Probabilistic quant-drafter with explicit priors builds a first-pass model with distributions for each input and runs Monte Carlo analysis from the start.",
-      "domain": "research",
-      "stage": "shallow-assess",
-      "outcome": [
         "quality"
       ],
-      "tags": [
-        "ai",
-        "research",
-        "shallow-assess",
-        "quality"
-      ],
-      "lastUpdated": "2026-04-28"
-    },
-    {
-      "slug": "reference-class-pre-loader",
-      "path": "content/use-cases/research/reference-class-pre-loader.md",
-      "title": "Reference-class pre-loader",
-      "summary": "Reference-class pre-loader surfaces the nearest historical analogues for each candidate, including internal and external examples with their actual outcomes.",
-      "domain": "research",
-      "stage": "triage",
-      "outcome": [
-        "quality"
-      ],
-      "tags": [
-        "ai",
-        "research",
-        "triage",
-        "calibration"
-      ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "revealjs-vibe-coding-slides",
@@ -1194,59 +1150,94 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "searchable-cross-round-repository",
+      "path": "content/use-cases/research/searchable-cross-round-repository.md",
+      "title": "Searchable cross-round repository",
+      "summary": "Embedding-based search across all decision artifacts with grounded answers",
+      "domain": "research",
+      "stage": "hand-over",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "hand-over",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-29"
+    },
+    {
       "slug": "sensitivity-driven-research-scoper",
       "path": "content/use-cases/research/sensitivity-driven-research-scoper.md",
       "title": "Sensitivity-driven research scoper",
-      "summary": "Sensitivity-driven research scoper analyzes a draft model and ranks the inputs where better evidence would most reduce decision uncertainty.",
+      "summary": "Ranks which inputs would most reduce decision uncertainty",
       "domain": "research",
       "stage": "shallow-assess",
       "outcome": [
-        "speed",
-        "cost"
+        "quality"
       ],
       "tags": [
         "ai",
         "research",
         "shallow-assess",
-        "efficiency"
+        "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "stakeholder-pre-elicitor",
-      "path": "content/use-cases/research/stakeholder-pre-elicitor.md",
-      "title": "Stakeholder pre-elicitor",
-      "summary": "Stakeholder pre-elicitor gathers structured input from funders, partners, and decision-makers before the round starts so the team does not discover late that it optimized for the wrong audience.",
+      "slug": "stakeholder-landscape-intelligence",
+      "path": "content/use-cases/research/stakeholder-landscape-intelligence.md",
+      "title": "Stakeholder/landscape intelligence",
+      "summary": "Deep-research agent reads 20-50 external sources to map what peers are scoping toward",
       "domain": "research",
       "stage": "scope",
       "outcome": [
-        "quality"
+        "speed"
       ],
       "tags": [
         "ai",
         "research",
         "scope",
-        "coverage"
+        "speed"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
-      "slug": "structured-disagreement-protocol",
-      "path": "content/use-cases/research/structured-disagreement-protocol.md",
-      "title": "Structured-disagreement protocol",
-      "summary": "Structured-disagreement protocol extracts the specific assumptions behind committee disagreement, what evidence would resolve them, and whether resolving them is worth the cost.",
+      "slug": "structured-one-pager-auto-draft",
+      "path": "content/use-cases/research/structured-one-pager-auto-draft.md",
+      "title": "Structured one-pager auto-draft",
+      "summary": "LLM compiles standard 1-pager per candidate from public and parsed inputs",
       "domain": "research",
-      "stage": "decide",
+      "stage": "shallow-assess",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "research",
+        "shallow-assess",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "theory-of-change-generator-validator",
+      "path": "content/use-cases/research/theory-of-change-generator-validator.md",
+      "title": "Theory-of-change generator + validator",
+      "summary": "LLM drafts ToC (inputs, activities, outputs, outcomes, assumptions) from candidate brief; validates each link against evidence",
+      "domain": "research",
+      "stage": "shallow-assess",
       "outcome": [
         "quality"
       ],
       "tags": [
         "ai",
         "research",
-        "decide",
+        "shallow-assess",
         "quality"
       ],
-      "lastUpdated": "2026-04-28"
+      "lastUpdated": "2026-04-29"
     },
     {
       "slug": "time-tracking",

@@ -1,19 +1,19 @@
 ---
-title: Pre-meeting steelman pair
+title: Multi-engine deep research
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
   - ai
   - research
-  - decide
+  - source
   - quality
 domain: research
 domainOrder: 2
-stage: decide
-stageOrder: 6
+stage: source
+stageOrder: 2
 outcome:
   - quality
 value: 3
 effort: 1
 ---
-Per finalist: strongest case for and against, distributed before meeting
+Same query through ChatGPT, Gemini, Claude Deep Research; merge results

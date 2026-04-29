@@ -1,5 +1,5 @@
 ---
-title: Probabilistic decision register
+title: Decision capture + disagreement extraction
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
@@ -13,7 +13,7 @@ stage: decide
 stageOrder: 6
 outcome:
   - quality
-value: 1
-effort: 2
+value: 4
+effort: 3
 ---
-Capture decisions as probability distributions, not binary
+Record meeting; extract which assumption each side rests on, what evidence resolves it

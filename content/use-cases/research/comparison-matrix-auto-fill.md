@@ -1,19 +1,19 @@
 ---
-title: Claim-grounded source verifier
+title: Comparison matrix auto-fill
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
   - ai
   - research
   - shallow-assess
-  - quality
+  - speed
 domain: research
 domainOrder: 2
 stage: shallow-assess
 stageOrder: 4
 outcome:
-  - quality
-value: 3
-effort: 4
+  - speed
+value: 1
+effort: 1
 ---
-For each claim, identify cited passage; flag where citation doesn't support claim
+Define columns once; LLM fills cells from each source

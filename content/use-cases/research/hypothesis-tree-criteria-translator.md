@@ -1,5 +1,5 @@
 ---
-title: Pre-mortem generator
+title: Hypothesis tree + criteria translator
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
@@ -13,7 +13,7 @@ stage: scope
 stageOrder: 1
 outcome:
   - quality
-value: 2
-effort: 1
+value: 4
+effort: 3
 ---
-"Imagine this round produced a useless answer, what went wrong?" Multi-persona prompt
+Convert one-paragraph brief into MECE hypothesis tree and quantifiable screening criteria

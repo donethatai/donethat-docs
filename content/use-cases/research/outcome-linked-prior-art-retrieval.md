@@ -1,19 +1,19 @@
 ---
-title: Sensitivity-driven research scoper
+title: Outcome-linked prior-art retrieval
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
   - ai
   - research
-  - shallow-assess
+  - source
   - quality
 domain: research
 domainOrder: 2
-stage: shallow-assess
-stageOrder: 4
+stage: source
+stageOrder: 2
 outcome:
   - quality
 value: 4
 effort: 5
 ---
-Ranks which inputs would most reduce decision uncertainty
+Retrieve prior internal work, with the decision and what happened next

@@ -1,19 +1,19 @@
 ---
-title: Probabilistic decision register
+title: Criteria stress-tester
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
   - ai
   - research
-  - decide
+  - scope
   - quality
 domain: research
 domainOrder: 2
-stage: decide
-stageOrder: 6
+stage: scope
+stageOrder: 1
 outcome:
   - quality
 value: 1
 effort: 2
 ---
-Capture decisions as probability distributions, not binary
+LLM critiques proposed criteria for gameability, overlap, missing dimensions

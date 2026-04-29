@@ -1,5 +1,5 @@
 ---
-title: Implementation feedback loop
+title: Searchable cross-round repository
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
@@ -13,7 +13,7 @@ stage: hand-over
 stageOrder: 7
 outcome:
   - quality
-value: 4
-effort: 5
+value: 5
+effort: 3
 ---
-Structured check-ins with recipient: what was validated, what was wrong, synthesised back into KB
+Embedding-based search across all decision artifacts with grounded answers

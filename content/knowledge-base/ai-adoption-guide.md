@@ -50,7 +50,7 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 
 - Eyebrow: Experiment
 - Title: Start brainstorming
-- Subtitle: Think along your process to identify more potential use cases.
+- Subtitle: Think along your process to identify more potential use cases. Start thinking from pain points and bottlenecks in your existing process. Consider the goals you set in the beginning.
 
 ### Ownership
 

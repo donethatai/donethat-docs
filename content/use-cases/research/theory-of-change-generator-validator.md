@@ -1,5 +1,5 @@
 ---
-title: Claim-grounded source verifier
+title: Theory-of-change generator + validator
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
@@ -13,7 +13,7 @@ stage: shallow-assess
 stageOrder: 4
 outcome:
   - quality
-value: 3
-effort: 4
+value: 2
+effort: 3
 ---
-For each claim, identify cited passage; flag where citation doesn't support claim
+LLM drafts ToC (inputs, activities, outputs, outcomes, assumptions) from candidate brief; validates each link against evidence

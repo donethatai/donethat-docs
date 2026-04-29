@@ -1,5 +1,5 @@
 ---
-title: Pre-mortem generator
+title: Bar-setter from prior decisions
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
@@ -13,7 +13,7 @@ stage: scope
 stageOrder: 1
 outcome:
   - quality
-value: 2
-effort: 1
+value: 5
+effort: 5
 ---
-"Imagine this round produced a useless answer, what went wrong?" Multi-persona prompt
+Surface historical decisions and outcomes from internal archive; reveal implicit bar past calls applied

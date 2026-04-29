@@ -1,5 +1,5 @@
 ---
-title: Probabilistic decision register
+title: Forecasting tournament on outcomes
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
@@ -13,7 +13,7 @@ stage: decide
 stageOrder: 6
 outcome:
   - quality
-value: 1
-effort: 2
+value: 2
+effort: 4
 ---
-Capture decisions as probability distributions, not binary
+Registered forecasts on 12/24-month outcomes; scored when they resolve

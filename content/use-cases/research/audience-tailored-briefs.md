@@ -1,19 +1,19 @@
 ---
-title: Open-question packager
+title: Audience-tailored briefs
 category: use-cases
 lastUpdated: '2026-04-29'
 tags:
   - ai
   - research
   - hand-over
-  - quality
+  - speed
 domain: research
 domainOrder: 2
 stage: hand-over
 stageOrder: 7
 outcome:
-  - quality
-value: 2
-effort: 2
+  - speed
+value: 3
+effort: 1
 ---
-Extract unresolved uncertainties; package each as actionable research brief
+One corpus into exec, technical, operational versions; caveats unhideable
