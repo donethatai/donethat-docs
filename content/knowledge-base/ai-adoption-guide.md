@@ -176,54 +176,58 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 
 ### Data
 
-- Make useful data accessible to approved AI tools.
-- Clean only the data needed for first experiments.
-- Map source systems, owners, and permissions.
-- Decide what stays out of scope.
+- Map the 80/20 data sources that have most value.
+- Prioritize those needed for the use cases.
+- Check how AI can get access to them.
+- Decide who is responsible for deciding what's accessible.
+- Don't start a cleanup project unless it's really needed.
+- If deciding on new tools, prioritize API and MCP access.
 
 ### FinOps
 
-- Give employees budget safety to experiment.
-- Track token, seat, and workflow costs.
-- Set spend alerts before rollout.
+- If possible give each employee a budget to experiment with.
+- Stop any privately paid subscriptions (business risks).
+- Track token cost, slowly start reviewing cost per output.
+- Set spend alerts before larger-scale rollouts.
 - Review cost per useful output.
 
 ### Security
 
-- Define guardrails before broad access.
-- Decide who approves risky use cases.
-- Make escalation paths obvious.
-- Separate safe drafts from sensitive actions.
+- Switch from private accounts to company accounts.
+- Any tool that has access to your data and to the internet is a risk.
+- Very careful with skills, mcps, and other third-party add-ons.
+- Have a policty for what's allowed and what isn't.
+- Review best practices, this is evolving quickly.
 
 ### Responsibilities
 
 - Assign an owner per use case.
-- Name reviewers and decision rights.
-- Define who stops a failing pilot.
-- Keep ownership close to the workflow.
+- Assign somebody who decides when to stop pilots.
+- Assign somebody who decides on security and data.
+- Assign somebody who decides on time and budget investments.
 
 ### Time
 
-- Fund experimentation time explicitly.
-- Decide what work gets paused or reduced.
-- Keep slack for review and learning.
-- Protect teams from hidden extra work.
+- Make explicit time available for experimentation.
+- Decide what work gets paused or reduced in favor of experimentation.
+- For example follow Google's 20% rule.
+- Frequently review as new tasks just start appearing.
 
 ### Expertise
 
-- Source expertise deliberately.
-- Use consultants where speed matters.
-- Offer courses for repeatable basics.
-- Share best practices in one internal channel.
+- AI assistants can answer most questions.
+- Build expertise in-house, you will need it in the future.
+- Building. is the best way to learn, skip the courses.
+- Share best practices internally.
 
 ### Change Management
 
+- Be clear with your strategy for AI adoption and how it will affect people.
+- Communicate often, repeat yourself.
+- Adress concerns.
 - Recruit champions close to the work.
-- Train on real workflows, not demos.
-- Show business outcomes early.
 - Repeat what works across teams.
 
 ### Anything Else
 
-- Add any other enablement gap your team has identified.
-- Keep ownership visible for every open item.
+- Add any other enablement gap.
