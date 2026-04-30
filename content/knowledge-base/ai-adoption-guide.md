@@ -1,7 +1,7 @@
 ---
 title: "AI Adoption Guide"
 category: "knowledge-base"
-lastUpdated: "2026-04-28"
+lastUpdated: "2026-04-30"
 tags: ["ai", "adoption", "strategy", "enablement"]
 summary: "An interactive guide to help AI adoption in your team. Make AI implementations focused, not chaotic."
 ---
@@ -51,6 +51,13 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 - Eyebrow: Experiment
 - Title: Start brainstorming
 - Subtitle: Think along your process to identify more potential use cases. Start thinking from pain points and bottlenecks in your existing process. Consider the goals you set in the beginning.
+
+### Experiment CTA
+
+- Eyebrow: Experiment
+- Title: Let AI find your best use cases
+- Subtitle: Let DoneThat understand your work and connect it with MCP to Claude to determine best use cases.
+- Button: Download DoneThat
 
 ### Ownership
 
@@ -174,6 +181,13 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 
 ## Enable
 
+### Time
+
+- Make explicit time available for experimentation.
+- Decide what work gets paused or reduced in favor of experimentation.
+- For example follow Google's 20% rule.
+- Frequently review as new tasks just start appearing.
+
 ### Data
 
 - Map the 80/20 data sources that have most value.
@@ -182,6 +196,14 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 - Decide who is responsible for deciding what's accessible.
 - Don't start a cleanup project unless it's really needed.
 - If deciding on new tools, prioritize API and MCP access.
+
+### Change Management
+
+- Be clear with your strategy for AI adoption and how it will affect people.
+- Communicate often, repeat yourself.
+- Adress concerns.
+- Recruit champions close to the work.
+- Repeat what works across teams.
 
 ### FinOps
 
@@ -206,27 +228,12 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 - Assign somebody who decides on security and data.
 - Assign somebody who decides on time and budget investments.
 
-### Time
-
-- Make explicit time available for experimentation.
-- Decide what work gets paused or reduced in favor of experimentation.
-- For example follow Google's 20% rule.
-- Frequently review as new tasks just start appearing.
-
 ### Expertise
 
 - AI assistants can answer most questions.
 - Build expertise in-house, you will need it in the future.
 - Building. is the best way to learn, skip the courses.
 - Share best practices internally.
-
-### Change Management
-
-- Be clear with your strategy for AI adoption and how it will affect people.
-- Communicate often, repeat yourself.
-- Adress concerns.
-- Recruit champions close to the work.
-- Repeat what works across teams.
 
 ### Anything Else
 
