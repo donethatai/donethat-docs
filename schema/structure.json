@@ -62,42 +62,80 @@
       "files": [
         "adversarial-cull-check",
         "ai-for-software-engineers",
+        "ai-inbound-chat-qualifier",
         "audience-tailored-briefs",
+        "auto-drafted-proposal",
+        "auto-drafted-success-plan",
+        "auto-generated-qbr",
         "auto-knockout-filter",
+        "auto-renew-and-anomaly-detector",
+        "autonomous-bdr-agent",
         "bar-setter-from-prior-decisions",
         "best-ai-for-work",
+        "buying-committee-mapping",
+        "buying-signal-trigger-monitoring",
         "calibration-tracker",
+        "case-study-retrieval-rag",
+        "champion-departure-monitoring",
+        "churn-risk-prediction-model",
         "claim-grounded-source-verifier",
+        "clause-precedent-retrieval",
         "code-grounded-quant-red-team",
         "comparison-matrix-auto-fill",
         "continuous-source-monitor",
+        "contract-redline-ai",
         "criteria-stress-tester",
+        "cross-system-handoff-agent",
         "data-enrichment",
+        "deal-risk-scoring",
         "decision-capture-disagreement-extraction",
         "decomposed-criteria-scorer",
         "dictation-ais",
         "disagreement-flagger-pre-meeting-brief",
+        "discovery-gap-analyzer",
+        "disqualification-recommender",
         "domain-specific-discovery",
         "embedding-based-deduplication",
         "expert-finder",
         "forecasting-tournament-on-outcomes",
         "grey-literature-practitioner-sweep",
+        "hyper-personalized-outbound-copy",
         "hypothesis-tree-criteria-translator",
+        "icp-lookalike-account-discovery",
         "implementation-feedback-loop",
+        "implementation-risk-flagger",
         "interview-prep-transcription-synthesis",
+        "last-mile-deal-coaching",
+        "live-objection-response-prompts",
         "living-document-refresh-trigger",
+        "meddic-auto-extraction",
         "meeting-transcription",
         "methodology-compliance-completeness-check",
+        "methodology-scorecard",
         "multi-agent-adversarial-review",
         "multi-engine-deep-research",
+        "negotiation-role-play-simulator",
         "open-question-packager",
         "outcome-linked-prior-art-retrieval",
+        "personalized-demo-video",
+        "post-call-summary-and-crm-auto-update",
+        "pre-call-account-briefing",
         "pre-meeting-steelman-pair",
         "pre-mortem-generator",
+        "predictive-sql-conversion-score",
+        "pricing-recommendation-engine",
         "probabilistic-decision-register",
+        "probabilistic-forecast-roll-up",
+        "promised-commitments-extractor",
+        "real-time-call-coaching",
         "revealjs-vibe-coding-slides",
+        "roi-business-case-generator",
+        "sales-to-cs-handoff-briefing",
+        "save-play-recommender",
         "searchable-cross-round-repository",
+        "security-and-rfp-auto-responder",
         "sensitivity-driven-research-scoper",
+        "signed-contract-data-extraction",
         "stakeholder-landscape-intelligence",
         "structured-one-pager-auto-draft",
         "theory-of-change-generator-validator",
@@ -107,6 +145,8 @@
         "using-skills",
         "vibe-scripting",
         "website-vibe-coding",
+        "website-visitor-de-anonymization",
+        "win-loss-reason-classifier",
         "workflow-automation-when-to-automate"
       ]
     }
@@ -529,6 +569,24 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "ai-inbound-chat-qualifier",
+      "path": "content/use-cases/sales/ai-inbound-chat-qualifier.md",
+      "title": "AI inbound chat qualifier",
+      "summary": "An adaptive bot replaces static forms and qualifies website visitors in real time, using tools like Qualified or Drift.",
+      "domain": "sales",
+      "stage": "qualify",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "qualify",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "audience-tailored-briefs",
       "path": "content/use-cases/research/audience-tailored-briefs.md",
       "title": "Audience-tailored briefs",
@@ -547,6 +605,60 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "auto-drafted-proposal",
+      "path": "content/use-cases/sales/auto-drafted-proposal.md",
+      "title": "Auto-drafted proposal",
+      "summary": "AI generates SOWs and proposals from CRM opportunity data using approved templates, with tools like PandaDoc AI or Proposify.",
+      "domain": "sales",
+      "stage": "propose",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "propose",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "auto-drafted-success-plan",
+      "path": "content/use-cases/sales/auto-drafted-success-plan.md",
+      "title": "Auto-drafted success plan",
+      "summary": "AI generates a 30/60/90 outcome plan from discovery and ROI commitments.",
+      "domain": "sales",
+      "stage": "handoff",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "handoff",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "auto-generated-qbr",
+      "path": "content/use-cases/sales/auto-generated-qbr.md",
+      "title": "Auto-generated QBR",
+      "summary": "AI synthesizes usage, value delivered, and expansion vectors into a business-review deck, using tools like Gainsight Horizon AI.",
+      "domain": "sales",
+      "stage": "renew",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "renew",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "auto-knockout-filter",
       "path": "content/use-cases/research/auto-knockout-filter.md",
       "title": "Auto-knockout filter",
@@ -563,6 +675,42 @@
         "cost"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "auto-renew-and-anomaly-detector",
+      "path": "content/use-cases/sales/auto-renew-and-anomaly-detector.md",
+      "title": "Auto-renew and anomaly detector",
+      "summary": "AI flags auto-renew clauses, price bumps, and missed renewal windows in the contract corpus, using tools like Sirion or LinkSquares.",
+      "domain": "sales",
+      "stage": "renew",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "renew",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "autonomous-bdr-agent",
+      "path": "content/use-cases/sales/autonomous-bdr-agent.md",
+      "title": "Autonomous BDR agent",
+      "summary": "An end-to-end agent runs prospecting, enrichment, outreach, and meeting booking without rep involvement, using tools like Artisan Ava or 11x.",
+      "domain": "sales",
+      "stage": "prospect",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "prospect",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "bar-setter-from-prior-decisions",
@@ -603,6 +751,42 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "buying-committee-mapping",
+      "path": "content/use-cases/sales/buying-committee-mapping.md",
+      "title": "Buying-committee mapping",
+      "summary": "NLP and graph analysis identify decision-makers, champions, and blockers across the account, using tools like People.ai.",
+      "domain": "sales",
+      "stage": "qualify",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "qualify",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "buying-signal-trigger-monitoring",
+      "path": "content/use-cases/sales/buying-signal-trigger-monitoring.md",
+      "title": "Buying-signal trigger monitoring",
+      "summary": "An agent watches job changes, funding rounds, and hiring spikes, then alerts reps in real time with tools like Common Room or UserGems.",
+      "domain": "sales",
+      "stage": "prospect",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "prospect",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "calibration-tracker",
       "path": "content/use-cases/research/calibration-tracker.md",
       "title": "Calibration tracker",
@@ -621,6 +805,60 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "case-study-retrieval-rag",
+      "path": "content/use-cases/sales/case-study-retrieval-rag.md",
+      "title": "Case-study retrieval RAG",
+      "summary": "Retrieval-augmented generation pulls vertical-matched proof points from the sales-asset library on demand, using tools like Highspot or Seismic.",
+      "domain": "sales",
+      "stage": "propose",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "propose",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "champion-departure-monitoring",
+      "path": "content/use-cases/sales/champion-departure-monitoring.md",
+      "title": "Champion-departure monitoring",
+      "summary": "AI detects when the primary contact leaves the account and triggers a retention play, using tools like Champify or UserGems.",
+      "domain": "sales",
+      "stage": "renew",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "renew",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "churn-risk-prediction-model",
+      "path": "content/use-cases/sales/churn-risk-prediction-model.md",
+      "title": "Churn-risk prediction model",
+      "summary": "Multi-signal machine learning scores accounts on usage, sentiment, and ticket trends 90 days before renewal, using tools like ChurnZero, Gainsight, or Velaris.",
+      "domain": "sales",
+      "stage": "renew",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "renew",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "claim-grounded-source-verifier",
       "path": "content/use-cases/research/claim-grounded-source-verifier.md",
       "title": "Claim-grounded source verifier",
@@ -637,6 +875,24 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "clause-precedent-retrieval",
+      "path": "content/use-cases/sales/clause-precedent-retrieval.md",
+      "title": "Clause precedent retrieval",
+      "summary": "Retrieval-augmented generation over signed contracts surfaces approved language and precedent for tricky asks, using tools like Ironclad or Sirion.",
+      "domain": "sales",
+      "stage": "negotiate",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "negotiate",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "code-grounded-quant-red-team",
@@ -693,6 +949,24 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "contract-redline-ai",
+      "path": "content/use-cases/sales/contract-redline-ai.md",
+      "title": "Contract redline AI",
+      "summary": "AI auto-redlines counterparty edits against the negotiation playbook and flags risk clauses, using tools like Spellbook, Sirion, or Ironclad.",
+      "domain": "sales",
+      "stage": "negotiate",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "negotiate",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "criteria-stress-tester",
       "path": "content/use-cases/research/criteria-stress-tester.md",
       "title": "Criteria stress-tester",
@@ -709,6 +983,24 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "cross-system-handoff-agent",
+      "path": "content/use-cases/sales/cross-system-handoff-agent.md",
+      "title": "Cross-system handoff agent",
+      "summary": "An agent transfers opportunity context, contacts, and notes from the CRM to the CS platform, using tools like Gainsight Horizon AI or Vitally AI.",
+      "domain": "sales",
+      "stage": "handoff",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "handoff",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "data-enrichment",
@@ -729,6 +1021,24 @@
         "operations"
       ],
       "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "deal-risk-scoring",
+      "path": "content/use-cases/sales/deal-risk-scoring.md",
+      "title": "Deal risk scoring",
+      "summary": "Machine learning flags slipping deals from email tone, call sentiment, and engagement decay, using tools like Aviso or Clari Copilot.",
+      "domain": "sales",
+      "stage": "negotiate",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "negotiate",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "decision-capture-disagreement-extraction",
@@ -802,6 +1112,42 @@
         "speed"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "discovery-gap-analyzer",
+      "path": "content/use-cases/sales/discovery-gap-analyzer.md",
+      "title": "Discovery gap analyzer",
+      "summary": "An adversarial pass over transcripts highlights pain points the rep failed to probe.",
+      "domain": "sales",
+      "stage": "discover",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "discover",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "disqualification-recommender",
+      "path": "content/use-cases/sales/disqualification-recommender.md",
+      "title": "Disqualification recommender",
+      "summary": "An adversarial review flags unfit deals with rationale before reps invest more cycles.",
+      "domain": "sales",
+      "stage": "qualify",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "qualify",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "domain-specific-discovery",
@@ -894,6 +1240,24 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "hyper-personalized-outbound-copy",
+      "path": "content/use-cases/sales/hyper-personalized-outbound-copy.md",
+      "title": "Hyper-personalized outbound copy",
+      "summary": "An LLM drafts cold openers grounded in a prospect's recent posts, podcasts, or filings, using tools like Lavender or Smartwriter.",
+      "domain": "sales",
+      "stage": "prospect",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "prospect",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "hypothesis-tree-criteria-translator",
       "path": "content/use-cases/research/hypothesis-tree-criteria-translator.md",
       "title": "Hypothesis tree + criteria translator",
@@ -910,6 +1274,24 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "icp-lookalike-account-discovery",
+      "path": "content/use-cases/sales/icp-lookalike-account-discovery.md",
+      "title": "ICP lookalike account discovery",
+      "summary": "Embedding search over firmographic data finds accounts matching the closed-won profile, using tools like Clay or 6sense.",
+      "domain": "sales",
+      "stage": "prospect",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "prospect",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "implementation-feedback-loop",
@@ -930,6 +1312,24 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "implementation-risk-flagger",
+      "path": "content/use-cases/sales/implementation-risk-flagger.md",
+      "title": "Implementation risk flagger",
+      "summary": "Machine learning predicts onboarding risk based on sales-stage signals like buying-team turnover.",
+      "domain": "sales",
+      "stage": "handoff",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "handoff",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "interview-prep-transcription-synthesis",
       "path": "content/use-cases/research/interview-prep-transcription-synthesis.md",
       "title": "Interview prep + transcription + synthesis",
@@ -948,6 +1348,42 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "last-mile-deal-coaching",
+      "path": "content/use-cases/sales/last-mile-deal-coaching.md",
+      "title": "Last-mile deal coaching",
+      "summary": "AI surfaces deal-specific risk and a recommended next step for the AE and manager, using tools like Aviso or Clari Copilot.",
+      "domain": "sales",
+      "stage": "close",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "live-objection-response-prompts",
+      "path": "content/use-cases/sales/live-objection-response-prompts.md",
+      "title": "Live objection-response prompts",
+      "summary": "AI surfaces real-time rebuttals during pricing and competitive pushback on calls, using tools like Cresta or Balto.",
+      "domain": "sales",
+      "stage": "negotiate",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "negotiate",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "living-document-refresh-trigger",
       "path": "content/use-cases/research/living-document-refresh-trigger.md",
       "title": "Living-document refresh trigger",
@@ -964,6 +1400,24 @@
         "cost"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "meddic-auto-extraction",
+      "path": "content/use-cases/sales/meddic-auto-extraction.md",
+      "title": "MEDDIC auto-extraction",
+      "summary": "An LLM extracts metrics, champion, pain, and decision criteria from calls and emails into CRM fields, using tools like Gong or Aviso.",
+      "domain": "sales",
+      "stage": "qualify",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "qualify",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "meeting-transcription",
@@ -1004,6 +1458,24 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "methodology-scorecard",
+      "path": "content/use-cases/sales/methodology-scorecard.md",
+      "title": "Methodology scorecard",
+      "summary": "An LLM scores calls against MEDDPICC, SPIN, or Sandler frameworks, using tools like Hyperbound.",
+      "domain": "sales",
+      "stage": "discover",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "discover",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "multi-agent-adversarial-review",
       "path": "content/use-cases/research/multi-agent-adversarial-review.md",
       "title": "Multi-agent adversarial review",
@@ -1038,6 +1510,24 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "negotiation-role-play-simulator",
+      "path": "content/use-cases/sales/negotiation-role-play-simulator.md",
+      "title": "Negotiation role-play simulator",
+      "summary": "An AI buyer bot lets reps rehearse tough objections before live calls, using tools like Hyperbound or Second Nature.",
+      "domain": "sales",
+      "stage": "negotiate",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "negotiate",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "open-question-packager",
@@ -1076,6 +1566,60 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "personalized-demo-video",
+      "path": "content/use-cases/sales/personalized-demo-video.md",
+      "title": "Personalized demo video",
+      "summary": "AI generates tailored video walkthroughs per prospect using an avatar or product clips, with tools like Tavus or HeyGen.",
+      "domain": "sales",
+      "stage": "propose",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "propose",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "post-call-summary-and-crm-auto-update",
+      "path": "content/use-cases/sales/post-call-summary-and-crm-auto-update.md",
+      "title": "Post-call summary and CRM auto-update",
+      "summary": "Transcripts are condensed into structured fields and pushed to the CRM without rep input, using tools like Gong, Read.ai, or Avoma.",
+      "domain": "sales",
+      "stage": "discover",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "discover",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "pre-call-account-briefing",
+      "path": "content/use-cases/sales/pre-call-account-briefing.md",
+      "title": "Pre-call account briefing",
+      "summary": "AI synthesizes 10-Ks, news, and LinkedIn data into a one-page brief before each meeting.",
+      "domain": "sales",
+      "stage": "discover",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "discover",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "pre-meeting-steelman-pair",
       "path": "content/use-cases/research/pre-meeting-steelman-pair.md",
       "title": "Pre-meeting steelman pair",
@@ -1112,6 +1656,42 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "predictive-sql-conversion-score",
+      "path": "content/use-cases/sales/predictive-sql-conversion-score.md",
+      "title": "Predictive SQL conversion score",
+      "summary": "Machine learning ranks leads by probability of becoming a sales-qualified opportunity, using tools like MadKudu or Einstein.",
+      "domain": "sales",
+      "stage": "qualify",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "qualify",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "pricing-recommendation-engine",
+      "path": "content/use-cases/sales/pricing-recommendation-engine.md",
+      "title": "Pricing recommendation engine",
+      "summary": "Machine learning suggests price and discount levels by segment, deal size, and historical win rates, using tools like Pricefx or DealHub.",
+      "domain": "sales",
+      "stage": "propose",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "propose",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "probabilistic-decision-register",
       "path": "content/use-cases/research/probabilistic-decision-register.md",
       "title": "Probabilistic decision register",
@@ -1128,6 +1708,60 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "probabilistic-forecast-roll-up",
+      "path": "content/use-cases/sales/probabilistic-forecast-roll-up.md",
+      "title": "Probabilistic forecast roll-up",
+      "summary": "AI replaces gut-feel forecasts with data-driven deal probability and ARR-weighted commit, using tools like Clari, Aviso, or BoostUp.",
+      "domain": "sales",
+      "stage": "close",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "promised-commitments-extractor",
+      "path": "content/use-cases/sales/promised-commitments-extractor.md",
+      "title": "Promised-commitments extractor",
+      "summary": "AI pulls every promised commitment from sales transcripts to prevent broken promises in delivery.",
+      "domain": "sales",
+      "stage": "handoff",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "handoff",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "real-time-call-coaching",
+      "path": "content/use-cases/sales/real-time-call-coaching.md",
+      "title": "Real-time call coaching",
+      "summary": "In-call prompts surface missed questions, objections, and battle cards as the conversation happens, using tools like Cresta or Balto.",
+      "domain": "sales",
+      "stage": "discover",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "discover",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "revealjs-vibe-coding-slides",
@@ -1150,6 +1784,60 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "roi-business-case-generator",
+      "path": "content/use-cases/sales/roi-business-case-generator.md",
+      "title": "ROI business case generator",
+      "summary": "AI builds a quantified value model and CFO narrative from discovery inputs, using tools like Cuvama or Vivun.",
+      "domain": "sales",
+      "stage": "propose",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "propose",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "sales-to-cs-handoff-briefing",
+      "path": "content/use-cases/sales/sales-to-cs-handoff-briefing.md",
+      "title": "Sales-to-CS handoff briefing",
+      "summary": "AI synthesizes discovery, proposal, and commitments into an onboarding document for the CS team, using tools like Gong or Read.ai.",
+      "domain": "sales",
+      "stage": "handoff",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "handoff",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "save-play-recommender",
+      "path": "content/use-cases/sales/save-play-recommender.md",
+      "title": "Save-play recommender",
+      "summary": "AI retrieves successful retention playbooks from past saves matched to the current risk pattern.",
+      "domain": "sales",
+      "stage": "renew",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "renew",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "searchable-cross-round-repository",
       "path": "content/use-cases/research/searchable-cross-round-repository.md",
       "title": "Searchable cross-round repository",
@@ -1168,6 +1856,24 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "security-and-rfp-auto-responder",
+      "path": "content/use-cases/sales/security-and-rfp-auto-responder.md",
+      "title": "Security and RFP auto-responder",
+      "summary": "Retrieval-augmented generation fills security questionnaires and RFPs from an approved knowledge base, using tools like Loopio, Vendict, or Responsive.",
+      "domain": "sales",
+      "stage": "close",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "close",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "sensitivity-driven-research-scoper",
       "path": "content/use-cases/research/sensitivity-driven-research-scoper.md",
       "title": "Sensitivity-driven research scoper",
@@ -1184,6 +1890,24 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "signed-contract-data-extraction",
+      "path": "content/use-cases/sales/signed-contract-data-extraction.md",
+      "title": "Signed-contract data extraction",
+      "summary": "AI pulls ARR, term, renewal date, and key clauses from executed contracts into the CRM, using tools like Ironclad or LinkSquares.",
+      "domain": "sales",
+      "stage": "close",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "close",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "stakeholder-landscape-intelligence",
@@ -1359,6 +2083,42 @@
         "non-engineers"
       ],
       "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "website-visitor-de-anonymization",
+      "path": "content/use-cases/sales/website-visitor-de-anonymization.md",
+      "title": "Website visitor de-anonymization",
+      "summary": "An identity graph reveals which target accounts browse pricing and product pages, using tools like RB2B or Warmly.",
+      "domain": "sales",
+      "stage": "prospect",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "prospect",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "win-loss-reason-classifier",
+      "path": "content/use-cases/sales/win-loss-reason-classifier.md",
+      "title": "Win/loss reason classifier",
+      "summary": "AI categorizes closed deals by reason from communications history and updates competitive intel.",
+      "domain": "sales",
+      "stage": "close",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "sales",
+        "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "workflow-automation-when-to-automate",
