@@ -12,6 +12,12 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 
 - Title: About the guide
 
+### Prefill CTA
+
+- Title: Curious but in a rush?
+- Subtitle: Let AI fill a first draft for you.
+- Button: Fill first draft
+
 ### Context
 
 - Title: Let's start with some context
