@@ -60,32 +60,89 @@
       "id": "use-cases",
       "label": "Use Cases",
       "files": [
+        "30-60-90-plan-generator",
+        "account-reconciliation-agent",
+        "accrual-auto-suggestion",
+        "adaptive-dunning-sequences",
         "adversarial-cull-check",
+        "agent-expertise-graph",
+        "agentic-competitor-monitoring",
+        "agentic-cross-platform-deployment",
+        "ai-conducted-exit-interview",
         "ai-for-software-engineers",
         "ai-inbound-chat-qualifier",
+        "ai-moderated-qualitative-interviews",
+        "ai-personal-tutor",
+        "ai-roleplay-skill-coach",
+        "ai-screening-interviews",
+        "anomaly-root-cause-explanations",
+        "asc-606-revenue-recognition-split",
+        "async-video-interview-analysis",
+        "ats-candidate-rediscovery",
+        "attrition-root-cause-attribution",
         "audience-tailored-briefs",
+        "auto-bidding-and-budget-pacing",
         "auto-drafted-proposal",
         "auto-drafted-success-plan",
+        "auto-generated-campaign-briefs",
         "auto-generated-qbr",
+        "auto-generated-review-decks",
         "auto-knockout-filter",
+        "auto-narrative-performance-reports",
         "auto-renew-and-anomaly-detector",
+        "automated-incrementality-experiments",
         "autonomous-bdr-agent",
+        "autonomous-deep-research-briefs",
+        "autonomous-diagnostic-agent",
+        "autonomous-resolution-agent",
+        "background-check-risk-extraction",
         "bar-setter-from-prior-decisions",
+        "behavioral-audience-segment-discovery",
         "best-ai-for-work",
+        "board-pack-narrative-draft",
+        "brand-grounded-copy-generation",
+        "budget-anomaly-flagging",
+        "bug-cluster-handoff-to-engineering",
         "buying-committee-mapping",
         "buying-signal-trigger-monitoring",
+        "calibration-bias-detector",
         "calibration-tracker",
+        "capacity-and-headcount-optimizer",
+        "capex-vs-opex-classifier",
         "case-study-retrieval-rag",
+        "cash-application-via-remittance-parsing",
         "champion-departure-monitoring",
+        "channel-level-marketing-mix-modeling",
+        "churn-risk-and-vip-flagging",
         "churn-risk-prediction-model",
         "claim-grounded-source-verifier",
         "clause-precedent-retrieval",
+        "code-and-config-snippet-generation",
         "code-grounded-quant-red-team",
+        "comp-recommendation-per-offer",
         "comparison-matrix-auto-fill",
+        "compensation-flight-risk-model",
+        "contact-driver-and-trend-analytics",
+        "continuous-pay-equity-monitoring",
         "continuous-source-monitor",
+        "continuous-workforce-model",
+        "contract-clause-review",
         "contract-redline-ai",
+        "contract-review-for-revenue-and-lease-audit",
+        "contract-to-invoice-generation",
+        "control-evidence-retrieval-agent",
+        "conversational-career-site-agent",
+        "conversational-financial-qanda",
+        "conversational-reporting-in-slack",
+        "conversational-slot-filling-intake",
+        "creative-attribute-performance-attribution",
         "criteria-stress-tester",
         "cross-system-handoff-agent",
+        "customer-360-context-auto-attach",
+        "customer-cohort-ltv-segmentation",
+        "customer-reply-intent-classifier",
+        "customer-review-and-social-mining",
+        "data-driven-multi-touch-attribution",
         "data-enrichment",
         "deal-risk-scoring",
         "decision-capture-disagreement-extraction",
@@ -93,61 +150,149 @@
         "dictation-ais",
         "disagreement-flagger-pre-meeting-brief",
         "discovery-gap-analyzer",
+        "dispute-likelihood-scoring",
         "disqualification-recommender",
         "domain-specific-discovery",
+        "driver-tree-assumption-suggestions",
+        "duplicate-and-fraud-detection",
+        "duplicate-and-incident-wave-detection",
+        "dynamic-creative-optimization",
+        "earnings-qanda-simulator",
         "embedding-based-deduplication",
+        "esg-disclosure-draft",
+        "exit-interview-thematic-analysis",
         "expert-finder",
         "forecasting-tournament-on-outcomes",
+        "full-population-transaction-risk-scoring",
+        "generative-ad-creative-production",
+        "gl-coding-suggestion",
+        "granular-topic-auto-tagging",
         "grey-literature-practitioner-sweep",
+        "headcount-scenario-builder",
+        "hiring-decision-bias-audit",
         "hyper-personalized-outbound-copy",
         "hypothesis-tree-criteria-translator",
         "icp-lookalike-account-discovery",
+        "identity-resolved-audience-activation",
         "implementation-feedback-loop",
         "implementation-risk-flagger",
+        "inclusive-job-description-optimizer",
+        "intent-and-category-classification",
+        "intercompany-elimination-matching",
+        "internal-mobility-supply-forecaster",
+        "internal-opportunity-matcher",
         "interview-prep-transcription-synthesis",
+        "invoice-ocr-and-extraction",
+        "invoice-pre-flight-check",
+        "journal-entry-anomaly-detection",
+        "kb-article-generation-from-resolutions",
+        "kb-grounded-draft-reply",
+        "knowledge-capture-agent",
+        "kpi-auto-insights-detection",
+        "language-and-timezone-routing",
         "last-mile-deal-coaching",
+        "lease-accounting-agent",
+        "live-interview-copilot",
+        "live-market-benchmarking",
         "live-objection-response-prompts",
         "living-document-refresh-trigger",
+        "llm-scored-qa-on-every-ticket",
+        "localized-offer-letter-generation",
+        "log-and-stack-trace-summarization",
+        "manager-briefing-generator",
+        "marketing-mix-budget-modeling",
         "meddic-auto-extraction",
         "meeting-transcription",
+        "merit-cycle-agent",
         "methodology-compliance-completeness-check",
         "methodology-scorecard",
+        "ml-rolling-revenue-forecast",
         "multi-agent-adversarial-review",
+        "multi-channel-intent-normalization",
         "multi-engine-deep-research",
+        "multi-source-semantic-candidate-search",
+        "multi-step-workflow-orchestration",
+        "multilingual-transcreation",
+        "natural-language-analytics-agent",
+        "natural-language-scenario-generation",
         "negotiation-role-play-simulator",
+        "new-hire-conversational-assistant",
+        "offer-acceptance-probability-model",
         "open-question-packager",
         "outcome-linked-prior-art-retrieval",
+        "payment-date-prediction",
+        "payment-timing-optimizer",
+        "performance-review-draft-generator",
         "personalized-demo-video",
+        "personalized-outreach-sequence-generator",
+        "personalized-total-rewards-statement",
         "post-call-summary-and-crm-auto-update",
         "pre-call-account-briefing",
+        "pre-flight-creative-and-compliance-qa",
         "pre-meeting-steelman-pair",
         "pre-mortem-generator",
+        "predictive-attrition-forecasting",
+        "predictive-best-agent-routing",
+        "predictive-content-performance-scoring",
         "predictive-sql-conversion-score",
         "pricing-recommendation-engine",
         "probabilistic-decision-register",
         "probabilistic-forecast-roll-up",
+        "promise-to-pay-tracker",
         "promised-commitments-extractor",
         "real-time-call-coaching",
+        "real-time-launch-anomaly-detection",
+        "reallocation-agent-during-cuts",
+        "regrettable-attrition-classifier",
+        "reopen-risk-prediction",
+        "reproducibility-probe-agent",
+        "resolution-confirmation-message-generator",
         "revealjs-vibe-coding-slides",
+        "risk-tiered-prioritization",
         "roi-business-case-generator",
+        "role-based-learning-auto-assignment",
+        "root-cause-clustering-across-tickets",
+        "sales-call-competitive-intelligence",
         "sales-to-cs-handoff-briefing",
         "save-play-recommender",
+        "screenshot-and-log-artifact-parser",
         "searchable-cross-round-repository",
         "security-and-rfp-auto-responder",
         "sensitivity-driven-research-scoper",
+        "sentiment-driven-priority-scoring",
         "signed-contract-data-extraction",
+        "silence-as-resolution-detector",
+        "similar-ticket-retrieval",
+        "skill-based-agent-matching",
+        "skills-inference-from-work-artifacts",
+        "sla-breach-prediction",
+        "solution-verification-agent",
+        "sox-control-narrative-drafting",
         "stakeholder-landscape-intelligence",
+        "strategic-skills-gap-analysis",
         "structured-one-pager-auto-draft",
+        "structured-resume-scoring",
+        "synthetic-audience-message-testing",
+        "synthetic-avatar-video-ads",
+        "tax-and-jurisdiction-assignment",
         "theory-of-change-generator-validator",
+        "three-way-match-agent",
+        "ticket-resolution-summarization",
         "time-tracking",
+        "tone-and-policy-compliance-review",
         "using-mcp",
         "using-projects",
         "using-skills",
+        "variance-report-with-driver-attribution",
+        "vendor-spend-benchmark",
         "vibe-scripting",
         "website-vibe-coding",
         "website-visitor-de-anonymization",
         "win-loss-reason-classifier",
-        "workflow-automation-when-to-automate"
+        "workflow-automation-when-to-automate",
+        "workload-aware-auto-assignment",
+        "workpaper-review-llm",
+        "zero-based-budget-challenger"
       ]
     }
   ],
@@ -531,6 +676,78 @@
   ],
   "useCases": [
     {
+      "slug": "30-60-90-plan-generator",
+      "path": "content/use-cases/hr/30-60-90-plan-generator.md",
+      "title": "30-60-90 plan generator",
+      "summary": "LLM tailors ramp goals to role, level, and manager input from a structured template.",
+      "domain": "hr",
+      "stage": "onboard",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "onboard",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "account-reconciliation-agent",
+      "path": "content/use-cases/finance/account-reconciliation-agent.md",
+      "title": "Account reconciliation agent",
+      "summary": "Auto-matches GL to bank and sub-ledger feeds and surfaces only true exceptions, using tools like BlackLine, FloQast, or Numeric.",
+      "domain": "finance",
+      "stage": "close",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "close",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "accrual-auto-suggestion",
+      "path": "content/use-cases/finance/accrual-auto-suggestion.md",
+      "title": "Accrual auto-suggestion",
+      "summary": "LLM proposes period-end accruals from open POs, contracts, and prior patterns.",
+      "domain": "finance",
+      "stage": "close",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "close",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "adaptive-dunning-sequences",
+      "path": "content/use-cases/finance/adaptive-dunning-sequences.md",
+      "title": "Adaptive dunning sequences",
+      "summary": "LLM tailors tone, channel, and timing per customer payment history, using tools like Gaviti or Chaser AI.",
+      "domain": "finance",
+      "stage": "collect",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "collect",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "adversarial-cull-check",
       "path": "content/use-cases/research/adversarial-cull-check.md",
       "title": "Adversarial cull-check",
@@ -547,6 +764,78 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "agent-expertise-graph",
+      "path": "content/use-cases/support/agent-expertise-graph.md",
+      "title": "Agent expertise graph",
+      "summary": "An auto-built knowledge graph links agents to topics they have successfully resolved and uses those links as routing input.",
+      "domain": "support",
+      "stage": "assign",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "assign",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "agentic-competitor-monitoring",
+      "path": "content/use-cases/marketing/agentic-competitor-monitoring.md",
+      "title": "Agentic competitor monitoring",
+      "summary": "Continuously scrape and diff competitor sites, pricing, and messaging with change alerts, using tools like Crayon, Klue, or Visualping.",
+      "domain": "marketing",
+      "stage": "research",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "research",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "agentic-cross-platform-deployment",
+      "path": "content/use-cases/marketing/agentic-cross-platform-deployment.md",
+      "title": "Agentic cross-platform deployment",
+      "summary": "An agent pushes campaigns into Meta, Google, and LinkedIn via API from a single brief.",
+      "domain": "marketing",
+      "stage": "launch",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "launch",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "ai-conducted-exit-interview",
+      "path": "content/use-cases/hr/ai-conducted-exit-interview.md",
+      "title": "AI-conducted exit interview",
+      "summary": "Chatbot runs adaptive exit conversations with follow-up probes, capturing fuller signal than free-text surveys.",
+      "domain": "hr",
+      "stage": "exit",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "exit",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "ai-for-software-engineers",
@@ -587,6 +876,168 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "ai-moderated-qualitative-interviews",
+      "path": "content/use-cases/marketing/ai-moderated-qualitative-interviews.md",
+      "title": "AI-moderated qualitative interviews",
+      "summary": "An LLM conducts and synthesizes hundreds of customer interviews on demand, using tools like Listen Labs or Outset.",
+      "domain": "marketing",
+      "stage": "research",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "research",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "ai-personal-tutor",
+      "path": "content/use-cases/hr/ai-personal-tutor.md",
+      "title": "AI personal tutor",
+      "summary": "Adaptive one-on-one explanations, Socratic dialogue, and just-in-time answers support employees inside learning content.",
+      "domain": "hr",
+      "stage": "develop",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "develop",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "ai-roleplay-skill-coach",
+      "path": "content/use-cases/hr/ai-roleplay-skill-coach.md",
+      "title": "AI roleplay skill coach",
+      "summary": "Simulated customer or colleague scenarios let new hires practice difficult conversations with structured feedback.",
+      "domain": "hr",
+      "stage": "onboard",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "onboard",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "ai-screening-interviews",
+      "path": "content/use-cases/hr/ai-screening-interviews.md",
+      "title": "AI screening interviews",
+      "summary": "Voice or chat agent conducts adaptive first-round interviews and scores responses against the role rubric.",
+      "domain": "hr",
+      "stage": "select",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "select",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "anomaly-root-cause-explanations",
+      "path": "content/use-cases/marketing/anomaly-root-cause-explanations.md",
+      "title": "Anomaly root-cause explanations",
+      "summary": "An LLM cross-references data sources to explain why CPA, CAC, or ROAS shifted.",
+      "domain": "marketing",
+      "stage": "report",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "report",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "asc-606-revenue-recognition-split",
+      "path": "content/use-cases/finance/asc-606-revenue-recognition-split.md",
+      "title": "ASC 606 revenue recognition split",
+      "summary": "LLM applies rev-rec rules to multi-element arrangements and posts the schedule.",
+      "domain": "finance",
+      "stage": "invoice",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "invoice",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "async-video-interview-analysis",
+      "path": "content/use-cases/hr/async-video-interview-analysis.md",
+      "title": "Async video interview analysis",
+      "summary": "Transcribes one-way video answers and scores responses against a competency rubric for high-volume roles.",
+      "domain": "hr",
+      "stage": "select",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "select",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "ats-candidate-rediscovery",
+      "path": "content/use-cases/hr/ats-candidate-rediscovery.md",
+      "title": "ATS candidate rediscovery",
+      "summary": "Re-ranks past applicants in the existing ATS against new requisitions using embedding similarity.",
+      "domain": "hr",
+      "stage": "source",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "source",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "attrition-root-cause-attribution",
+      "path": "content/use-cases/hr/attrition-root-cause-attribution.md",
+      "title": "Attrition root-cause attribution",
+      "summary": "Links exits to manager, team, compensation, and role signals to attribute drivers quantitatively rather than anecdotally.",
+      "domain": "hr",
+      "stage": "exit",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "exit",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "audience-tailored-briefs",
       "path": "content/use-cases/research/audience-tailored-briefs.md",
       "title": "Audience-tailored briefs",
@@ -603,6 +1054,24 @@
         "speed"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "auto-bidding-and-budget-pacing",
+      "path": "content/use-cases/marketing/auto-bidding-and-budget-pacing.md",
+      "title": "Auto-bidding and budget pacing",
+      "summary": "Platform-native machine learning optimizes bids and pacing toward conversion goals, using tools like Google Performance Max or Meta Advantage+.",
+      "domain": "marketing",
+      "stage": "launch",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "launch",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "auto-drafted-proposal",
@@ -641,6 +1110,24 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "auto-generated-campaign-briefs",
+      "path": "content/use-cases/marketing/auto-generated-campaign-briefs.md",
+      "title": "Auto-generated campaign briefs",
+      "summary": "An LLM turns research and goals into a structured campaign brief with KPIs, audiences, and channels.",
+      "domain": "marketing",
+      "stage": "plan",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "plan",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "auto-generated-qbr",
       "path": "content/use-cases/sales/auto-generated-qbr.md",
       "title": "Auto-generated QBR",
@@ -654,6 +1141,24 @@
         "ai",
         "sales",
         "renew",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "auto-generated-review-decks",
+      "path": "content/use-cases/marketing/auto-generated-review-decks.md",
+      "title": "Auto-generated review decks",
+      "summary": "An agent assembles performance review slide decks from connected data sources, using tools like Plus or Rows.",
+      "domain": "marketing",
+      "stage": "report",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "report",
         "speed"
       ],
       "lastUpdated": "2026-04-30"
@@ -677,6 +1182,24 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "auto-narrative-performance-reports",
+      "path": "content/use-cases/marketing/auto-narrative-performance-reports.md",
+      "title": "Auto-narrative performance reports",
+      "summary": "An LLM writes monthly and quarterly marketing narratives directly from KPI data, using tools like Tableau Pulse.",
+      "domain": "marketing",
+      "stage": "report",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "report",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "auto-renew-and-anomaly-detector",
       "path": "content/use-cases/sales/auto-renew-and-anomaly-detector.md",
       "title": "Auto-renew and anomaly detector",
@@ -691,6 +1214,24 @@
         "sales",
         "renew",
         "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "automated-incrementality-experiments",
+      "path": "content/use-cases/marketing/automated-incrementality-experiments.md",
+      "title": "Automated incrementality experiments",
+      "summary": "Geo holdouts and ghost-ad designs run continuously to prove causation rather than correlation, using tools like Measured or Haus.",
+      "domain": "marketing",
+      "stage": "measure",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "measure",
+        "quality"
       ],
       "lastUpdated": "2026-04-30"
     },
@@ -713,6 +1254,78 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "autonomous-deep-research-briefs",
+      "path": "content/use-cases/marketing/autonomous-deep-research-briefs.md",
+      "title": "Autonomous deep research briefs",
+      "summary": "An agent reviews hundreds of web sources and turns them into a cited category, audience, or competitor brief, using tools like Perplexity Deep Research or ChatGPT.",
+      "domain": "marketing",
+      "stage": "research",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "research",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "autonomous-diagnostic-agent",
+      "path": "content/use-cases/support/autonomous-diagnostic-agent.md",
+      "title": "Autonomous diagnostic agent",
+      "summary": "An agent calls logs, billing, status, and product APIs to gather facts and produce a structured diagnosis.",
+      "domain": "support",
+      "stage": "investigate",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "investigate",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "autonomous-resolution-agent",
+      "path": "content/use-cases/support/autonomous-resolution-agent.md",
+      "title": "Autonomous resolution agent",
+      "summary": "An agent executes refunds, password resets, and account updates end-to-end without human handoff, using tools like Fini, Intercom Fin, or Ada.",
+      "domain": "support",
+      "stage": "resolve",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "resolve",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "background-check-risk-extraction",
+      "path": "content/use-cases/hr/background-check-risk-extraction.md",
+      "title": "Background-check risk extraction",
+      "summary": "Parses background-check returns, summarizes adverse data, and flags items needing recruiter review.",
+      "domain": "hr",
+      "stage": "hire",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "hire",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "bar-setter-from-prior-decisions",
       "path": "content/use-cases/research/bar-setter-from-prior-decisions.md",
       "title": "Bar-setter from prior decisions",
@@ -729,6 +1342,24 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "behavioral-audience-segment-discovery",
+      "path": "content/use-cases/marketing/behavioral-audience-segment-discovery.md",
+      "title": "Behavioral audience segment discovery",
+      "summary": "Clustering on CRM and CDP data surfaces high-value audience segments and look-alikes.",
+      "domain": "marketing",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "best-ai-for-work",
@@ -749,6 +1380,78 @@
         "knowledge-work"
       ],
       "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "board-pack-narrative-draft",
+      "path": "content/use-cases/finance/board-pack-narrative-draft.md",
+      "title": "Board-pack narrative draft",
+      "summary": "LLM writes MD&A-style commentary from numbers and KPIs for executive review, using tools like Vena Copilot.",
+      "domain": "finance",
+      "stage": "report",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "report",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "brand-grounded-copy-generation",
+      "path": "content/use-cases/marketing/brand-grounded-copy-generation.md",
+      "title": "Brand-grounded copy generation",
+      "summary": "A RAG-grounded LLM produces blog, email, and ad copy in a trained brand voice, using tools like Writer, Jasper, or Anyword.",
+      "domain": "marketing",
+      "stage": "create",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "create",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "budget-anomaly-flagging",
+      "path": "content/use-cases/finance/budget-anomaly-flagging.md",
+      "title": "Budget anomaly flagging",
+      "summary": "ML detects line items deviating from prior-period patterns and seasonality, using tools like Datarails or Vena Copilot.",
+      "domain": "finance",
+      "stage": "budget",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "budget",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "bug-cluster-handoff-to-engineering",
+      "path": "content/use-cases/support/bug-cluster-handoff-to-engineering.md",
+      "title": "Bug-cluster handoff to engineering",
+      "summary": "Recurring root-cause clusters are auto-filed as Jira tickets with linked customer evidence and reproduction notes.",
+      "domain": "support",
+      "stage": "close",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "buying-committee-mapping",
@@ -787,6 +1490,24 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "calibration-bias-detector",
+      "path": "content/use-cases/hr/calibration-bias-detector.md",
+      "title": "Calibration bias detector",
+      "summary": "Compares ratings across managers and demographic groups, flagging drift and inconsistency before calibration meetings.",
+      "domain": "hr",
+      "stage": "develop",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "develop",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "calibration-tracker",
       "path": "content/use-cases/research/calibration-tracker.md",
       "title": "Calibration tracker",
@@ -803,6 +1524,42 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "capacity-and-headcount-optimizer",
+      "path": "content/use-cases/finance/capacity-and-headcount-optimizer.md",
+      "title": "Capacity and headcount optimizer",
+      "summary": "Linear optimization plus ML balances hiring schedules against output and cost targets.",
+      "domain": "finance",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "capex-vs-opex-classifier",
+      "path": "content/use-cases/finance/capex-vs-opex-classifier.md",
+      "title": "Capex vs opex classifier",
+      "summary": "LLM classifies spend requests against accounting policy and cites the rule applied.",
+      "domain": "finance",
+      "stage": "budget",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "budget",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "case-study-retrieval-rag",
@@ -823,6 +1580,24 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "cash-application-via-remittance-parsing",
+      "path": "content/use-cases/finance/cash-application-via-remittance-parsing.md",
+      "title": "Cash application via remittance parsing",
+      "summary": "Extraction parses remittance from email, PDF, and EDI and matches to open invoices, using tools like HighRadius or Artsyl docAlpha.",
+      "domain": "finance",
+      "stage": "collect",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "collect",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "champion-departure-monitoring",
       "path": "content/use-cases/sales/champion-departure-monitoring.md",
       "title": "Champion-departure monitoring",
@@ -837,6 +1612,42 @@
         "sales",
         "renew",
         "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "channel-level-marketing-mix-modeling",
+      "path": "content/use-cases/marketing/channel-level-marketing-mix-modeling.md",
+      "title": "Channel-level marketing mix modeling",
+      "summary": "Bayesian marketing mix modeling proves channel lift, including offline and zero-click channels, using tools like Rockerbox or Meridian.",
+      "domain": "marketing",
+      "stage": "measure",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "measure",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "churn-risk-and-vip-flagging",
+      "path": "content/use-cases/support/churn-risk-and-vip-flagging.md",
+      "title": "Churn-risk and VIP flagging",
+      "summary": "A predictive model surfaces revenue-at-risk, VIP, or expansion-sensitive tickets for fast-track handling.",
+      "domain": "support",
+      "stage": "triage",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "triage",
+        "quality"
       ],
       "lastUpdated": "2026-04-30"
     },
@@ -895,6 +1706,24 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "code-and-config-snippet-generation",
+      "path": "content/use-cases/support/code-and-config-snippet-generation.md",
+      "title": "Code and config snippet generation",
+      "summary": "An LLM produces a config or code patch for technical tickets, grounded in the customer's stack and product documentation.",
+      "domain": "support",
+      "stage": "resolve",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "resolve",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "code-grounded-quant-red-team",
       "path": "content/use-cases/research/code-grounded-quant-red-team.md",
       "title": "Code-grounded quant red-team",
@@ -911,6 +1740,24 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "comp-recommendation-per-offer",
+      "path": "content/use-cases/hr/comp-recommendation-per-offer.md",
+      "title": "Comp recommendation per offer",
+      "summary": "Synthesizes market benchmarks, internal equity, and band guardrails into a defensible offer range.",
+      "domain": "hr",
+      "stage": "hire",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "hire",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "comparison-matrix-auto-fill",
@@ -931,6 +1778,60 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "compensation-flight-risk-model",
+      "path": "content/use-cases/hr/compensation-flight-risk-model.md",
+      "title": "Compensation flight-risk model",
+      "summary": "Identifies high performers paid below market and recommends proactive adjustments before resignation.",
+      "domain": "hr",
+      "stage": "reward",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "reward",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "contact-driver-and-trend-analytics",
+      "path": "content/use-cases/support/contact-driver-and-trend-analytics.md",
+      "title": "Contact-driver and trend analytics",
+      "summary": "Topic clustering across closed tickets surfaces emerging contact reasons and demand shifts, using tools like SentiSum.",
+      "domain": "support",
+      "stage": "close",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "continuous-pay-equity-monitoring",
+      "path": "content/use-cases/hr/continuous-pay-equity-monitoring.md",
+      "title": "Continuous pay-equity monitoring",
+      "summary": "Model recalculates adjusted pay gap across protected groups on every pay change and flags outliers for remediation.",
+      "domain": "hr",
+      "stage": "reward",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "reward",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "continuous-source-monitor",
       "path": "content/use-cases/research/continuous-source-monitor.md",
       "title": "Continuous source monitor",
@@ -949,6 +1850,42 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "continuous-workforce-model",
+      "path": "content/use-cases/hr/continuous-workforce-model.md",
+      "title": "Continuous workforce model",
+      "summary": "Agent recalculates the workforce plan automatically when finance updates revenue, attrition, or product roadmap inputs.",
+      "domain": "hr",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "contract-clause-review",
+      "path": "content/use-cases/hr/contract-clause-review.md",
+      "title": "Contract clause review",
+      "summary": "LLM compares vendor or amended employment contracts against approved policy and flags deviations.",
+      "domain": "hr",
+      "stage": "hire",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "hire",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "contract-redline-ai",
       "path": "content/use-cases/sales/contract-redline-ai.md",
       "title": "Contract redline AI",
@@ -963,6 +1900,150 @@
         "sales",
         "negotiate",
         "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "contract-review-for-revenue-and-lease-audit",
+      "path": "content/use-cases/finance/contract-review-for-revenue-and-lease-audit.md",
+      "title": "Contract review for revenue and lease audit",
+      "summary": "LLM extracts and tests key terms against accounting treatment across full contract population, using tools like Trullion or Kira.",
+      "domain": "finance",
+      "stage": "audit",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "audit",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "contract-to-invoice-generation",
+      "path": "content/use-cases/finance/contract-to-invoice-generation.md",
+      "title": "Contract-to-invoice generation",
+      "summary": "LLM extracts billing terms from signed MSAs and drafts invoice schedules, using tools like Tabs.",
+      "domain": "finance",
+      "stage": "invoice",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "invoice",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "control-evidence-retrieval-agent",
+      "path": "content/use-cases/finance/control-evidence-retrieval-agent.md",
+      "title": "Control-evidence retrieval agent",
+      "summary": "Agent pulls evidence from connected systems on demand for control tests and walkthroughs, using tools like AuditBoard.",
+      "domain": "finance",
+      "stage": "audit",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "audit",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "conversational-career-site-agent",
+      "path": "content/use-cases/hr/conversational-career-site-agent.md",
+      "title": "Conversational career site agent",
+      "summary": "Chatbot answers candidate questions, captures applications, and pre-screens via web chat or messaging apps.",
+      "domain": "hr",
+      "stage": "source",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "source",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "conversational-financial-qanda",
+      "path": "content/use-cases/finance/conversational-financial-qanda.md",
+      "title": "Conversational financial Q&A",
+      "summary": "Natural-language interface returns drilldowns and explanations from the financial model, using tools like Cube AI Analyst or Datarails Genius.",
+      "domain": "finance",
+      "stage": "report",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "report",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "conversational-reporting-in-slack",
+      "path": "content/use-cases/marketing/conversational-reporting-in-slack.md",
+      "title": "Conversational reporting in Slack",
+      "summary": "A bot answers ad-hoc KPI questions and posts daily summaries in chat.",
+      "domain": "marketing",
+      "stage": "report",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "report",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "conversational-slot-filling-intake",
+      "path": "content/use-cases/support/conversational-slot-filling-intake.md",
+      "title": "Conversational slot-filling intake",
+      "summary": "An LLM agent asks targeted follow-up questions to populate required ticket fields before submission, using tools like Intercom Fin or Ada.",
+      "domain": "support",
+      "stage": "intake",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "intake",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "creative-attribute-performance-attribution",
+      "path": "content/use-cases/marketing/creative-attribute-performance-attribution.md",
+      "title": "Creative-attribute performance attribution",
+      "summary": "Vision and LLM systems tag creative attributes and link them to spend efficiency.",
+      "domain": "marketing",
+      "stage": "measure",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "measure",
+        "quality"
       ],
       "lastUpdated": "2026-04-30"
     },
@@ -999,6 +2080,96 @@
         "sales",
         "handoff",
         "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "customer-360-context-auto-attach",
+      "path": "content/use-cases/support/customer-360-context-auto-attach.md",
+      "title": "Customer 360 context auto-attach",
+      "summary": "An agent pulls CRM, order history, plan data, and recent tickets into the ticket as structured context at intake.",
+      "domain": "support",
+      "stage": "intake",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "intake",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "customer-cohort-ltv-segmentation",
+      "path": "content/use-cases/finance/customer-cohort-ltv-segmentation.md",
+      "title": "Customer cohort LTV segmentation",
+      "summary": "Embeddings cluster customers by behavior to feed differentiated retention and revenue assumptions.",
+      "domain": "finance",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "customer-reply-intent-classifier",
+      "path": "content/use-cases/support/customer-reply-intent-classifier.md",
+      "title": "Customer-reply intent classifier",
+      "summary": "A classifier labels follow-up replies as resolved, not resolved, or unclear so the queue can advance automatically.",
+      "domain": "support",
+      "stage": "confirm",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "confirm",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "customer-review-and-social-mining",
+      "path": "content/use-cases/marketing/customer-review-and-social-mining.md",
+      "title": "Customer review and social mining",
+      "summary": "Embeddings cluster reviews, social posts, and forum threads into ranked customer pain points and themes, using tools like Brandwatch.",
+      "domain": "marketing",
+      "stage": "research",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "research",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "data-driven-multi-touch-attribution",
+      "path": "content/use-cases/marketing/data-driven-multi-touch-attribution.md",
+      "title": "Data-driven multi-touch attribution",
+      "summary": "Machine learning assigns conversion credit across user-level touchpoints instead of relying on rule-based models, using tools like Cometly or Dreamdata.",
+      "domain": "marketing",
+      "stage": "measure",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "measure",
+        "quality"
       ],
       "lastUpdated": "2026-04-30"
     },
@@ -1132,6 +2303,24 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "dispute-likelihood-scoring",
+      "path": "content/use-cases/finance/dispute-likelihood-scoring.md",
+      "title": "Dispute-likelihood scoring",
+      "summary": "ML predicts which invoices will be challenged based on customer and line-item history.",
+      "domain": "finance",
+      "stage": "invoice",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "invoice",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "disqualification-recommender",
       "path": "content/use-cases/sales/disqualification-recommender.md",
       "title": "Disqualification recommender",
@@ -1168,6 +2357,96 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "driver-tree-assumption-suggestions",
+      "path": "content/use-cases/finance/driver-tree-assumption-suggestions.md",
+      "title": "Driver-tree assumption suggestions",
+      "summary": "LLM proposes drivers and ranges from prior models and benchmarks.",
+      "domain": "finance",
+      "stage": "plan",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "plan",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "duplicate-and-fraud-detection",
+      "path": "content/use-cases/finance/duplicate-and-fraud-detection.md",
+      "title": "Duplicate and fraud detection",
+      "summary": "ML flags duplicates, mismatched bank details, and vendor impersonation patterns, using tools like AppZen or Trustpair.",
+      "domain": "finance",
+      "stage": "pay",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "pay",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "duplicate-and-incident-wave-detection",
+      "path": "content/use-cases/support/duplicate-and-incident-wave-detection.md",
+      "title": "Duplicate and incident-wave detection",
+      "summary": "Embedding similarity flags new tickets that match active incidents or duplicate reports at the moment of intake.",
+      "domain": "support",
+      "stage": "intake",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "intake",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "dynamic-creative-optimization",
+      "path": "content/use-cases/marketing/dynamic-creative-optimization.md",
+      "title": "Dynamic creative optimization",
+      "summary": "Auto-assemble personalized ad variants per audience and placement, using tools like Smartly or Meta Advantage+.",
+      "domain": "marketing",
+      "stage": "create",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "create",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "earnings-qanda-simulator",
+      "path": "content/use-cases/finance/earnings-qanda-simulator.md",
+      "title": "Earnings Q&A simulator",
+      "summary": "LLM red-teams analyst questions on the numbers and drafts response talking points.",
+      "domain": "finance",
+      "stage": "report",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "report",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "embedding-based-deduplication",
       "path": "content/use-cases/research/embedding-based-deduplication.md",
       "title": "Embedding-based deduplication",
@@ -1184,6 +2463,42 @@
         "cost"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "esg-disclosure-draft",
+      "path": "content/use-cases/finance/esg-disclosure-draft.md",
+      "title": "ESG disclosure draft",
+      "summary": "LLM compiles CSRD and SEC climate reports from operational and financial source data.",
+      "domain": "finance",
+      "stage": "report",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "report",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "exit-interview-thematic-analysis",
+      "path": "content/use-cases/hr/exit-interview-thematic-analysis.md",
+      "title": "Exit interview thematic analysis",
+      "summary": "NLP clusters reasons across hundreds of exit interviews into ranked themes by team, manager, and tenure.",
+      "domain": "hr",
+      "stage": "exit",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "exit",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "expert-finder",
@@ -1222,6 +2537,78 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "full-population-transaction-risk-scoring",
+      "path": "content/use-cases/finance/full-population-transaction-risk-scoring.md",
+      "title": "Full-population transaction risk scoring",
+      "summary": "ML scores 100% of journal entries and transactions, replacing sampling-based testing, using tools like MindBridge or EY Helix.",
+      "domain": "finance",
+      "stage": "audit",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "audit",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "generative-ad-creative-production",
+      "path": "content/use-cases/marketing/generative-ad-creative-production.md",
+      "title": "Generative ad creative production",
+      "summary": "Text-to-image and text-to-video tools produce social and display ads at variant scale, using tools like Midjourney, Runway, or Pencil.",
+      "domain": "marketing",
+      "stage": "create",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "create",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "gl-coding-suggestion",
+      "path": "content/use-cases/finance/gl-coding-suggestion.md",
+      "title": "GL coding suggestion",
+      "summary": "LLM proposes coding from vendor, memo, and prior history, using tools like Ramp or Brex.",
+      "domain": "finance",
+      "stage": "pay",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "pay",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "granular-topic-auto-tagging",
+      "path": "content/use-cases/support/granular-topic-auto-tagging.md",
+      "title": "Granular topic auto-tagging",
+      "summary": "An LLM applies fine-grained topic tags so support analytics stay consistent across the full ticket corpus, using tools like SentiSum.",
+      "domain": "support",
+      "stage": "triage",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "triage",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "grey-literature-practitioner-sweep",
       "path": "content/use-cases/research/grey-literature-practitioner-sweep.md",
       "title": "Grey-literature + practitioner sweep",
@@ -1238,6 +2625,42 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "headcount-scenario-builder",
+      "path": "content/use-cases/hr/headcount-scenario-builder.md",
+      "title": "Headcount scenario builder",
+      "summary": "Natural-language prompt generates costed headcount plans linked to revenue forecast, with side-by-side scenario comparison.",
+      "domain": "hr",
+      "stage": "plan",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "plan",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "hiring-decision-bias-audit",
+      "path": "content/use-cases/hr/hiring-decision-bias-audit.md",
+      "title": "Hiring decision bias audit",
+      "summary": "Adversarial model reviews offer and reject patterns by demographic group, surfacing drift before regulatory or reputational exposure.",
+      "domain": "hr",
+      "stage": "select",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "select",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "hyper-personalized-outbound-copy",
@@ -1294,6 +2717,24 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "identity-resolved-audience-activation",
+      "path": "content/use-cases/marketing/identity-resolved-audience-activation.md",
+      "title": "Identity-resolved audience activation",
+      "summary": "First-party identity resolution syncs lookalikes, suppressions, and CRM segments to ad platforms, using tools like Hightouch or LayerFive.",
+      "domain": "marketing",
+      "stage": "launch",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "launch",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "implementation-feedback-loop",
       "path": "content/use-cases/research/implementation-feedback-loop.md",
       "title": "Implementation feedback loop",
@@ -1330,6 +2771,96 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "inclusive-job-description-optimizer",
+      "path": "content/use-cases/hr/inclusive-job-description-optimizer.md",
+      "title": "Inclusive job description optimizer",
+      "summary": "LLM rewrites job postings for inclusive language, readability, and conversion.",
+      "domain": "hr",
+      "stage": "source",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "source",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "intent-and-category-classification",
+      "path": "content/use-cases/support/intent-and-category-classification.md",
+      "title": "Intent and category classification",
+      "summary": "A fine-tuned classifier or LLM assigns category labels that drive downstream routing, using tools like Zendesk Intelligent Triage or SentiSum.",
+      "domain": "support",
+      "stage": "triage",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "triage",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "intercompany-elimination-matching",
+      "path": "content/use-cases/finance/intercompany-elimination-matching.md",
+      "title": "Intercompany elimination matching",
+      "summary": "Agent matches intercompany entries across entities and currencies and posts eliminations.",
+      "domain": "finance",
+      "stage": "close",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "close",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "internal-mobility-supply-forecaster",
+      "path": "content/use-cases/hr/internal-mobility-supply-forecaster.md",
+      "title": "Internal mobility supply forecaster",
+      "summary": "Predicts which existing employees will be ready for upcoming open roles, reducing external hiring demand.",
+      "domain": "hr",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "internal-opportunity-matcher",
+      "path": "content/use-cases/hr/internal-opportunity-matcher.md",
+      "title": "Internal opportunity matcher",
+      "summary": "Pushes open roles, gigs, and stretch projects to employees ranked by skills fit and career goals.",
+      "domain": "hr",
+      "stage": "develop",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "develop",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "interview-prep-transcription-synthesis",
       "path": "content/use-cases/research/interview-prep-transcription-synthesis.md",
       "title": "Interview prep + transcription + synthesis",
@@ -1348,6 +2879,150 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "invoice-ocr-and-extraction",
+      "path": "content/use-cases/finance/invoice-ocr-and-extraction.md",
+      "title": "Invoice OCR and extraction",
+      "summary": "Vision plus LLM extracts header and line items from PDF and email invoices, using tools like Vic.ai, Stampli, or Docsumo.",
+      "domain": "finance",
+      "stage": "pay",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "pay",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "invoice-pre-flight-check",
+      "path": "content/use-cases/finance/invoice-pre-flight-check.md",
+      "title": "Invoice pre-flight check",
+      "summary": "LLM catches PO mismatches, missing fields, and currency errors before send.",
+      "domain": "finance",
+      "stage": "invoice",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "invoice",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "journal-entry-anomaly-detection",
+      "path": "content/use-cases/finance/journal-entry-anomaly-detection.md",
+      "title": "Journal entry anomaly detection",
+      "summary": "ML flags journal entries by round numbers, late posting, unusual GL combinations, and user behavior.",
+      "domain": "finance",
+      "stage": "close",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "kb-article-generation-from-resolutions",
+      "path": "content/use-cases/support/kb-article-generation-from-resolutions.md",
+      "title": "KB article generation from resolutions",
+      "summary": "An LLM drafts a new knowledge-base article when a solved ticket has no reusable help content.",
+      "domain": "support",
+      "stage": "close",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "kb-grounded-draft-reply",
+      "path": "content/use-cases/support/kb-grounded-draft-reply.md",
+      "title": "KB-grounded draft reply",
+      "summary": "An LLM drafts a customer response grounded in knowledge-base sources, using tools like Zendesk Generative AI or Intercom Fin.",
+      "domain": "support",
+      "stage": "resolve",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "resolve",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "knowledge-capture-agent",
+      "path": "content/use-cases/hr/knowledge-capture-agent.md",
+      "title": "Knowledge capture agent",
+      "summary": "Summarizes a leaver's docs, decisions, and key contacts into a structured handover for the successor.",
+      "domain": "hr",
+      "stage": "exit",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "exit",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "kpi-auto-insights-detection",
+      "path": "content/use-cases/marketing/kpi-auto-insights-detection.md",
+      "title": "KPI auto-insights detection",
+      "summary": "Machine learning surfaces top week-over-week KPI changes and ranks them by business impact.",
+      "domain": "marketing",
+      "stage": "report",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "report",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "language-and-timezone-routing",
+      "path": "content/use-cases/support/language-and-timezone-routing.md",
+      "title": "Language and timezone routing",
+      "summary": "A classifier detects the customer's language and aligns routing with agent language coverage and timezone availability.",
+      "domain": "support",
+      "stage": "assign",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "assign",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "last-mile-deal-coaching",
       "path": "content/use-cases/sales/last-mile-deal-coaching.md",
       "title": "Last-mile deal coaching",
@@ -1361,6 +3036,60 @@
         "ai",
         "sales",
         "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "lease-accounting-agent",
+      "path": "content/use-cases/finance/lease-accounting-agent.md",
+      "title": "Lease accounting agent",
+      "summary": "LLM extracts lease terms, computes ASC 842 and IFRS 16 schedules, and posts entries, using tools like Trullion.",
+      "domain": "finance",
+      "stage": "close",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "live-interview-copilot",
+      "path": "content/use-cases/hr/live-interview-copilot.md",
+      "title": "Live interview copilot",
+      "summary": "Real-time transcription provides question prompts and structured note-taking during interviewer-led sessions.",
+      "domain": "hr",
+      "stage": "select",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "select",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "live-market-benchmarking",
+      "path": "content/use-cases/hr/live-market-benchmarking.md",
+      "title": "Live market benchmarking",
+      "summary": "Real-time job-posting and salary feeds set ranges per role and geography continuously rather than annually.",
+      "domain": "hr",
+      "stage": "reward",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "reward",
         "quality"
       ],
       "lastUpdated": "2026-04-30"
@@ -1402,6 +3131,96 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "llm-scored-qa-on-every-ticket",
+      "path": "content/use-cases/support/llm-scored-qa-on-every-ticket.md",
+      "title": "LLM-scored QA on every ticket",
+      "summary": "An LLM scores every closed ticket against a quality rubric, replacing manual sampling with full-coverage QA.",
+      "domain": "support",
+      "stage": "close",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "close",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "localized-offer-letter-generation",
+      "path": "content/use-cases/hr/localized-offer-letter-generation.md",
+      "title": "Localized offer letter generation",
+      "summary": "LLM drafts country-specific offer letters with required clauses from a template library.",
+      "domain": "hr",
+      "stage": "hire",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "hire",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "log-and-stack-trace-summarization",
+      "path": "content/use-cases/support/log-and-stack-trace-summarization.md",
+      "title": "Log and stack-trace summarization",
+      "summary": "An LLM compresses attached logs into ranked root-cause hypotheses for the support agent.",
+      "domain": "support",
+      "stage": "investigate",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "investigate",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "manager-briefing-generator",
+      "path": "content/use-cases/hr/manager-briefing-generator.md",
+      "title": "Manager briefing generator",
+      "summary": "LLM produces a one-pager on the new hire background and suggested first-meeting agenda from public profile and resume.",
+      "domain": "hr",
+      "stage": "onboard",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "onboard",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "marketing-mix-budget-modeling",
+      "path": "content/use-cases/marketing/marketing-mix-budget-modeling.md",
+      "title": "Marketing-mix budget modeling",
+      "summary": "Causal marketing mix modeling forecasts channel ROI to set budget splits before launch, using tools like Northbeam, Robyn, or Meridian.",
+      "domain": "marketing",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "meddic-auto-extraction",
       "path": "content/use-cases/sales/meddic-auto-extraction.md",
       "title": "MEDDIC auto-extraction",
@@ -1440,6 +3259,24 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "merit-cycle-agent",
+      "path": "content/use-cases/hr/merit-cycle-agent.md",
+      "title": "Merit cycle agent",
+      "summary": "Drafts manager-level compensation recommendations within budget, equity, and band guardrails, with explanations.",
+      "domain": "hr",
+      "stage": "reward",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "reward",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "methodology-compliance-completeness-check",
       "path": "content/use-cases/research/methodology-compliance-completeness-check.md",
       "title": "Methodology compliance + completeness check",
@@ -1476,6 +3313,24 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "ml-rolling-revenue-forecast",
+      "path": "content/use-cases/finance/ml-rolling-revenue-forecast.md",
+      "title": "ML rolling revenue forecast",
+      "summary": "Multivariate ML projects revenue from CRM pipeline, historicals, and external signals, using tools like Anaplan PlanIQ, Pigment, or Runway.",
+      "domain": "finance",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "multi-agent-adversarial-review",
       "path": "content/use-cases/research/multi-agent-adversarial-review.md",
       "title": "Multi-agent adversarial review",
@@ -1492,6 +3347,24 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "multi-channel-intent-normalization",
+      "path": "content/use-cases/support/multi-channel-intent-normalization.md",
+      "title": "Multi-channel intent normalization",
+      "summary": "An LLM converts email, chat, voice, and social messages into a unified ticket schema with extracted entities, using tools like Zendesk Intelligent Triage or Kustomer.",
+      "domain": "support",
+      "stage": "intake",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "intake",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "multi-engine-deep-research",
@@ -1512,6 +3385,96 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "multi-source-semantic-candidate-search",
+      "path": "content/use-cases/hr/multi-source-semantic-candidate-search.md",
+      "title": "Multi-source semantic candidate search",
+      "summary": "AI search across open-web profiles ranks candidates by skills, trajectory, and fit beyond keyword matching.",
+      "domain": "hr",
+      "stage": "source",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "source",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "multi-step-workflow-orchestration",
+      "path": "content/use-cases/support/multi-step-workflow-orchestration.md",
+      "title": "Multi-step workflow orchestration",
+      "summary": "An agent chains a refund, replacement order, and apology email into a single governed resolution path.",
+      "domain": "support",
+      "stage": "resolve",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "resolve",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "multilingual-transcreation",
+      "path": "content/use-cases/marketing/multilingual-transcreation.md",
+      "title": "Multilingual transcreation",
+      "summary": "Neural translation plus brand-tone adaptation localizes campaigns across markets, using tools like DeepL or Smartling.",
+      "domain": "marketing",
+      "stage": "create",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "create",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "natural-language-analytics-agent",
+      "path": "content/use-cases/marketing/natural-language-analytics-agent.md",
+      "title": "Natural-language analytics agent",
+      "summary": "An LLM answers ad-hoc performance questions over the warehouse without SQL, using tools like Tableau Pulse or Cortex Analyst.",
+      "domain": "marketing",
+      "stage": "measure",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "measure",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "natural-language-scenario-generation",
+      "path": "content/use-cases/finance/natural-language-scenario-generation.md",
+      "title": "Natural-language scenario generation",
+      "summary": "LLM agent rebuilds scenario branches from prompts like \"model 15% EMEA cut\", using tools like Runway or Pigment.",
+      "domain": "finance",
+      "stage": "plan",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "plan",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "negotiation-role-play-simulator",
       "path": "content/use-cases/sales/negotiation-role-play-simulator.md",
       "title": "Negotiation role-play simulator",
@@ -1525,6 +3488,42 @@
         "ai",
         "sales",
         "negotiate",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "new-hire-conversational-assistant",
+      "path": "content/use-cases/hr/new-hire-conversational-assistant.md",
+      "title": "New-hire conversational assistant",
+      "summary": "RAG agent over policy, benefits, and IT docs deflects routine HR tickets during the first 90 days.",
+      "domain": "hr",
+      "stage": "onboard",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "onboard",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "offer-acceptance-probability-model",
+      "path": "content/use-cases/hr/offer-acceptance-probability-model.md",
+      "title": "Offer-acceptance probability model",
+      "summary": "Predicts close rate per offer from candidate behavior, compensation delta, and pipeline history to prioritize recruiter effort.",
+      "domain": "hr",
+      "stage": "hire",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "hire",
         "quality"
       ],
       "lastUpdated": "2026-04-30"
@@ -1566,6 +3565,60 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "payment-date-prediction",
+      "path": "content/use-cases/finance/payment-date-prediction.md",
+      "title": "Payment-date prediction",
+      "summary": "ML predicts pay date per invoice and sets cadence, using tools like Tesorio or HighRadius.",
+      "domain": "finance",
+      "stage": "collect",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "collect",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "payment-timing-optimizer",
+      "path": "content/use-cases/finance/payment-timing-optimizer.md",
+      "title": "Payment timing optimizer",
+      "summary": "Agent times runs to capture early-pay discounts against working-capital position, using tools like Glean.ai.",
+      "domain": "finance",
+      "stage": "pay",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "pay",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "performance-review-draft-generator",
+      "path": "content/use-cases/hr/performance-review-draft-generator.md",
+      "title": "Performance review draft generator",
+      "summary": "LLM synthesizes peer comments, goals, and self-assessment into a manager review draft.",
+      "domain": "hr",
+      "stage": "develop",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "develop",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "personalized-demo-video",
       "path": "content/use-cases/sales/personalized-demo-video.md",
       "title": "Personalized demo video",
@@ -1580,6 +3633,42 @@
         "sales",
         "propose",
         "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "personalized-outreach-sequence-generator",
+      "path": "content/use-cases/hr/personalized-outreach-sequence-generator.md",
+      "title": "Personalized outreach sequence generator",
+      "summary": "LLM drafts cold messages tailored to each candidate profile and role context with multi-touch sequencing.",
+      "domain": "hr",
+      "stage": "source",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "source",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "personalized-total-rewards-statement",
+      "path": "content/use-cases/hr/personalized-total-rewards-statement.md",
+      "title": "Personalized total-rewards statement",
+      "summary": "LLM generates per-employee narrative covering base pay, equity, benefits, and growth in pay over time.",
+      "domain": "hr",
+      "stage": "reward",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "reward",
+        "quality"
       ],
       "lastUpdated": "2026-04-30"
     },
@@ -1620,6 +3709,24 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "pre-flight-creative-and-compliance-qa",
+      "path": "content/use-cases/marketing/pre-flight-creative-and-compliance-qa.md",
+      "title": "Pre-flight creative and compliance QA",
+      "summary": "Vision and text classifiers screen creatives for brand, claim, and accessibility issues before publish, using tools like CreativeX.",
+      "domain": "marketing",
+      "stage": "launch",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "launch",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "pre-meeting-steelman-pair",
       "path": "content/use-cases/research/pre-meeting-steelman-pair.md",
       "title": "Pre-meeting steelman pair",
@@ -1654,6 +3761,60 @@
         "quality"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "predictive-attrition-forecasting",
+      "path": "content/use-cases/hr/predictive-attrition-forecasting.md",
+      "title": "Predictive attrition forecasting",
+      "summary": "ML model on tenure, engagement, compensation, and promotion velocity flags flight risk 3-6 months ahead at role and cohort level.",
+      "domain": "hr",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "predictive-best-agent-routing",
+      "path": "content/use-cases/support/predictive-best-agent-routing.md",
+      "title": "Predictive best-agent routing",
+      "summary": "An ML model predicts likelihood of resolution per agent for the current ticket and routes accordingly.",
+      "domain": "support",
+      "stage": "assign",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "assign",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "predictive-content-performance-scoring",
+      "path": "content/use-cases/marketing/predictive-content-performance-scoring.md",
+      "title": "Predictive content performance scoring",
+      "summary": "Machine learning ranks topic and format ideas by predicted reach and conversion, using tools like MarketMuse.",
+      "domain": "marketing",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "predictive-sql-conversion-score",
@@ -1728,6 +3889,24 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "promise-to-pay-tracker",
+      "path": "content/use-cases/finance/promise-to-pay-tracker.md",
+      "title": "Promise-to-pay tracker",
+      "summary": "LLM detects pay promises in email threads, monitors fulfillment, and escalates on miss.",
+      "domain": "finance",
+      "stage": "collect",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "collect",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "promised-commitments-extractor",
       "path": "content/use-cases/sales/promised-commitments-extractor.md",
       "title": "Promised-commitments extractor",
@@ -1764,6 +3943,114 @@
       "lastUpdated": "2026-04-30"
     },
     {
+      "slug": "real-time-launch-anomaly-detection",
+      "path": "content/use-cases/marketing/real-time-launch-anomaly-detection.md",
+      "title": "Real-time launch anomaly detection",
+      "summary": "Machine learning flags broken pixels, spend spikes, and CTR collapse within hours of launch, using tools like Anodot.",
+      "domain": "marketing",
+      "stage": "launch",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "launch",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "reallocation-agent-during-cuts",
+      "path": "content/use-cases/finance/reallocation-agent-during-cuts.md",
+      "title": "Reallocation agent during cuts",
+      "summary": "Constrained optimizer proposes which lines to cut to hit a target with minimum operational impact.",
+      "domain": "finance",
+      "stage": "budget",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "budget",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "regrettable-attrition-classifier",
+      "path": "content/use-cases/hr/regrettable-attrition-classifier.md",
+      "title": "Regrettable-attrition classifier",
+      "summary": "Auto-labels exits as regrettable or non-regrettable using performance, role criticality, and replacement-cost data.",
+      "domain": "hr",
+      "stage": "exit",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "exit",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "reopen-risk-prediction",
+      "path": "content/use-cases/support/reopen-risk-prediction.md",
+      "title": "Reopen-risk prediction",
+      "summary": "A predictive model flags closed-pending tickets that are likely to reopen so agents can proactively follow up.",
+      "domain": "support",
+      "stage": "confirm",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "confirm",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "reproducibility-probe-agent",
+      "path": "content/use-cases/support/reproducibility-probe-agent.md",
+      "title": "Reproducibility probe agent",
+      "summary": "An agent attempts to reproduce the reported issue against a test account or API to confirm the failure mode.",
+      "domain": "support",
+      "stage": "investigate",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "investigate",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "resolution-confirmation-message-generator",
+      "path": "content/use-cases/support/resolution-confirmation-message-generator.md",
+      "title": "Resolution-confirmation message generator",
+      "summary": "An LLM drafts a targeted follow-up asking whether the issue is resolved.",
+      "domain": "support",
+      "stage": "confirm",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "confirm",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "revealjs-vibe-coding-slides",
       "path": "content/use-cases/general/revealjs-vibe-coding-slides.md",
       "title": "Vibe-Coding Slides",
@@ -1784,6 +4071,24 @@
       "lastUpdated": "2026-04-28"
     },
     {
+      "slug": "risk-tiered-prioritization",
+      "path": "content/use-cases/finance/risk-tiered-prioritization.md",
+      "title": "Risk-tiered prioritization",
+      "summary": "Agent ranks accounts by recovery probability multiplied by exposure, using tools like HighRadius.",
+      "domain": "finance",
+      "stage": "collect",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "collect",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "roi-business-case-generator",
       "path": "content/use-cases/sales/roi-business-case-generator.md",
       "title": "ROI business case generator",
@@ -1797,6 +4102,60 @@
         "ai",
         "sales",
         "propose",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "role-based-learning-auto-assignment",
+      "path": "content/use-cases/hr/role-based-learning-auto-assignment.md",
+      "title": "Role-based learning auto-assignment",
+      "summary": "LMS matches courses to inferred skill gaps and role requirements without manual curation.",
+      "domain": "hr",
+      "stage": "onboard",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "onboard",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "root-cause-clustering-across-tickets",
+      "path": "content/use-cases/support/root-cause-clustering-across-tickets.md",
+      "title": "Root-cause clustering across tickets",
+      "summary": "Embedding clustering groups tickets that share an underlying defect so support can batch analysis, updates, and escalation.",
+      "domain": "support",
+      "stage": "investigate",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "investigate",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "sales-call-competitive-intelligence",
+      "path": "content/use-cases/marketing/sales-call-competitive-intelligence.md",
+      "title": "Sales-call competitive intelligence",
+      "summary": "Mine call transcripts for competitor mentions, objections, and win-loss drivers, using tools like Gong or Klue.",
+      "domain": "marketing",
+      "stage": "research",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "research",
         "quality"
       ],
       "lastUpdated": "2026-04-30"
@@ -1833,6 +4192,24 @@
         "ai",
         "sales",
         "renew",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "screenshot-and-log-artifact-parser",
+      "path": "content/use-cases/support/screenshot-and-log-artifact-parser.md",
+      "title": "Screenshot and log artifact parser",
+      "summary": "A vision model reads attached screenshots and stack traces to extract error codes, product context, and likely failure areas before an agent opens the ticket.",
+      "domain": "support",
+      "stage": "intake",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "intake",
         "quality"
       ],
       "lastUpdated": "2026-04-30"
@@ -1892,6 +4269,24 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "sentiment-driven-priority-scoring",
+      "path": "content/use-cases/support/sentiment-driven-priority-scoring.md",
+      "title": "Sentiment-driven priority scoring",
+      "summary": "A model combines sentiment, customer tier, and language cues into a priority score, using tools like SentiSum or Kustomer.",
+      "domain": "support",
+      "stage": "triage",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "triage",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "signed-contract-data-extraction",
       "path": "content/use-cases/sales/signed-contract-data-extraction.md",
       "title": "Signed-contract data extraction",
@@ -1905,6 +4300,132 @@
         "ai",
         "sales",
         "close",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "silence-as-resolution-detector",
+      "path": "content/use-cases/support/silence-as-resolution-detector.md",
+      "title": "Silence-as-resolution detector",
+      "summary": "A model decides after a defined period of customer silence whether it is safe to auto-close a ticket.",
+      "domain": "support",
+      "stage": "confirm",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "confirm",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "similar-ticket-retrieval",
+      "path": "content/use-cases/support/similar-ticket-retrieval.md",
+      "title": "Similar-ticket retrieval",
+      "summary": "RAG surfaces top resolved tickets matching the current issue along with their fixes, using tools like Twig or eesel.",
+      "domain": "support",
+      "stage": "investigate",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "investigate",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "skill-based-agent-matching",
+      "path": "content/use-cases/support/skill-based-agent-matching.md",
+      "title": "Skill-based agent matching",
+      "summary": "Embedding search matches ticket content to agent skill profiles built from past resolutions.",
+      "domain": "support",
+      "stage": "assign",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "assign",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "skills-inference-from-work-artifacts",
+      "path": "content/use-cases/hr/skills-inference-from-work-artifacts.md",
+      "title": "Skills inference from work artifacts",
+      "summary": "Embeddings on messages, pull requests, and docs derive a live skills graph per employee without self-reporting.",
+      "domain": "hr",
+      "stage": "develop",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "develop",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "sla-breach-prediction",
+      "path": "content/use-cases/support/sla-breach-prediction.md",
+      "title": "SLA breach prediction",
+      "summary": "A time-series model forecasts which tickets are likely to breach SLA and surfaces them early for intervention.",
+      "domain": "support",
+      "stage": "triage",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "triage",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "solution-verification-agent",
+      "path": "content/use-cases/support/solution-verification-agent.md",
+      "title": "Solution-verification agent",
+      "summary": "An agent re-runs the originally failing call, workflow, or test against the customer's account to confirm the fix.",
+      "domain": "support",
+      "stage": "confirm",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "confirm",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "sox-control-narrative-drafting",
+      "path": "content/use-cases/finance/sox-control-narrative-drafting.md",
+      "title": "SOX control narrative drafting",
+      "summary": "LLM drafts and updates control narratives from process change inputs and prior versions.",
+      "domain": "finance",
+      "stage": "audit",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "audit",
         "speed"
       ],
       "lastUpdated": "2026-04-30"
@@ -1928,6 +4449,24 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "strategic-skills-gap-analysis",
+      "path": "content/use-cases/hr/strategic-skills-gap-analysis.md",
+      "title": "Strategic skills gap analysis",
+      "summary": "Embeddings cluster current employee skills against roadmap requirements and external market signals to surface build-vs-buy gaps.",
+      "domain": "hr",
+      "stage": "plan",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "plan",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "structured-one-pager-auto-draft",
       "path": "content/use-cases/research/structured-one-pager-auto-draft.md",
       "title": "Structured one-pager auto-draft",
@@ -1944,6 +4483,78 @@
         "speed"
       ],
       "lastUpdated": "2026-04-29"
+    },
+    {
+      "slug": "structured-resume-scoring",
+      "path": "content/use-cases/hr/structured-resume-scoring.md",
+      "title": "Structured resume scoring",
+      "summary": "LLM rates each decomposed job requirement separately and produces an explainable rubric score per candidate.",
+      "domain": "hr",
+      "stage": "select",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "hr",
+        "select",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "synthetic-audience-message-testing",
+      "path": "content/use-cases/marketing/synthetic-audience-message-testing.md",
+      "title": "Synthetic audience message testing",
+      "summary": "LLM personas pre-test positioning and creative against ICP segments before campaign spend.",
+      "domain": "marketing",
+      "stage": "plan",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "plan",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "synthetic-avatar-video-ads",
+      "path": "content/use-cases/marketing/synthetic-avatar-video-ads.md",
+      "title": "Synthetic-avatar video ads",
+      "summary": "Text-to-video avatars produce localized spokesperson ads without shoots, using tools like HeyGen or Synthesia.",
+      "domain": "marketing",
+      "stage": "create",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "marketing",
+        "create",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "tax-and-jurisdiction-assignment",
+      "path": "content/use-cases/finance/tax-and-jurisdiction-assignment.md",
+      "title": "Tax and jurisdiction assignment",
+      "summary": "Classifier assigns VAT, sales tax, and withholding codes per region, using tools like Avalara or Stripe Tax.",
+      "domain": "finance",
+      "stage": "invoice",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "invoice",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "theory-of-change-generator-validator",
@@ -1964,6 +4575,42 @@
       "lastUpdated": "2026-04-29"
     },
     {
+      "slug": "three-way-match-agent",
+      "path": "content/use-cases/finance/three-way-match-agent.md",
+      "title": "Three-way match agent",
+      "summary": "Agent matches invoice to PO and goods receipt, auto-posts clean matches, and routes exceptions, using tools like Vic.ai.",
+      "domain": "finance",
+      "stage": "pay",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "pay",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "ticket-resolution-summarization",
+      "path": "content/use-cases/support/ticket-resolution-summarization.md",
+      "title": "Ticket-resolution summarization",
+      "summary": "An LLM produces a structured problem-cause-fix summary for the closed ticket record, using tools like Zendesk AI Summary or Kustomer Copilot.",
+      "domain": "support",
+      "stage": "close",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "close",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
       "slug": "time-tracking",
       "path": "content/use-cases/general/time-tracking.md",
       "title": "Time tracking",
@@ -1982,6 +4629,24 @@
         "analytics"
       ],
       "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "tone-and-policy-compliance-review",
+      "path": "content/use-cases/support/tone-and-policy-compliance-review.md",
+      "title": "Tone and policy compliance review",
+      "summary": "An adversarial LLM reviews drafted replies for brand voice, empathy, policy adherence, and risky commitments before send.",
+      "domain": "support",
+      "stage": "resolve",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "resolve",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "using-mcp",
@@ -2042,6 +4707,42 @@
         "workflow"
       ],
       "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "variance-report-with-driver-attribution",
+      "path": "content/use-cases/finance/variance-report-with-driver-attribution.md",
+      "title": "Variance report with driver attribution",
+      "summary": "ML decomposes plan-vs-actual variance into volume, price, and mix drivers with commentary.",
+      "domain": "finance",
+      "stage": "report",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "report",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "vendor-spend-benchmark",
+      "path": "content/use-cases/finance/vendor-spend-benchmark.md",
+      "title": "Vendor spend benchmark",
+      "summary": "Retrieval over peer-rate data flags overpriced contracts during budget review, using tools like Vendr or Tropic.",
+      "domain": "finance",
+      "stage": "budget",
+      "outcome": [
+        "cost"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "budget",
+        "cost"
+      ],
+      "lastUpdated": "2026-04-30"
     },
     {
       "slug": "vibe-scripting",
@@ -2141,6 +4842,60 @@
         "flows"
       ],
       "lastUpdated": "2026-04-28"
+    },
+    {
+      "slug": "workload-aware-auto-assignment",
+      "path": "content/use-cases/support/workload-aware-auto-assignment.md",
+      "title": "Workload-aware auto-assignment",
+      "summary": "An optimization model combines queue depth, shift coverage, and ticket sentiment into assignment decisions, using tools like Zendesk Omnichannel Routing.",
+      "domain": "support",
+      "stage": "assign",
+      "outcome": [
+        "speed"
+      ],
+      "tags": [
+        "ai",
+        "support",
+        "assign",
+        "speed"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "workpaper-review-llm",
+      "path": "content/use-cases/finance/workpaper-review-llm.md",
+      "title": "Workpaper review LLM",
+      "summary": "LLM checks workpapers for completeness, sign-offs, tickmarks, and reference integrity.",
+      "domain": "finance",
+      "stage": "audit",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "audit",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
+    },
+    {
+      "slug": "zero-based-budget-challenger",
+      "path": "content/use-cases/finance/zero-based-budget-challenger.md",
+      "title": "Zero-based budget challenger",
+      "summary": "LLM probes line owners with structured \"why this number\" questions and tests justifications.",
+      "domain": "finance",
+      "stage": "budget",
+      "outcome": [
+        "quality"
+      ],
+      "tags": [
+        "ai",
+        "finance",
+        "budget",
+        "quality"
+      ],
+      "lastUpdated": "2026-04-30"
     }
   ]
 }
