@@ -61,8 +61,8 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 ### Experiment CTA
 
 - Eyebrow: Experiment
-- Title: Let AI find your best use cases
-- Subtitle: Let DoneThat understand your work and connect it with MCP to Claude to determine best use cases.
+- Title: Get use cases grounded in your real work
+- Subtitle: Automatically track your work and get personalized AI opportunities based on your data. Monitor adoption and track gains without any manual work.
 - Button: Download DoneThat
 
 ### Ownership
@@ -85,8 +85,8 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 
 ### CTA
 
-- Website Title: Send results by email.
-- Slides Title: Get your results.
+- Website Title: Get your results
+- Slides Title: Get your results
 - Subtitle: We send them to you by email so you can share them with your team.
 - Button: Send results by email
 
@@ -113,7 +113,7 @@ summary: "An interactive guide to help AI adoption in your team. Make AI impleme
 
 ### Best practices for uncertainty
 
-- Prefer reversible decisions until the signal is clear.
+- Prefer reversible decisions, choose the plan with most options.
 - Make small bets in parallel rather than one large commitment.
 - Create buffers to allow acting once things become clearer.
 - Build evaluation muscles. The team that measures learns fastest.
