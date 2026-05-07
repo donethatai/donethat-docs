@@ -3,21 +3,26 @@ title: Agent
 category: features
 lastUpdated: '2026-01-07'
 tags:
+  - don
   - agent
   - ai
   - automation
   - memory
-  - facts
-  - intentions
-summary: 'Manage your memories, facts, intentions, and preferences'
+summary: 'Configure Don and manage memories'
 ---
 
-The memories stored here help our agent better understand your work and how you prefer to work with the coach. Memory allows you to store and recall important information about your work and preferences.
+This section has two tabs:
 
-Facts: These are memories about your work and simply help improve the accuracy of your summaries.
+### Don
 
-Intentions: These are things you would like to work on. It helps our agent to understand how to best support you.
+Don is your personal coach. You can interact with Don through the Chat interface, by replying to e-mails sent by DoneThat, or by sending him an e-mail at don@coach.donethat.ai
 
-Preference: This is your preferences on how our agent should interact with you. This is MVP, come back soon for more!
+Don can also proactively start chats with you, for example to prompt you to work on other tasks. For this you have to enable the toggle "Proactive chat".
+
+Don's personality can be adapted based on your preferences. Some people like a more proactive coach that cheers them on, others want to be judged, and some people just want Don to stay out of the way. Select a default prompt from the dropdown or set your own prompt with "Custom".
+
+### Memories
+
+The memories stored here help our Don better understand your work and how you prefer to work with the coach. Memory allows you to store and recall important information about your work and preferences.
 
 
