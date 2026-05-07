@@ -11,6 +11,7 @@ tags:
   - visible
   - grouping
 summary: Manage your projects and tasks
+youtube: 'https://youtu.be/3goDcAszU54'
 ---
 
 Tasks are automatically assigned to projects. By default, AI will add up to eight projects if you don't add these projects yourself. You can always drag-and-drop tasks to different projects if there were assigned wrong.

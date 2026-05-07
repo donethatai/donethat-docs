@@ -8,6 +8,7 @@ tags:
   - preferences
   - recording
 summary: Manage your account settings
+youtube: 'https://youtu.be/Q6tw6nBwPpw'
 ---
 
 Your core account settings and subscription. Settings specific to parts of the platform are on their respective pages in the "More" dropdown.

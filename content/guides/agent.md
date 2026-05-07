@@ -9,6 +9,7 @@ tags:
   - automation
   - memory
 summary: 'Configure Don and manage memories'
+youtube: 'https://youtu.be/79rR0tLX23k'
 ---
 
 This section has two tabs:

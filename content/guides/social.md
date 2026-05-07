@@ -11,6 +11,7 @@ tags:
   - slack
   - email
 summary: Manage your social network
+youtube: 'https://youtu.be/S5mze9f8By8'
 ---
 
 See activity of people you follow, your members of your teams and organization, and public profiles. If you see people you don't recognise here, those are probably public profiles.

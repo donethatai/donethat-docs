@@ -7,6 +7,7 @@ tags:
   - collaboration
   - organization
 summary: Manage your team
+youtube: 'https://youtu.be/T5cD1erekBY'
 ---
 
 You can be part of more than one team. Each team is part of an [organization](/organization).

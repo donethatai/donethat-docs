@@ -7,6 +7,7 @@ tags:
   - analytics
   - reports
 summary: Compare statistics across users
+youtube: 'https://youtu.be/O7eteG7G9Rs'
 ---
 
 You can see your work split by categories for the last seven days in the first two charts. If you set the value of your time, the charts will calculate the money-equivalent you spent on each category.
