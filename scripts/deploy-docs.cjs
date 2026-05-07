@@ -11,6 +11,10 @@ const SCHEMA_FILE = path.join(ROOT, "schema", "structure.json");
 const TERMINOLOGY_FILE = path.join(ROOT, "schema", "terminology.json");
 const METADATA_FILE = path.join(ROOT, "metadata.json");
 
+function hasFlag(flag) {
+  return process.argv.includes(flag);
+}
+
 function log(msg) {
   // Keep output minimal but clear
   console.log(`[deploy-docs] ${msg}`);
@@ -257,6 +261,11 @@ function runGit() {
     return;
   }
 
+  const skipPush =
+    process.env.SKIP_GIT_PUSH === "1" ||
+    hasFlag("--no-push") ||
+    hasFlag("--skip-push");
+
   const pathsToAdd = ["content", "schema", "metadata.json"];
   const existing = pathsToAdd.filter((p) => fs.existsSync(path.join(ROOT, p)));
   if (existing.length === 0) {
@@ -279,8 +288,19 @@ function runGit() {
   log(`Committing changes: "${message}"`);
   execSync(`git commit -m "${message}"`, { cwd: ROOT, stdio: "inherit" });
 
+  if (skipPush) {
+    log("Skipping push (--no-push / SKIP_GIT_PUSH=1).");
+    return;
+  }
+
   log("Pushing to default remote…");
-  execSync("git push", { cwd: ROOT, stdio: "inherit" });
+  try {
+    execSync("git push", { cwd: ROOT, stdio: "inherit" });
+  } catch (err) {
+    log("Push failed. If you're using an SSH remote, ensure your SSH key is loaded and has access.");
+    log("Tip: run with --no-push to still regenerate + commit locally.");
+    throw err;
+  }
 }
 
 function main() {
