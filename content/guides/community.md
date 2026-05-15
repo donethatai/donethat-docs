@@ -13,4 +13,4 @@ summary: Join the DoneThat Slack community
 
 Join the DoneThat Slack community to share feedback, ask questions, and connect with other users.
 
-[Join the DoneThat Slack community](https://join.slack.com/t/donethatcommunity/shared_invite/zt-3jd003dc6-f1Xtard6Yu1jvRY3Emx4OA)
+[Join the DoneThat Slack community](https://donethat.ai/community)
