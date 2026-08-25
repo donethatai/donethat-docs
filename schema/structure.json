@@ -1,49 +1,6 @@
 {
   "categories": [
     {
-      "id": "api",
-      "label": "API Reference",
-      "files": [
-        "overview",
-        "reports",
-        "messages",
-        "projects",
-        "search",
-        "project",
-        "user"
-      ]
-    },
-    {
-      "id": "faq",
-      "label": "FAQ",
-      "files": [
-        "what-is-donethat",
-        "how-does-the-free-trial-work",
-        "how-does-donethat-protect-my-privacy",
-        "how-do-i-integrate-donethat-with-slack",
-        "can-i-control-when-donethat-captures-my-work",
-        "how-secure-is-my-data-with-donethat",
-        "can-i-use-donethat-for-personal-productivity-not-just-teams",
-        "how-does-donethat-help-with-accountability",
-        "how-does-donethat-keep-me-accountable-if-i-work-alone",
-        "how-can-i-facilitate-more-connections-at-work",
-        "how-can-i-build-trust-in-a-remote-team",
-        "how-can-i-prevent-burnout-at-work",
-        "how-can-i-stay-accountable-to-my-team",
-        "how-can-i-stay-focused-with-adhd",
-        "how-can-i-work-remotely",
-        "can-i-use-donethat-simultaneously-on-two-machines",
-        "how-is-donethat-different-from-a-timer-based-tracker",
-        "what-does-don-actually-coach-me-on",
-        "how-should-i-think-about-mcp-with-donethat",
-        "can-i-talk-to-christoph-directly-about-consulting-or-a-rollout",
-        "what-if-we-want-to-use-donethat-but-need-privacy-or-dpo-clearance-first",
-        "what-kind-of-consulting-does-christoph-do",
-        "can-i-book-a-consulting-conversation-even-if-i-am-not-ready-for-a-team-rollout",
-        "why-does-christoph-mention-giving-what-we-can-and-the-ea-forum-here"
-      ]
-    },
-    {
       "id": "features",
       "label": "Features",
       "files": [
@@ -72,13 +29,6 @@
       "label": "Knowledge Base",
       "files": [
         "ai-adoption-guide"
-      ]
-    },
-    {
-      "id": "mcp",
-      "label": "MCP",
-      "files": [
-        "overview"
       ]
     }
   ],
