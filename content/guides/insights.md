@@ -34,11 +34,11 @@ Choose whose data the chart shows:
 - **Just me**: only your own data.
 - **A group** you are in.
 - **Your organization**.
-- **DoneThat users**: everyone on DoneThat who shares publicly.
+- **DoneThat users**: everyone active on DoneThat.
 
 Then optionally compare it: with the previous period to see what changed, or with one of the others above, for example your own time against your group's.
 
-Comparisons with other people are always anonymous averages. Only people whose [visibility](/settings/privacy) reaches that audience are counted: Organization or above for a group or your organization, and Public for all DoneThat users. A figure is only shown when at least five people have data for it, so no one person's time can be read from it. Value of time is never compared with other people.
+Figures about other people are always anonymous averages, and only shown when at least five people have data for them, so no one person's time can be read from them. For a group or your organization, they count the people whose [visibility](/settings/privacy) is Organization or above. DoneThat users counts everyone active, anonymously. Value of time is never compared with other people.
 
 ## Availability
 
