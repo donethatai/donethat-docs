@@ -1,22 +1,18 @@
 ---
 title: Feed
 category: features
-lastUpdated: '2026-05-13'
+lastUpdated: '2026-10-09'
 tags:
   - social
   - feed
+  - groups
   - sharing
-  - collaboration
   - visibility
-summary: Manage your social network
+summary: The feed is now part of groups
 ---
 
-See activity of people you follow, your members of your teams and organization, and public profiles. If you see people you don't recognise here, those are probably public profiles.
+The feed has moved into [groups](/teams). Each group page shows the week of its members, with reactions and comments that stay inside the group.
 
-Comment or like other's activity to encourage them or align on work. If you like or comment on their activity, they will receive a notification with their daily summary email.
+Your own days are on [home](/home). What your groups see of you depends on your visibility in [privacy settings](/settings/privacy), see [groups](/teams) for the details.
 
-Your own profile is set to private by default. This means that only people you accept as followers will be able to see your activity. You can change this in [settings](/settings).
-
-When setting your visibility to team, organization, or public, broader audiences can see your activity by default, for example for easier alignment or accountability.
-
-If you also set up a tag in [settings](/settings), you get. a public URL to share if your profile is public. You can set if your profile should also be indexed on Google in that case.
+If you set up a handle and make your profile public, you get a public URL to share. You can choose whether it is indexed on Google.

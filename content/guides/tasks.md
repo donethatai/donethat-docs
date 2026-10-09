@@ -1,10 +1,10 @@
 ---
 title: Tasks
 category: features
-lastUpdated: '2026-01-07'
+lastUpdated: '2026-10-09'
 tags:
   - projects
-  - team
+  - groups
   - task
   - portfolio
   - private
@@ -22,4 +22,4 @@ A "private" project will not count towards your total hours worked in your stats
 
 A "confidential" project will automatically make all tasks invisible in that project but still count towards your stats.
 
-Projects shared by a team will appear in every team member's project overview and their tasks will automatically be assigned to them as they fit.
+Projects shared by a group will appear in every group member's project overview and their tasks will automatically be assigned to them as they fit.
