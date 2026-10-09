@@ -1,7 +1,7 @@
 ---
 title: Stats
 category: features
-lastUpdated: '2026-01-07'
+lastUpdated: '2026-10-09'
 tags:
   - stats
   - analytics
@@ -15,4 +15,4 @@ The activity calendar shows the most salient category per day. The strength of t
 
 The global comparison matrix indicates how you compare to averages accross cohorts on DoneThat. Keep in mind that this is not a competition, it is a tool to help you understand how others work.
 
-If you are part of a team, we will show team data here only if the team has enough people active at the same time to ensure anonymization.
+If you are part of a group, we will show group data here only if the group has enough people active at the same time to ensure anonymization.
