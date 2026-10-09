@@ -9,4 +9,4 @@ tags:
 summary: Manage your pending invitations
 ---
 
-If you get invited to a group or an organization that doesn't share the same email domain as you, you will receive an invitation here. Otherwise you will automatically be added to the group or organization.
+If you are already in the organization a group belongs to, you are added to that group directly. Otherwise, invitations to a group or an organization show up here.

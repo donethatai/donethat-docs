@@ -10,7 +10,7 @@ tags:
 summary: Share your week with the people you work with
 ---
 
-A group is a small circle of people who share their work with each other. You can be part of more than one group. A group can belong to your [organization](/organizations) or stand on its own, for example for a community or a peer group. People join a group without an organization by invitation or with its join link.
+A group is a small circle of people who share their work with each other. You can be part of more than one group. A group can belong to your [organization](/organization) or stand on its own, for example for a community or a peer group. People join a group without an organization by invitation or with its join link.
 
 The group page is a feed of everybody's days, newest first. Reactions and comments live in the group they were made in, and only its members see them.
 
