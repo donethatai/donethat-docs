@@ -1,7 +1,7 @@
 ---
 title: Groups
 category: features
-lastUpdated: '2026-10-09'
+lastUpdated: '2026-10-12'
 tags:
   - groups
   - teams
@@ -22,6 +22,8 @@ What a group sees of you depends on your visibility in [privacy settings](/setti
 - Public: all your groups see your summaries, and your public profile can show them.
 
 Sharing is two-way: in a group, you see as much of others as you share with that group yourself. Your own posts show the way the group sees them.
+
+Followers see you the way a group of their own organization would: your summaries with Group or Public visibility, with Organization only if they are in your organization, and nothing with Private.
 
 Everybody can add new group members but only admins can remove people. Admins can also set a group picture in the group's settings.
 

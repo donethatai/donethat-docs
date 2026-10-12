@@ -1,7 +1,7 @@
 ---
 title: Profile
 category: features
-lastUpdated: '2026-10-09'
+lastUpdated: '2026-10-12'
 tags:
   - profile
   - public
@@ -12,7 +12,7 @@ summary: View and share your activity profile
 
 This is the profile your followers and group members see. By default it is private. You can change that in [privacy settings](/settings/privacy).
 
-People you accept as followers always see your activity. With Private visibility they are the only ones who do; see [groups](/groups) for what your groups see at each level.
+Followers see what your visibility shares with them, never more: with Group or Public visibility they see your summaries, with Organization only followers in your organization do, and with Private they don't. People whose profile isn't public confirm each follow request. See [groups](/groups) for what your groups see at each level.
 
 If you set up a handle and make your profile public, you get a public URL to share. You can choose whether it is indexed on Google.
 
