@@ -19,11 +19,11 @@ What a group sees of you depends on your visibility in [privacy settings](/setti
 - Private: your groups don't see your activity.
 - Organization: groups in your organization see your summaries, other groups don't see your activity.
 - Group: all your groups see your summaries.
-- Public: all your groups see your summaries, and your public profile can show them.
+- Public: everyone on DoneThat sees your summaries, your groups included, and your public profile can show them.
 
 Sharing is two-way: in a group, you see as much of others as you share with that group yourself. Your own posts show the way the group sees them.
 
-Followers see you the way a group of their own organization would: your summaries with Group or Public visibility, with Organization only if they are in your organization, and nothing with Private.
+Followers see your summaries when your visibility is Group or Public, or Organization and they are in your organization; with Private they don't. Unlike sharing in a group, following is one-way: what you share doesn't change what you see of the people you follow.
 
 Everybody can add new group members but only admins can remove people. Admins can also set a group picture in the group's settings.
 

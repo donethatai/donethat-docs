@@ -10,7 +10,7 @@ tags:
 summary: View and share your activity profile
 ---
 
-This is the profile your followers and group members see. By default it is private. You can change that in [privacy settings](/settings/privacy).
+This is your profile. How much of it others see depends on your visibility in [privacy settings](/settings/privacy). If you never chose one, it is Organization once you are in a group and Private otherwise.
 
 Followers see what your visibility shares with them, never more: with Group or Public visibility they see your summaries, with Organization only followers in your organization do, and with Private they don't. People whose profile isn't public confirm each follow request. See [groups](/groups) for what your groups see at each level.
 
